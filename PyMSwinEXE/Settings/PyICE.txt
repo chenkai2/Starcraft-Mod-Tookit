@@ -1,0 +1,15 @@
+{\
+	'flingydat':'MPQ:arr\\flingy.dat',\
+	'usemodmpq':0,\
+	'sfxdatatbl':'MPQ:rez\\sfxdata.tbl',\
+	'findhistory':[],\
+	'imagesdat':'MPQ:arr\\images.dat',\
+	'window':'1320x683+182+182',\
+	'spritesdat':'MPQ:arr\\sprites.dat',\
+	'unitsdat':'MPQ:arr\\units.dat',\
+	'sfxdatadat':'MPQ:arr\\sfxdata.dat',\
+	'highlights':None,\
+	'weaponsdat':'MPQ:arr\\weapons.dat',\
+	'imagestbl':'MPQ:rez\\images.tbl',\
+	'stat_txt':'MPQ:rez\\stat_txt.tbl',\
+}

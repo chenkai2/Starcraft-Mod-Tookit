@@ -1,0 +1,36 @@
+[Info]
+Name=Sounds
+
+[Formats->Sounds]
+Vars=05
+0000=File
+0001=Unknown 1
+0002=Unknown 2
+0003=Unknown 3
+0004=Unknown 4
+
+[Formats->Sounds->File]
+Type=DWord
+Size=478
+Control=List
+ListFile=SoundFiles
+
+[Formats->Sounds->Unknown 1]
+Type=Byte
+Size=478
+Control=Text
+
+[Formats->Sounds->Unknown 2]
+Type=Byte
+Size=478
+Control=Text
+
+[Formats->Sounds->Unknown 3]
+Type=Word
+Size=478
+Control=Text
+
+[Formats->Sounds->Unknown 4]
+Type=Byte
+Size=478
+Control=Text

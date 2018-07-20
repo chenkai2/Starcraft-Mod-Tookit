@@ -1,0 +1,163 @@
+[Info]
+Name=Weapons
+
+[Formats->Weapons]
+Vars=19
+0001=Label
+0002=Sprite
+0003=Spell
+0004=Attack Flags
+0005=Min Range
+0006=Max Range
+0007=Upgrade
+0008=Damage Type
+0009=Missile Behavior
+000A=Missile Type
+000B=Explosion
+000C=Splash Inner
+000D=Splash Middle
+000E=Splash Outer
+000F=Damage Ammount
+0010=Damage Bonus
+0011=Damage Cooldown
+0012=Damage Factor
+0013=X1
+0014=Y1
+0015=X2
+0016=Y2
+0017=Error Msg
+0018=Icon
+
+[Formats->Weapons->Label]
+Type=Word
+Size=82
+Control=List
+ListFile=Labels
+None=Start
+
+[Formats->Weapons->Sprite]
+Type=DWord
+Size=82
+Control=List
+ListFile=Flingy
+
+[Formats->Weapons->Spell]
+Type=Byte
+Size=82
+Control=List
+ListFile=Technology
+None=End
+
+[Formats->Weapons->Attack Flags]
+Type=Word
+Size=82
+Control=CheckList
+
+[Formats->Weapons->Min Range]
+Type=DWord
+Size=82
+Control=Text
+
+[Formats->Weapons->Max Range]
+Type=DWord
+Size=82
+Control=Text
+
+[Formats->Weapons->Upgrade]
+Type=Byte
+Size=82
+Control=List
+ListFile=Upgrades
+None=End
+
+[Formats->Weapons->Damage Type]
+Type=Byte
+Size=82
+Control=List
+ListFile=DamageTypes
+
+[Formats->Weapons->Missile Behavior]
+Type=Byte
+Size=82
+Control=List
+ListFile=MissileBehaviors
+
+[Formats->Weapons->Missile Type]
+Type=Byte
+Size=82
+Control=List
+ListFile=MissileTypes
+
+[Formats->Weapons->Explosion]
+Type=Byte
+Size=82
+Control=Text
+ListFile=ExplosionTypes
+
+[Formats->Weapons->Splash Inner]
+Type=Word
+Size=82
+Control=Text
+
+[Formats->Weapons->Splash Middle]
+Type=Word
+Size=82
+Control=Text
+
+[Formats->Weapons->Splash Outer]
+Type=Word
+Size=82
+Control=Text
+
+[Formats->Weapons->Damage Ammount]
+Type=Word
+Size=82
+Control=Text
+
+[Formats->Weapons->Damage Bonus]
+Type=Word
+Size=82
+Control=Text
+
+[Formats->Weapons->Damage Cooldown]
+Type=Byte
+Size=82
+Control=Text
+
+[Formats->Weapons->Damage Factor]
+Type=Byte
+Size=82
+Control=Text
+
+[Formats->Weapons->X1]
+Type=Byte
+Size=82
+Control=Text
+
+[Formats->Weapons->Y1]
+Type=Byte
+Size=82
+Control=Text
+
+[Formats->Weapons->X2]
+Type=Byte
+Size=82
+Control=Text
+
+[Formats->Weapons->Y2]
+Type=Byte
+Size=82
+Control=Text
+
+[Formats->Weapons->Error Msg]
+Type=Word
+Size=82
+Control=List
+ListFile=Labels
+None=Start
+
+[Formats->Weapons->Icon]
+Type=Word
+Size=82
+Control=List
+ListFile=Icons

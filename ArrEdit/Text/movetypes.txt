@@ -1,0 +1,8 @@
+Ground
+Unknown 1
+Air
+Unknown 2
+Unknown 3
+Unknown 4
+Creep
+Hover

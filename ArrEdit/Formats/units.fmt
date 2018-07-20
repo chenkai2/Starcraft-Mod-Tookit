@@ -1,0 +1,369 @@
+[Info]
+Name=Units
+
+[Formats->Units]
+Vars=36
+0000=Graphic
+0001=Subunit 1
+0002=Subunit 2
+0003=Subunit 3
+0004=Construction Animation
+0005=Unknown 1
+0006=Shield Enable
+0007=Shield Amount
+0008=Hitpoints
+0009=Animation Level
+000A=Movement Type
+000B=Sublabel
+000C=Computer Idle Action
+000D=Human Idle Action
+000E=Unknown Action
+000F=Ground Attack Action
+0010=Air Attack Action
+0011=Ground Weapon
+0012=Ground Max Hit
+0013=Air Weapon
+0014=Air Max Hit
+0015=Unknown 2
+0016=Special Ability Flags
+0017=Subunit Attack Range
+0018=Sight Range
+0019=Armor Upgrade Group
+001A=Size
+001B=Armor Amount
+001C=Unknown 3
+001D=Ready Sound
+001E=What Sound Start
+001F=What Sound End
+0020=Pissed Sound Start
+0021=Pissed Sound End
+0022=Yes Sound Start
+0023=Yes Sound End
+0024=Unknown 4
+0025=Unknown 5
+0026=Unknown 6
+0027=Portrait
+0028=Cost (Minerals)
+0029=Cost (Gas)
+002A=Cost (Time)
+002B=Restriction Flags
+002C=Staredit Group
+002D=Food Produced
+002E=Food Required
+002F=Space Required
+0030=Space Available
+0031=Score Build
+0032=Score Destroy
+0033=Unknown 7
+0034=Brood War
+0035=Staredit Availability
+
+[Formats->Units->Graphic]
+Type=Byte
+Size=E4
+Control=List
+ListFile=Flingy
+
+[Formats->Units->Subunit 1]
+Type=Word
+Size=E4
+Control=List
+ListFile=Units
+None=End
+
+[Formats->Units->Subunit 2]
+Type=Word
+Size=E4
+Control=List
+ListFile=Units
+None=End
+
+[Formats->Units->Subunit 3]
+Type=Word
+Size=60
+Control=List
+ListFile=Units
+None=End
+
+[Formats->Units->Construction Animation]
+Type=DWord
+Size=E4
+Control=List
+ListFile=Images
+None=Start
+
+[Formats->Units->Unknown 1]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Shield Enable]
+Type=Byte
+Size=E4
+Control=CheckBox
+
+[Formats->Units->Shield Amount]
+Type=Word
+Size=E4
+Control=Text
+
+[Formats->Units->Hitpoints]
+Type=24Bit
+Size=E4
+Control=Text
+
+[Formats->Units->Animation Level]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Movement Type]
+Type=Byte
+Size=E4
+Control=CheckList
+ListFile=MoveTypes
+
+[Formats->Units->Sublabel]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Computer Idle Action]
+Type=Byte
+Size=E4
+Control=List
+ListFile=Orders
+
+[Formats->Units->Human Idle Action]
+Type=Byte
+Size=E4
+Control=List
+ListFile=Orders
+
+[Formats->Units->Unknown Action]
+Type=Byte
+Size=E4
+Control=List
+ListFile=Orders
+
+[Formats->Units->Ground Attack Action]
+Type=Byte
+Size=E4
+Control=List
+ListFile=Orders
+
+[Formats->Units->Air Attack Action]
+Type=Byte
+Size=E4
+Control=List
+ListFile=Orders
+
+[Formats->Units->Ground Weapon]
+Type=Byte
+Size=E4
+Control=List
+ListFile=Weapons
+None=End
+
+[Formats->Units->Ground Max Hit]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Air Weapon]
+Type=Byte
+Size=E4
+Control=List
+ListFile=Weapons
+None=End
+
+[Formats->Units->Air Max Hit]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Unknown 2]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Special Ability Flags]
+Type=DWord
+Size=E4
+Control=CheckList
+ListFile=UnitFlags
+
+[Formats->Units->Subunit Attack Range]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Sight Range]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Armor Upgrade Group]
+Type=Byte
+Size=E4
+Control=List
+ListFile=Upgrades
+None=End
+
+[Formats->Units->Size]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Armor Amount]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Unknown 3]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Ready Sound]
+Type=Word
+Size=6A
+Control=List
+ListFile=Sounds
+None=Start
+
+[Formats->Units->What Sound Start]
+Type=Word
+Size=E4
+Control=List
+ListFile=Sounds
+None=Start
+
+[Formats->Units->What Sound End]
+Type=Word
+Size=E4
+Control=List
+ListFile=Sounds
+None=Start
+
+[Formats->Units->Pissed Sound Start]
+Type=Word
+Size=6A
+Control=List
+ListFile=Sounds
+None=Start
+
+[Formats->Units->Pissed Sound End]
+Type=Word
+Size=6A
+Control=List
+ListFile=Sounds
+None=Start
+
+[Formats->Units->Yes Sound Start]
+Type=Word
+Size=6A
+Control=List
+ListFile=Sounds
+None=Start
+
+[Formats->Units->Yes Sound End]
+Type=Word
+Size=6A
+Control=List
+ListFile=Sounds
+None=Start
+
+[Formats->Units->Unknown 4]
+Type=Word
+Size=01C8
+Control=Text
+
+[Formats->Units->Unknown 5]
+Type=Word
+Size=C0
+Control=Text
+
+[Formats->Units->Unknown 6]
+Type=Word
+Size=0390
+Control=Text
+
+[Formats->Units->Portrait]
+Type=Word
+Size=E4
+Control=List
+ListFile=Portraits
+None=End
+
+[Formats->Units->Cost (Minerals)]
+Type=Word
+Size=E4
+Control=Text
+
+[Formats->Units->Cost (Gas)]
+Type=Word
+Size=E4
+Control=Text
+
+[Formats->Units->Cost (Time)]
+Type=Word
+Size=E4
+Control=Text
+
+[Formats->Units->Restriction Flags]
+Type=Word
+Size=E4
+Control=Text
+
+[Formats->Units->Staredit Group]
+Type=Byte
+Size=E4
+Control=CheckList
+ListFile=SEgroups
+
+[Formats->Units->Food Produced]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Food Required]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Space Required]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Space Available]
+Type=Byte
+Size=E4
+Control=Text
+
+[Formats->Units->Score Build]
+Type=Word
+Size=E4
+Control=Text
+
+[Formats->Units->Score Destroy]
+Type=Word
+Size=E4
+Control=Text
+
+[Formats->Units->Unknown 7]
+Type=Word
+Size=E4
+Control=Text
+
+[Formats->Units->Brood War]
+Type=Byte
+Size=E4
+Control=CheckBox
+
+[Formats->Units->Staredit Availability]
+Type=Word
+Size=E4
+Control=CheckList
+ListFile=SEFlags

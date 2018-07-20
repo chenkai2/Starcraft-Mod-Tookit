@@ -1,0 +1,23 @@
+{\
+	'highlights':{\
+		'Comment':{'foreground': '#008000', 'font': None, 'background': None},\
+		'TBLFormat':{'foreground': None, 'font': None, 'background': '#E6E6E6'},\
+		'TrigPlugActions':{'foreground': '#000000', 'font': None, 'background': '#E1E1FF'},\
+		'ConstDef':{'foreground': '#FF963C', 'font': None, 'background': None},\
+		'Operators':{'foreground': '#0000FF', 'font': ('Courier New', -11, 'bold'), 'background': None},\
+		'Newline':{'foreground': None, 'font': None, 'background': None},\
+		'Number':{'foreground': '#FF0000', 'font': None, 'background': None},\
+		'Actions':{'foreground': '#000000', 'font': None, 'background': '#E1E1E1'},\
+		'DynamicConditions':{'foreground': '#000000', 'font': None, 'background': '#FFEBEB'},\
+		'Headers':{'foreground': '#FF00FF', 'font': ('Courier New', -11, 'bold'), 'background': None},\
+		'Warning':{'foreground': None, 'font': None, 'background': '#FFC8C8'},\
+		'DynamicActions':{'foreground': '#000000', 'font': None, 'background': '#FFE1E1'},\
+		'Error':{'foreground': None, 'font': None, 'background': '#FF8C8C'},\
+		'Keywords':{'foreground': '#0000FF', 'font': ('Courier New', -11, 'bold'), 'background': None},\
+		'Conditions':{'foreground': '#000000', 'font': None, 'background': '#EBEBEB'},\
+		'Constants':{'foreground': '#FF963C', 'font': None, 'background': None},\
+	},\
+	'window':'1181x737+52+52',\
+	'aiscript':'MPQ:scripts\\aiscript.bin',\
+	'stat_txt':'MPQ:rez\\stat_txt.tbl',\
+}

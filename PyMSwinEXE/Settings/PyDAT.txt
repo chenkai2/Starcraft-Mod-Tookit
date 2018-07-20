@@ -1,0 +1,15 @@
+{\
+	'portdatatbl':'MPQ:rez\\portdata.tbl',\
+	'unitpreview':1,\
+	'sfxdatatbl':'MPQ:rez\\sfxdata.tbl',\
+	'showplacment':1,\
+	'cmdicons':'MPQ:unit\\cmdbtns\\cmdicons.grp',\
+	'iscriptbin':'MPQ:scripts\\iscript.bin',\
+	'showdimensions':1,\
+	'window':'1246x482+277+467',\
+	'lastpath':'G:/StarCraft/files/1.16.1CJZZ',\
+	'mpqexport':[],\
+	'mapdatatbl':'MPQ:rez\\mapdata.tbl',\
+	'imagestbl':'MPQ:rez\\images.tbl',\
+	'stat_txt':'MPQ:rez\\stat_txt.tbl',\
+}

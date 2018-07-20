@@ -1,0 +1,47 @@
+[Info]
+Name=Sprites
+
+[Formats->Sprites]
+Vars=06
+0000=Sprite
+0001=HP Bar Length
+0002=Unknown 1
+0003=Unknown 2
+0004=Sel Circle
+0005=Sel Graphic Vertical Offset
+
+[Formats->Sprites->Sprite]
+Type=Word
+Size=205
+Control=List
+ListFile=Images
+
+[Formats->Sprites->HP Bar Length]
+Type=Byte
+Size=183
+StartAt=82
+Control=Text
+
+[Formats->Sprites->Unknown 1]
+Type=Byte
+Size=205
+Control=CheckBox
+
+[Formats->Sprites->Unknown 2]
+Type=Byte
+Size=205
+Control=CheckBox
+
+[Formats->Sprites->Sel Circle]
+Type=Byte
+Size=183
+StartAt=82
+Control=List
+ListFile=Images
+ListStartAt=230
+
+[Formats->Sprites->Sel Graphic Vertical Offset]
+Type=Byte
+Size=183
+StartAt=82
+Control=Text

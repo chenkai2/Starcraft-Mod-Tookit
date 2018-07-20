@@ -1,0 +1,11 @@
+#ifndef WORKSHOP_INVOKED
+#include "windows.hpp"
+#endif
+
+#include "resources.h"
+
+#ifdef _DEBUG
+IDR_PATCHLOADER               STUB                    ".\PatchLoader.exe"
+#else
+IDR_PATCHLOADER               STUB                    ".\PatchLoader.exe"
+#endif

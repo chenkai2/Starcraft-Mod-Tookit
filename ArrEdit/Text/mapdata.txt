@@ -1,0 +1,65 @@
+tutorial<0>
+terran01<0>
+terran02<0>
+terran03<0>
+terran04<0>
+terran05<0>
+terran06<0>
+terran08<0>
+terran09<0>
+terran11<0>
+terran12<0>
+zerg01<0>
+zerg02<0>
+zerg03<0>
+zerg04<0>
+zerg05<0>
+zerg06<0>
+zerg07<0>
+zerg08<0>
+zerg09<0>
+zerg10<0>
+protoss01<0>
+protoss02<0>
+protoss03<0>
+protoss04<0>
+protoss05<0>
+protoss06<0>
+protoss07<0>
+protoss08<0>
+protoss09<0>
+protoss10<0>
+BW - protoss01<0>
+BW - protoss02<0>
+BW - protoss03<0>
+BW - protoss04<0>
+BW - protoss05<0>
+BW - protoss06<0>
+BW - protoss07<0>
+BW - protoss08<0>
+BW - terran01<0>
+BW - terran02<0>
+BW - terran03<0>
+BW - terran04<0>
+BW - terran05a<0>
+BW - terran05b<0>
+BW - terran06<0>
+BW - terran07<0>
+BW - terran08<0>
+BW - zerg01<0>
+BW - zerg02<0>
+BW - zerg03<0>
+BW - zerg04a<0>
+BW - zerg04b<0>
+BW - zerg04c<0>
+BW - zerg04d<0>
+BW - zerg04e<0>
+BW - zerg04f<0>
+BW - zerg05<0>
+BW - zerg06<0>
+BW - zerg07<0>
+BW - zerg08<0>
+BW - zerg09<0>
+BW - bonus<0>
+BW - zerg10<0>
+Unknown<0>

@@ -1,0 +1,284 @@
+#DO NOT CONERN YOURSELF WITH THE NAMES ON THE LEFT - THEY MATCH DESCRIPTIONS TO APPROPRIATE INTERFACE ELEMENTS#
+#IF YOU CHANGE ANYTHING IN THIS FILE, MAKE SURE TO ALSO CHANGE THE APPROPRIATE DESCRIPTION IN THE DEFINITION FILE (USED IN PROPERTY SORTING)#
+
+[Units editor]
+#####BASIC TAB#####
+UnitHP=Hit Points
+UnitShieldEnable=Enable
+UnitSP=Shields
+UnitArmor=Armor
+UnitArmorUpgrade=Upgrade
+UnitMinerals=Minerals
+UnitVespene=Vespene
+UnitTime=Time
+UnitIsBW=BroodWar
+
+UnitWeaponGround=Ground
+UnitGroundMax=Max Hits
+UnitWeaponAir=Air
+UnitAirMax=Max Hits
+UnitScoreBuild=Build
+UnitScoreDestroy=Destroy
+UnitSpaceProv=Provided
+UnitSpaceReq=Required
+UnitSupProv=Provided
+UnitSupProv05=+0.5
+UnitSupReq=Required
+UnitSupReq05=+0.5
+UnitSize=Unit Size
+UnitSight=Sight
+UnitTAR=Target Acquisition Range
+
+UnitSEGroupProtoss=Protoss
+UnitSEGroupTerran=Terran
+UnitSEGroupZerg=Zerg
+
+#####ADVANCED TAB#####
+UnitAdvBuilding=Building
+UnitAdvAddon=Addon
+UnitAdvFlyer=Flyer
+UnitAdvWorker=Worker
+UnitAdvSubunit=Subunit
+UnitAdvFlyBuilding=Flying Building
+UnitAdvHero=Hero
+UnitAdvRegenerate=Regenerate
+UnitAdvAnimIdle=Animated Idle(?)
+UnitAdvCloak=Cloakable
+UnitAdvTwoInEgg=2 Units in 1 Egg
+UnitAdvSingleEntity=Neutral Accessories
+UnitAdvResDepot=Resource Depot
+UnitAdvResContainer=Resource Container
+UnitAdvRobotic=Robotic
+UnitAdvDetector=Detector
+UnitAdvOrganic=Organic
+UnitAdvReqCreep=Creeping Building
+UnitAdvUnused=Unused
+UnitAdvReqPsi=Requires Psi
+UnitAdvBurrow=Burrowable
+UnitAdvSpellcaster=Spellcaster
+UnitAdvPermaCloak=Permanent Cloak
+UnitAdvPickup=Npc/Accessories
+UnitAdvIgnoreSupply=Morph From Other Unit
+UnitAdvOverlayMed=Medium Overlay
+UnitAdvOverlayLarge=Large Overlay
+UnitAdvBattleReactions=Auto Move And Attack
+UnitAdvAutoAttack=Attack
+UnitAdvInvincible=Invincible
+UnitAdvMechanical=Mechanical
+UnitAdvProducesUnits=Produces Units
+
+UnitInfestation=Infestation
+UnitSub1=Subunit 1
+UnitSub2=Subunit 2
+UnitUnk1=Unknown
+
+UnitMov01=0x1(Completed)
+UnitMov02=0x2(GroundedBuilding)
+UnitMov04=0x4(InAir)
+UnitMov08=0x8(Disabled)
+UnitMov10=0x10(Burrowed)
+UnitMov20=0x20(InBuilding)
+UnitMov40=0x40(InTransport)
+UnitMov80=0x80(CanBeChased)
+
+#####SOUND TAB#####
+UnitSndReady=Ready
+UnitSndAnnStart=Annoyed (First)
+UnitSndAnnEnd=Annoyed (Last)
+UnitSndWhatStart=What (First)
+UnitSndWhatEnd=What (Last)
+UnitSndYesStart=Yes (First)
+UnitSndYesEnd=Yes (Last)
+
+#####GRAPHICS TAB#####
+UnitGfx=Graphics
+UnitConstruction=Construction
+UnitPortrait=Idle Portrait
+UnitElevationLevel=Elevation Level
+UnitDirection=Direction
+UnitAddPosX=Horizontal (X)
+UnitAddPosY=Vertical (Y)
+UnitDimUp=Up
+UnitDimDown=Down
+UnitDimLeft=Left
+UnitDimRight=Right
+
+#####STAREDIT TAB#####
+UnitSENonLoc=Non-Location Triggers
+UnitSELoc=Location Triggers
+UnitSENonNeutral=Non-Neutral
+UnitSEAllRaces=All Races
+UnitSEBriefing=Mission Briefing
+UnitSEBW=BroodWar Only
+UnitSEListing=Unit Listing && Palette
+UnitSEUnitHero=Unit && Hero Settings
+UnitSEPlayerSet=Player Settings
+UnitSEDoodadState=Set Doodad State
+
+UnitSE0x0400=Unused
+UnitSE0x0800=Unused
+UnitSE0x1000=Unused
+UnitSE0x2000=Unused
+UnitSE0x4000=Unused
+UnitSE0x8000=Unused
+
+UnitSEGroupBuilding=Building
+UnitSEGroupFactory=Factory
+UnitSEGroupInd=Independent
+UnitSEGroupMen=Men
+UnitSEGroupNeutral=Neutral
+
+UnitMapString=Map String
+UnitRank=Rank/Sublabel
+UnitSEPlaceWidth=Width
+UnitSEPlaceHeight=Height
+
+#####AI/ORDERS TAB#####
+UnitAICompIdle=Computer Idle
+UnitAIHumanIdle=Human Idle
+UnitAIInternal=AI Internal
+UnitAIReturn=Return to Idle
+UnitAIAttackMove=Attack Move
+UnitAIAttackUnit=Attack Unit
+UnitAIRightClick=Right-click Action
+
+
+[weapons Editor]
+WeapDamageAmount=Amount
+WeapDamageBonus=Bonus
+WeapDamageFactor=Factor
+WeapDamageCooldown=Cooldown
+WeapDamageType=Type
+WeapDamageExplosion=Effect
+WeapUnused=Unused
+WeapDamageUpgrade=Upgrade
+WeapLabel=Label
+WeapError=Error Msg
+WeapAttackAngle=Attack Angle
+WeapBehaviour=Behaviour
+WeapGraphics=Graphics
+WeapIcon=Icon
+WeapLaunchSpin=Launch Spin
+WeapRemoveAfter=Remove After
+WeapOffsetUpward=Y Offset
+WeapOffsetForward=X Offset
+WeapRangeMin=Min
+WeapRangeMax=Max
+WeapSplashInner=Inner
+WeapSplashMed=Medium
+WeapSplashOuter=Outer
+WeapTarget001=Air
+WeapTarget002=Ground
+WeapTarget004=Mechanical
+WeapTarget008=Organic
+WeapTarget010=non-Building
+WeapTarget020=non-Robotic
+WeapTarget040=Terrain
+WeapTarget080=Org. or Mech.
+WeapTarget100=Own
+
+
+[Flingy Editor]
+FlingySprite=Sprite File
+FlingySpeed=Top Speed
+FlingyAcceleration=Acceleration
+FlingyHaltDist=Halt Distance
+FlingyMoveControl=Move Control
+FlingyUnused=Unused
+FlingyTurnRad=Turn Radius
+
+
+[Sprites Editor]
+SpriteImage=Image File
+SpriteHPBar=Health Bar
+SpriteUnk1=Unknown1
+SpriteVisible=Is Visible
+SpriteCircleOff=Vert. Position
+SpriteSelCircle=Sel. Circle
+
+
+[Images Editor]
+ImgGRP=GRP File
+ImgIscriptID=Iscript ID
+
+ImgGfxTurns=Graphics Turns
+ImgClickable=Clickable
+ImgUseFullIscript=Use Full Iscript
+ImgDrawCloaked=Draw If Cloaked
+
+ImgOL1=Attack
+ImgOL2=Damage
+ImgOL3=Special
+ImgOL4=Landing Dust
+ImgOL5=Lift-off Dust
+ImgShield=Shield
+ImgDrawFunction=Function
+ImgRemap=Remapping
+
+
+[Upgrades Editor]
+UpgIcon=Icon
+UpgLabel=Label
+UpgIsBW=BroodWar
+UpgRace=Race
+UpgRepeats=Max Repeats
+UpgUnk=Unknown
+UpgMinerals=Minerals
+UpgVespene=Vespene
+UpgTime=Time
+UpgFactorMinerals=Minerals
+UpgFactorVespene=Vespene
+UpgFactorTime=Time
+
+
+[Techdata Editor]
+TechIcon=Icon
+TechLabel=Label
+TechEnergy=Energy
+TechMinerals=Minerals
+TechVespene=Vespene
+TechTime=Time
+TechBW=BroodWar
+TechRace=Race
+TechUnused=Unused
+TechUnk=Unknown
+
+
+[Sfxdata Editor]
+SoundFile=Sound File
+SoundUnk1=Unknown1
+SoundUnk2=Unknown2
+SoundUnk3=Unknown3
+SoundUnk4=Unknown4
+
+
+[Portdata Editor]
+PortFile=Portrait Dir
+PortSMKChange=SMK Change
+PortUnk1=Unknown1
+
+
+[Mapdata Editor]
+MapFile=Mission Dir
+
+
+[Orders Editor]
+OrdAnimation=Animation
+OrdObscured=Obscured
+OrdLabel=Label
+OrdEnergy=Energy
+OrdTargeting=Targeting
+OrdHighlight=Highlight
+OrdUnk13=Unknown
+OrdWeapTarg=Use Weapon Targeting
+OrdUnk2=Secondary Order
+OrdUnk3=Unused
+OrdUnk4=Unknown4
+OrdUnk5=Unused
+OrdInterrupt=Can be Interrupted
+OrdUnk7=Unknown7
+OrdQueue=Can be Queued
+OrdUnk9=Unknown9
+OrdUnk10=Can Be Obstructed(?)
+OrdUnk11=Unknown11
+OrdUnk12=Unused

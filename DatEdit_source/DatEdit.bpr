@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="DatEdit.exe"/>
+    <OBJFILES value="DatEdit.obj About.obj Data.obj LoadList.obj TBLParser.obj Credits.obj 
+      DoodadInfo.obj EntryData.obj FileData.obj Options.obj TForm1.obj 
+      Splash.obj LoadDir.obj Main.obj ProgressForm.obj FileCompare.obj Funcs.obj 
+      SavePatch.obj ExportBox.obj MergeSource.obj"/>
+    <RESFILES value="DatEdit.res PatchLoader.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) About.dfm Credits.dfm DoodadInfo.dfm Options.dfm Splash.dfm 
+      LoadDir.dfm Main.dfm ProgressForm.dfm FileCompare.dfm ExportBox.dfm 
+      MergeSource.dfm"/>
+    <LIBFILES value="SFmpq.lib grpapi.lib"/>
+    <LIBRARIES value="vclx.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib vclx.lib"/>
+    <PACKAGES value="vcl.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="DatEdit.cpp"/>
+    <INCLUDEPATH value="..;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;C:\Programs\Rozne\CPPBuilder6\Projects;C:\Jakobs\Kod\Cpp\DatEdit;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;C:\Programs\Rozne\CPPBuilder6\Projects;C:\Jakobs\Kod\Cpp\DatEdit;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -wamb"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I.. -I&quot;C:\Program Files\Borland\CBuilder6\Projects&quot; 
+      -IC:\Programs\Rozne\CPPBuilder6\Projects -IC:\Jakobs\Kod\Cpp\DatEdit 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Q -Vx -Ve -X- -a4 -6 -b- -k- -vi -c -tW 
+      -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -Rr -aa -Tpe -x"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="DatEdit.res" FORMNAME="" UNITNAME="DatEdit.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DatEdit.cpp" FORMNAME="" UNITNAME="DatEdit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="About.cpp" FORMNAME="AboutBox" UNITNAME="About" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Data.cpp" FORMNAME="" UNITNAME="Data" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="LoadList.cpp" FORMNAME="" UNITNAME="LoadList" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TBLParser.cpp" FORMNAME="" UNITNAME="TBLParser" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Credits.cpp" FORMNAME="CreditsBox" UNITNAME="Credits" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SFmpq.lib" FORMNAME="" UNITNAME="SFmpq.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DoodadInfo.cpp" FORMNAME="DoodadInfoBox" UNITNAME="DoodadInfo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="EntryData.cpp" FORMNAME="" UNITNAME="EntryData" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FileData.cpp" FORMNAME="" UNITNAME="FileData" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Options.cpp" FORMNAME="OptionsBox" UNITNAME="Options" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TForm1.cpp" FORMNAME="" UNITNAME="TForm1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Splash.cpp" FORMNAME="SplashForm" UNITNAME="Splash" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="LoadDir.cpp" FORMNAME="OpenDirBox" UNITNAME="LoadDir" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Main.cpp" FORMNAME="Form1" UNITNAME="Main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="grpapi.lib" FORMNAME="" UNITNAME="grpapi.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ProgressForm.cpp" FORMNAME="ProgForm" UNITNAME="ProgressForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FileCompare.cpp" FORMNAME="CompareFiles" UNITNAME="FileCompare" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Funcs.cpp" FORMNAME="" UNITNAME="Funcs" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SavePatch.cpp" FORMNAME="" UNITNAME="SavePatch" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ExportBox.cpp" FORMNAME="ExportBox" UNITNAME="ExportBox" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Resources.h" FORMNAME="" UNITNAME="Resources.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PatchLoader.rc" FORMNAME="" UNITNAME="PatchLoader.rc" CONTAINERID="RCCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MergeSource.cpp" FORMNAME="MergeDialog" UNITNAME="MergeSource" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=5
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=BroodKiller
+FileDescription=Starcraft DAT files editor
+FileVersion=1.5.0.0
+InternalName=DatEd
+LegalCopyright=BroodKiller (Jacek Kominek)
+LegalTrademarks=BroodKiller
+OriginalFilename=DatEdit.exe
+ProductName=DatEdit
+ProductVersion=1.1
+Comments=Whatchya lookin' for here? :P
+
+[HistoryLists\hlIncludePath]
+Count=4
+Item0=..;C:\Program Files\Borland\CBuilder6\Projects;C:\Programs\Rozne\CPPBuilder6\Projects;C:\Jakobs\Kod\Cpp\DatEdit;$(BCB)\include;$(BCB)\include\vcl
+Item1=..\;C:\Program Files\Borland\CBuilder6\Projects;C:\Programs\Rozne\CPPBuilder6\Projects;C:\Jakobs\Kod\Cpp\DatEdit;$(BCB)\include;$(BCB)\include\vcl
+Item2=C:\Program Files\Borland\CBuilder6\Projects;C:\Programs\Rozne\CPPBuilder6\Projects;C:\Jakobs\Kod\Cpp\DatEdit;$(BCB)\include;$(BCB)\include\vcl
+Item3=C:\Programs\Rozne\CPPBuilder6\Projects;C:\Jakobs\Kod\Cpp\DatEdit;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=4
+Item0=..;C:\Program Files\Borland\CBuilder6\Projects;C:\Programs\Rozne\CPPBuilder6\Projects;C:\Jakobs\Kod\Cpp\DatEdit;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\;C:\Program Files\Borland\CBuilder6\Projects;C:\Programs\Rozne\CPPBuilder6\Projects;C:\Jakobs\Kod\Cpp\DatEdit;$(BCB)\lib\obj;$(BCB)\lib
+Item2=C:\Program Files\Borland\CBuilder6\Projects;C:\Programs\Rozne\CPPBuilder6\Projects;C:\Jakobs\Kod\Cpp\DatEdit;$(BCB)\lib\obj;$(BCB)\lib
+Item3=C:\Programs\Rozne\CPPBuilder6\Projects;C:\Jakobs\Kod\Cpp\DatEdit;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>

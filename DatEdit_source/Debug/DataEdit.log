@@ -1,0 +1,52 @@
+﻿Build started 2017-11-05 21:16:31.
+     1>Project "G:\StarCraft\MODs\tools\DatEdit_source\DataEdit.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\DataEdit.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _ATL_STATIC_REGISTRY /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt About.cpp Credits.cpp Data.cpp DatEdit.cpp DoodadInfo.cpp EntryData.cpp ExportBox.cpp FileCompare.cpp FileData.cpp Funcs.cpp LoadDir.cpp LoadList.cpp Main.cpp MergeSource.cpp Options.cpp ProgressForm.cpp SavePatch.cpp Splash.cpp TBLParser.cpp TForm1.cpp
+         TForm1.cpp
+     1>g:\starcraft\mods\tools\datedit_source\Main.h(5): fatal error C1083: Cannot open include file: 'Classes.hpp': No such file or directory
+         TBLParser.cpp
+     1>g:\starcraft\mods\tools\datedit_source\Main.h(5): fatal error C1083: Cannot open include file: 'Classes.hpp': No such file or directory
+         Splash.cpp
+     1>Splash.cpp(3): fatal error C1083: Cannot open include file: 'vcl.h': No such file or directory
+         SavePatch.cpp
+     1>SavePatch.cpp(3): fatal error C1083: Cannot open include file: 'vcl.h': No such file or directory
+         ProgressForm.cpp
+     1>ProgressForm.cpp(3): fatal error C1083: Cannot open include file: 'vcl.h': No such file or directory
+         Options.cpp
+     1>Options.cpp(3): fatal error C1083: Cannot open include file: 'vcl.h': No such file or directory
+         MergeSource.cpp
+     1>MergeSource.cpp(3): fatal error C1083: Cannot open include file: 'vcl.h': No such file or directory
+         Main.cpp
+     1>Main.cpp(72): fatal error C1083: Cannot open include file: 'vcl.h': No such file or directory
+         LoadList.cpp
+     1>g:\starcraft\mods\tools\datedit_source\LoadList.h(2): fatal error C1083: Cannot open include file: 'StrUtils.hpp': No such file or directory
+         LoadDir.cpp
+     1>LoadDir.cpp(3): fatal error C1083: Cannot open include file: 'vcl.h': No such file or directory
+         Funcs.cpp
+     1>g:\starcraft\mods\tools\datedit_source\SavePatch.h(6): fatal error C1083: Cannot open include file: 'Classes.hpp': No such file or directory
+         FileData.cpp
+     1>g:\starcraft\mods\tools\datedit_source\FileData.h(5): fatal error C1083: Cannot open include file: 'ComCtrls.hpp': No such file or directory
+         FileCompare.cpp
+     1>FileCompare.cpp(2): fatal error C1083: Cannot open include file: 'vcl.h': No such file or directory
+         ExportBox.cpp
+     1>ExportBox.cpp(3): fatal error C1083: Cannot open include file: 'vcl.h': No such file or directory
+         EntryData.cpp
+     1>g:\starcraft\mods\tools\datedit_source\Main.h(5): fatal error C1083: Cannot open include file: 'Classes.hpp': No such file or directory
+         DoodadInfo.cpp
+     1>DoodadInfo.cpp(2): fatal error C1083: Cannot open include file: 'vcl.h': No such file or directory
+         DatEdit.cpp
+     1>DatEdit.cpp(3): fatal error C1083: Cannot open include file: 'vcl.h': No such file or directory
+         Data.cpp
+     1>g:\starcraft\mods\tools\datedit_source\Data.h(3): fatal error C1083: Cannot open include file: 'StrUtils.hpp': No such file or directory
+         Credits.cpp
+     1>Credits.cpp(3): fatal error C1083: Cannot open include file: 'vcl.h': No such file or directory
+         About.cpp
+     1>About.cpp(2): fatal error C1083: Cannot open include file: 'vcl.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "G:\StarCraft\MODs\tools\DatEdit_source\DataEdit.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.20

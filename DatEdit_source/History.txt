@@ -1,0 +1,612 @@
+#####DATEDIT DEVELOPMENT HISTORY#####
+
+This is the history of DatEdit development, in other words a collection of the release notes for the public releases of DatEdit. It is included both for historical reference and as a feature review. Original release notes were published at StarEdit Network, Maplantis and Star Alliance.
+
+
+##########DATEDIT V1.5d update##########
+
+Fixed/Changed in DatEdit 1.5d:
+-Fixed several interface inconsistences
+-Fixed some path-related config file issues
+-Fixed some minor text glitches and labels
+
+New in DatEdit 1.5d:
+-Clipboard support
+This update to DatEdit introduces support for clipboard-based copy'n'paste feature, which allows now to copy'n'paste entries between two (or more) DatEdit instances.
+
+
+##########DATEDIT V1.5c Fix-up##########
+
+Fixed/Changed in DatEdit 1.5c (Fix-up):
+-Fixed several problems with handling custom MPQ and TBL files
+
+
+
+##########DATEDIT V1.5b##########
+
+Fixed/Changed in DatEdit 1.5b:
+-Fixed the malfunctioning Units editor Sounds subtab, its jump buttons and the "Used By" functionality for the Sounds editor and the Sounds subtab hints.(thanks to ShadowFlare)
+-Fixed Sounds subtab-associated hints
+-Fixed "Doodads Info" box legibility issues and slightly rearranged the window.(thanks to U238)
+-Fixed a bug resulting in an Access Violation error when right-clicked in the empty space while using the Origin or Data Sort.
+-Fixed a bug resulting in exporting TBLs into MPQ archives with wrong filenames (thanks to DoA)
+-Fixed exporting to already existing self-executable files
+-Renamed the Sfxdata entry #0 from "Unknown" to "No sound"
+-Renamed the "Unknown147" flingy.dat entry to "Unused Lockdown" (thanks to U238)
+-Reduced the default size of the "Compare/Merge Files" window
+
+
+##########DATEDIT V1.5 UPDATE##########
+
+Snow falls,
+Wind blows,
+water flows,
+...and DatEdit updates :)
+
+This version was under works for very very long, I started working on it soon after the release of Datedit 1.4. Since then, many things have happened in my life, and as some may remember I decided to retire from active participation in the StarCraft community. However, in my farewell word I said that I am one of these people who do not like to leave things that they've started, unfinished, and I promised to return and release what I was working on. Even though some people didn't really believe me on that ("That's what everyone says leaving..."), I stayed true to my word and 
+as promised over half a year ago - let me present to you DatEdit 1.5!
+
+On a personal note, I think that it is probably the most important release of DatEdit, for many reasons. First, it's the biggest update ever done to Datedit, a very complex and thorough one. It adds many new features, bugfixes and improvements, but I hope that it still keeps its user-friendliness! Also, it is the first update that I am personally fully satisfied about. To be perfectly honest, ever since the first public release there were things that I didn't like about this program. Today however, I am fully satisfied of the shape of the tool that I am handing to you. A tool that can do quite a lot, and that is good in what it does. Then, I must admit that it's been the hardest of all updates to make. It seemed very far from being finished so many times, and not once have I abandoned it mid-work because I was frustrated with the lack of progress and the difficulties yet ahead of me. I always returned to it however, since both in web- and in real-life I strive to be a man of my word, even if it requires a lot of effort from my side. Finally, it is also the last update that comes to this world through my hands, since I stop developping Datedit after this release. I will bugfix and support v1.5 until it is proven to be safe, stable and error-free, but then it's over. Does it mean it is the final update to the program? No, it does not have to mean that. There are some very skilled and talented people in the community who certainly have the potential to further enhance this tool, should they wish and decide to do it. However, my chapter with it is now finished, even though I am aware that the program has by no means reached it's full capabilities. These are yet to be demostrated by those that decide to dedicate their time and efforts to give the modding community a useful and friendly tool, something I hoped to achieve during these 2 years of developping DatEdit.
+
+I wish to thank everyone who ever provided feedback, comments and ideas - without you Datedit would have never become what it is at present. Thanks go also to all those who have given their time and attention helping me track down bugs and errors as well as testing the program's functioning and features - you were the mirror that I could see my mistakes in and, thanks to that, fix them, to everyone'e benefit. Finally, I wish to thank to all of you who are or were ever using DatEdit - you gave me the motivation to constantly work and improve it, to its today's state. I do not mention any particular (nick)names, simply because there are too many people I am indebted to than I could write here - you know who you are and the least I can do is bow to you, as an expression of my gratitude.
+
+Starcraft is all about having fun - I hope DatEdit allowed to make it a little bit more fun :)
+
+Best regards,
+-Uncle Broody
+
+Fixed/Changed in DatEdit 1.5:
+-Fixed the "Weapons used by Orders" bug related to the weapons.dat ID#0. Now DatEd finds it properly. (Thx to Kookster for the report)
+-Fixed the units listing refreshing 'bug' after changing the use of custom names.Now reloads the list right after closing the "Options" panel.(Voy gets credit for this)
+-Fixed internal MPQ-handling. Should now work with embedded MPQ archives as well.
+-Fixed the Tab order for the Orders Editor (thanks Ojan!)
+-Fixed the missing "Infested Commander Center" units.dat entry bug, when using the "Use custom labels" option.
+-Fixed a bug with the "Selection Circle" property that would not update the dropdown listing when you input raw numbers to the text box.
+-Fixed a bug with the "Target Acquisition Range" property that would not save its value properly.
+-Fixed a glitch with the "Start in Editor" option, that would not load all the data and select an entry in editors other than the Units Editor.
+-Fixed the problem when DatEdit wouldn't delete the "temp" directory on close,by no longer using intermediate storage.
+-Fixed a bug that would not save the text to search in the entry list if the "Search" button was pressed.
+-Fixed a bug that would save improper program dimensions if the program exited while being maximized, causing wrong un-maximizing behaviour after restart.
+-Fixed a glitch that would draw the previews multiple times and not just once.
+-Fixed an issue that would change the properties' values to appropriate size only after changing and then going back to the selected entry.Now the values are converted on-the-fly,and corrected if they are too big for a property.
+-Fixed background colors for the Doodad groups in the Doodad Info box.
+-Fixed wrong handling of sfxdata.data entries and the "Sound File" property in Sounds Editor. 
+-Added a progress bar for MPQ-importing and exporting.
+-Added tooltips and descriptions for the program Options.
+-Added a confirmation box for the DAT-association.
+-Added a constant data-size verification algorithm, which will change the values if the are bigger than the size of the edited property in hex.
+-Added a new "FAQ" menu (see below)
+-Added description for the images.dat Overlays 1-5:
+	/"Overlay 1" renamed to "Attack"
+	/"Overlay 2" renamed to "HP Damage"
+	/"Overlay 3" renamed to "Special"
+	/"Overlay 4" renamed to "Landing Dust"
+	/"Overlay 5" renamed to "Lift-off Dust"
+-The "Emulate(?)" property renamed to "Obscured". Check the hint for explanation.
+-The "Follow" property renamed to "Remove After". Check the hint for explanation.
+-The "HP Bar" property renamed to "Health Bar".
+-The "Reload Default DAT" feature renamed to "Reload Default File".
+-The "Other Properties" box renamed to "Extra overlays placement ".
+-The "Clear Bookmarks" menu item renamed to "Clear Current Bookmarks".
+-The "Reload Default File" hotkey changed from CTRL+F to CTRL+L, to avoid accidental activation.
+-The "Infestation" property moved from the "Graphics" tab to the "Advanced" tab, because it is not realy a graphics-related property.
+-Now using v1.081 of SFMPQAPI
+-Now using the "<X>" TBL tag formatting style.
+-Now using a new Orders.dat entry listing made by TheNomad.
+-Now using external format files in the "/Formats" directory. They can be edited,but with no guarantee that it will work.
+-Redesigned the layout of the "Options" box for increased accessibility and clarity.
+-Redesigned the layout of the "Export file" box (previously 'Multi-file MPQ Export' dialog) for increased functionality.
+-Redesigned the layout of the Sprites editor. Properties that exist for all entries are now put together, above the entry-specific properties.
+-Updated the content of several hints.
+-Updated the "Credits" section with more respectable people that helped me :)
+-Removed the "Return MPQ Export" feature.It was no longer useful and applicable with the new MPQ-support implementation.
+-Removed the "Single-file MPQ Export" and "Multi-file MPQ Export" features. Their functionality was integrated into a new "Export Files..." feature (see below) 
+-Changed the word "Animation" in the portraits listing to "Portrait".
+-Changed the entry ID functionality. The ID was moved from a text box in the lower right-hand corner of the application window to the entry listing itself. The "ID Jump" was moved to the Search bar below the listing. The extra space was used for expanding the "Used by" box. Hotkey-access to the entry names still works as before.
+-Changed the time-related properties to work at "Fastest" speed by default.
+-Renamed the sorting styles to: "Data Sort","Origin Sort" and "ID Sort"
+-Various optimizations and execution speed improvements.(I owe you not just one, DoA :))
+-Adjusted the general program's interface to fix some size-related issues.The entry listing area is now bigger, the functional interface is more condensed but both are resizeable.
+-Thoroughly reviewed and updated the source descriptions.
+-Source distribution now includes its own readme file.
+
+
+New in DatEdit 1.5:
+-Graphical Preview (Units and Sprites editors)
+The unit size preview control has been changed. Instead of a single checkbox, there are now 3 options to choose from: "Off" - no preview, "Simple" - a rectangular shape covering the unit size area, and "GRP Preview" - the same rectangular shape over the first frame of the unit's appropriate GRP image, read from the Starcraft installation on your hard disk.(per Hercanic request)
+Another goodie related to this is a new "Show Sprite editor preview" option. It displays a sprite's GRP preview together with its selection circle and the Hit Points bar. 
+There is also the "Load GRPs from opened archives" option, which will load GRPs for previewing from the last opened MPQ archive.
+The "GRP Preview Source" option allows you to manually select an archive that you would like to load GRP previews from.
+
+-StarCraft Detection
+For the GRP previewing feature, Datedit now tries to locate a Starcraft installation on the computer. This detection goes in 3 steps:
+1)In the config file, there is a new "SC" key in the "Files" section. If such directory exists - it will be used.
+2)If not, Datedit will look up the system registry for the SC Installation path.
+3)Finally, if not found, it will give the user a chance to locate the SC folder manually.
+
+-File Comparison/Merging
+The "File" menu now contains an additional item - "Compare/Merge Files".It opens a new dialog, where you can select 2 DAT files and (if they are compatible) run a comparison check between them. Detailed results of the comparison are shown in a table below.
+In the same dialog you can also choose to merge the content of the 2 selected files, with several self-explanatory options to configure the merging strategy.
+
+-Property Sort
+This version of DatEdit introduces a new sorting method: "Property sort". It allows you to choose a particular property of the currently edited DAT file and sort increasingly the entries according to the value of this property. This method uses the "ID Sort"-like entry display.
+
+-External Links
+To give a hand to those using many programs in the development of their customs, DatEdit now allows you to specify any number of links to external applications that you can launch from within DatEdit. To do this, a new "Links" menu and a dedicated tab in the 'Options' box were added. You can add/remove links to the programs that you use often under 'Options' and then run them from the main window from the "Links" menu. Simple as that.
+
+-Frequently Asked Questions
+There is a new menu, entitled "FAQ", under the "Help" menu. It fulfills the purpose of having hints and information available from within the program. They are stored in the "Data/FAQ.txt" file, and everyone is free and even encouraged to change, modify, improve this file and distribute it, to share info with the fellow modders or to help and teach the beginners.
+
+-Custom Property Names
+To allow everyone to update DAT-stored properties, DatEdit 1.5 now stores its property names in a text file under "Data\Labels.txt". All you need to do is to search this file for an old description and replace it with the proper one - the changes will be reflected in the program's interface on next startup! This feature allows for customizing of ALL property labels.
+
+-Extended Exporting: Self-executable patch creation
+The former single- and multi-file exporting features were integrated into a single new "Export files" feature. It received a completely new look and its functionality was enhanced by the ability to create FireGraft-like (see icon) self-executable Starcraft patches, thus making DatEdit finally a 100% independent modding application. Just select the "Export as a self-executing StarCraft patch" and that's it! To be honest,this feature is included because I got tired of reading mails from people who asked about "how do I get my modifications to the game?". Hopefully I won't hear this question anymore, but at least it was a motivation for further improving the program;) (kudos for enormous help with this feature go to DiscipleOfAdun, to whom I owe more than I sometimes admit ;)
+
+-Improved Backward-referencing
+This version of Datedit introduces 3 new "Used By" listings: in the Sounds, Portrait and Orders Editors as well as an improved listing in the Images editor.
+Sounds and Orders Editors will just show the units.dat entry that is using it. They won't show which particular property it is used with, however you can double-click to jump to the specific Unit to check the details. Images editor apart from the sprites.dat entries linked to it with the main pointer, will now display also sprites.dat entries linked via the "Selection Circle" property and the units.dat entries linked via the "Construction" property.
+The backward-referencing algorith was also improved so that it skips the "null" entries, for example flingy.dat entry 0-Scourge being used as a weapon's graphics etc.
+This release also introduces a more specific double-click action, which will take you directly to the particular subtab of the Units editor that stores the property in question.
+
+-Enhanced Options
+There is a new option called "Use old Open Directory". If checked, Datedit will use for the Open Directory feature the custom-made dialog it had until now, if unchecked - it will use the system "Select Directory" dialog.
+
+-Enhanced time-cost control
+Changed the control of the time-cost properties in Units, Upgrades and Tech editors. The main box now displays the very hex value of the property (i.e. 1/15ths of a second), and a new,second box displays the value in seconds.You cannot edit the second box directly (for technical reasons),but there is a pair of up/down arrows that allow you to modify (add/substract) the main property by 15, in result changing it by 1 second.
+
+-Enhanced property control
+Numerous properties controlled with a drop-down box have now acquired a text-box added as well, for increased property control and higher clarity about the very value used in a property.
+
+-Enhanced DatEdit Window Control
+You can now control the application area through a control placed between the entry listing and the Editors, which allows you to determine how much space they take. There is a similar thing between the Hint and the Used-by boxes.
+
+-Enhanced Bookmarking
+There are no dummy bookmark menus anymore,they are dynamically created as bookmarks are created (thanks to Hercanic). Moreover, a red flag now indicates that an entry has been bookmarked (thanks to U-238) and you can now erase individual bookmarks too, not just all together (thanks to Ojan).
+
+-Improved Jumping
+There is a new Jump-button for the "Selection Circle" sprites-to-images pointer property. Just in case :) (suggestion by SI)
+
+-Improved MPQ Support
+When you import file from an MPQ file to Dated, it will no longer display only the editors for the DATs that were imported. All editors are displayed, with those that operate on MPQ-imported files being marked with "=" tags in their caption. Also, the "Load default" menu item is no longer disabled after MPQ-importing, neither is the "Options" part of the program.
+
+-Extended Support for Custom Names
+The "Use Custom Names" option has been renamed to "Use Custom Labels" in this version. It has been extended to the Weapons, Upgrades and Tech editors, which will now also display custom labels loaded from a custom "stat_txt.tbl" file set in the Options part of the program.
+
+
+
+##########DATEDIT v1.4 UPDATE##########
+
+I originally thought this would be just a small fixup, but in the end it turned out that I put in more than I expected so I decided it to be a full-fledged update. Many thanks for what is in this release flies to DiscipleOfAdun and TheNomad - your help is invaluable guys! Still, not much hapennig here, simply carry on ;)
+
+
+Fixed/Changed in DatEdit 1.4:
+-The "Restricts" property renamed to "Unknown"
+-The "Floats(?) property renamed to "Draw If Cloaked"
+-The "Missile" property renamed to "Projectile"
+-The "Shadow Turns" property renamed to "Clickable"
+-The "Morph from other unit(?)" flag renamed to "Ignore Supply Check"
+-The "Placeable" StarEdit Availability flag renamed to "Listing & Palette"
+-The "Owned" StarEdit Availability flag renamed to "Non-Neutral"
+-The "Part of Terrain" StarEdit Availability flag renamed to "Set Doodad State"
+-The "Unit (Men)" flag renamed to "Men"
+-The Units Editor Sound subtab "Start" properties names changed to "First", and "End" to "Last"
+-The "Owned" weapon targeting flag renamed to "Own"
+-The "Missile" property renamed to "Follow", and its items:"Homing" to "Within range", "Normal" to "Until hit", "Bouncing" to "Bounce(?) (this one needs further examination)
+-The "Behaviour" property items renamed to:
+	Flies to target - Fly to Target(Don't Follow)
+	Seeks Target - Fly to Target(Follow)
+	Appears on Target - Appear on Target Unit
+	Persistant Explosion - Appear on Target Site
+	Normal hit - Appear on Attacker
+	Suicide - Attack & Self-Destruct
+	Bounce - Bounce(Follow)
+	Halo (Spin) - Attack Target 3x3 Area
+
+-The "Group(?)" property renamed to "Highlight"
+-Changed the layout of the Orders Editor, put all but the flags into one panel (there are no 'options' in orders.dat but the flags :P)
+-The unused bytes from the "StarEdit Availability" flagset are back in the editor.With Firegraft coming, some people may find them of use, hence you can see them again.
+-Fixed the "Player Settings" StarEdit flag hint problem
+-Fixed the update problem with the "Shield Gfx" property
+-Fixed several TAB order issues
+-Fixed a bug in the Tech and Upgrade Editors' with the "Label" property, hapenning if you input an ID larger than the number of strings in the list. It now gives the "no item" list selection properly
+-Fixed the "click-and-run" issue with the flagset-type properties
+-Fixed a bug that will not display the correct entry data in editors other than the Units Editor with the "Sort by Origin" view selected.
+-Updated the orders.dat Iscript animations listing (IceCC v1.3 compatible)
+-Updated several hints
+-Now allowed loading DAT and MPQ files via a command-line parameter
+-Now using v1.11 of the ShadowFlare's GRPAPI
+
+
+New in DatEdit 1.4:
+-DAT Association
+Added "Associate DATs" button to the Options screen. It associates the ".dat" extension to the currently running DatEdit executable, and allows for files to be loaded into DatEd by double-clicking on them.
+
+-Drag-and-Drop
+You can now drop DAT and MPQ files onto the DatEdit window to load them into the program, yay!
+
+-Multiple-entry Selection
+Yup, you heard the man:) From now you can select multiple entries in DatEd and set their properties simultaneously. Both the CTRL- and SHIFT-aided selection works fine. This feature is still experimental so it has a few restrictions on it:(READ PLEASE)
+#1-It works only when using the "Sort by ID" viewing method
+#2-The editor will show only the last-selected entry's data
+#3-There is no feedback about the variety of the properties amongst the selected entries (yet?)
+
+
+########DATEDIT 1.3##############
+
+Hello kids, it's me again - didn't you get bored of this regular updates yet? ;)
+
+Fixed/Changed in DatEdit 1.3:
+-Improved DatEdit internal ID-handling, which means the program should now work much faster :)
+-Running multiple DatEdit applications at the same time should work fine now (every running copy will have its own TEMP directory) 
+-Redesigned the "Options" window to increase its accessibility - all the options are now on a single page.
+-Sound subtab text boxes are now reactivated properly.
+-MPQ Importing now works properly (it didn't in v1.2b).
+-Added ID-input boxes for the units.dat weapons pointers, the weapons.dat flingy pointer and the weapons.dat cmdicons.grp pointer (in case someone adds new icons and doesn't link the new cmdicons.grp to DatEd first). The Weapons Editor layout had to be modified a bit, but I hope it is still as functional. I used it almost up to 100% now, and I can't really think of any more improvements to it - there probably won't be an ID input box for the "Label" and "Error" TBL-pointing properties, because this would clutter up the already cluttered up Weapons Editor's layout too much.
+-Added ID-input boxes for the Tech and Upgrade Editor's "Label" and "Icon" properties for the same purpose as above. 
+-Inputing icon ID larger than the number of icons available results in an empty preview, and not a frozen last-selected icon image.
+-The "Rank/Sublabel" property now uses a fully functional dropdown box instead of the limited textbox it used previously. IMPORTANT:If you plan to add new entries to a TBL and use it with DatEdit, then keep in mind that this property only accepts values within the range 0-255 and that I programmatically restricted that this box accepts not more than 255 entries. This is an issue of the type of variable used to store this property and I cannot do anything about it. This note has also been added to the appropriate hint.
+
+
+New in DatEdit 1.3:
+-Iscript ID and GRP Referencing
+Images Editor now features two new buttons, each launching a specific reference check through the currently used images.dat file for either the "Iscript ID" or the "GRP File" pointer property of images.dat. The result is displayed in the standard "Used By" box in the lower right-hand corner of the program's window, OVERWRITING any 'sprites.dat->images.dat' backreference that it may contain. Selecting a new entry brings back the original functionality. Results of these new reference checks can be, as usual, double-clicked to jump straight to a specific entry.
+
+The discussion over the implementation of this functionality was long and hard, as many different options of doing so were considered. Eventually, I decided to go for simplicity and friendliness rather than exaggerated complexity, partially because that's how I like things to be, and partially because DatEdit is regarded as a 'basic' tool for SC modding, and as such it should be kept as accessible to users as possible. 
+
+A remark that I have to make is that this feature has sort of a minor 'glitch' in it. The thing is that pressing either of the buttons will launch the reference check for the currently selected item of either of the two featured fields. This means that in order to check which other entries use a particular GRP or an Iscript ID, you need to make some entry use it first, and thus the check will always return at least one result, being the entry you've run the reference check from. This is what I would call here a "false positive" result, since the entry doesn't really need to use a particular GRP or Iscript ID. It is not a serious thing, but still. I left it be, for simplicity and friendliness reasons, and I hope it won't bother you more than it should :)
+
+
+-Custom Names loading
+This has long been asked for, and it is finally present in this release of DatEdit. If a new "Use custom units names" option is checked in the "Options" box, DatEdit will load the names for the Units Editor entries from the linked "stat_txt.tbl" file or from the imported MPQ archive, if such a file is present in it.
+
+But don't jump off your shoes just yet, as this feature is not -to my mind- as cool as it may seem right off the bat. First, it works only and exclusively in the Units Editor, and this is because its listing is in one place inside "stat_txt.tbl". Other TBL-based listings are separated between original SC and BW listings, which makes it a much more complex task to get it to work properly. And - to be honest - I don't have time to make it work for the rest, even less as 99% of the requests for this feature concerned the units listing only. Second, the names read from "stat_txt.tbl" are much less friendly and informative, so I don't suggest using this feature in the early stage of a mod, but rather a bit later. 
+
+
+
+########DATEDIT 1.2b##############
+
+Fixed/Changed in DatEdit 1.2b:
+-Interface modifications:
+ 1)Enlarged the area occupied by the Weapons editor, so that all the drop down boxes display their content properly.
+ 2)Moved the "Restricts" property from the StarEdit tab to the "Advanced" Tab. Meaning still remains unknown.
+ 3)Removed the unused flags for the Units editor StarEdit tab, for clarity purposes.(using them would force someone to alter the game engine anyways)
+ 4)Sorted and grouped the Advanced flags listing. Hopefully it is more functional now.
+ 5)Weapons.dat "Launch Angle" property is now labeled "Launch Spin", Forward Offset is now labeled "X Offset" and Upward Offset is now labeled "Y Offset". All this for clarity purposes.
+
+-Changed the Backward-reporting list normal to square brackets, to reduce visual confusion.
+-Sounds are now displayed properly.
+-Copy/Paste Tab feature now works properly.
+-Improved several hints.
+-Fixed some tab-order related issues.
+-Updated the icons listing according to a list by Ojan (Thanks :))
+
+
+#####DATEDIT 1.2######
+
+Fixed/Changed in DatEdit 1.2:
+-Energy cost for techs is now properly labeled "Energy", and not "Mana".
+-Unknown 8 in orders.dat is now labeled "Can be Queued".
+-Weapon property in orders.dat is now labeled "Targeting" (+hint explanation).
+-Tech property in orders.dat is now labeled "Energy" (+hint explanation). 
+-Fixed inadequate window resizing with the "Reset Window" button.
+-Fixed DatEdit's window size, to compensate for the enlarged entry listing, what had to be done to show all entries names properly in Weapons Editor while using the "Sort by Origin" viewing mode.  
+-The "Rage (Unused Protoss Upgrade)" Icon is now properly labeled "Mind Control (Starcraft Beta - Unused)"
+-The "Reload Default DAT" menu item was moved under the Edit menu (formerly was under File).
+-Fixed a bug that on certain occasions would display a wrong DAT name if choosed to "Save As" after importing from an MPQ archive. 
+-Fixed a bug that on certain occasions would cause the "Copy/Paste Entry" function to work improperly after importing from an MPQ archive.
+-Fixed the placement and spacing for some interface elements.
+-Now using the latest GRPAPI (by ShadowFlare)
+
+
+New in DatEdit 1.2:
+-Single entry reload
+Self-explanatory, you can find it in the right-click popup menu.
+
+
+#####DATEDIT v1.1d#####
+#####DATEDIT v1.1c#####
+#####DATEDIT v1.1b#####
+-a series of undocumented although critical updates released in 2 days
+
+
+#####DATEDIT v1.1#####
+
+Hello children, it's Uncle Broody here. It's been some time since we last met, but although it's not yet Christmas but I brought you some gifts to play with. No, you don't need to thank me...;)
+
+Fixed/Changed in DatEdit 1.1:
+-Now reads and writes the unit's portrait properly. It turned out that the "No Portrait" value is not anything above the amount of portraits (220, hex 0xDC), which caused the game to crash, but precisely the value 0xFFFF, which works just fine.
+-Thanks to the research of various people, several properties have been researched and their meaning discovered:
+  1)The "Unknown" weapon behaviour is now "Psionic Storm"
+  2)The "Neutral" advanced flag in now "Single Entity"
+  3)The Flingy.dat format is now complete, with heavy changes reflected in the editor
+  4)Sprites.dat Unknown2 is now "Is Visible"
+  5)Units.dat "Subunit Range" is now "Target Acquisition Range"
+  6)Weapons.dat "Use Tech" damage type is now "Ignore Armor"
+  7)weapons.dat "Unknown" damage type is now "Independent"
+  8)Weapons.dat "Use Tech" property is now "Unused"
+
+Special thanks flies to: ShadowFlare, BSTRhino, DiscipleOfAdun, Ojan, TERRAINFIGHTER and Darktossgen(MM).
+
+-The layout was modified. The "Movement/Sound" Units Editor's subtab is now "Sounds" only. Unit Dimensions and the dimension Preview were moved to the Graphics subtab, the "Movement flags" to the Advanced subtab. "Subunits" were also moved to the Advanced subtab. The "Unused" property in Weapons.dat exchanged places with the "Explosion" property.
+-The layout was enhanced. The Images Editor is improved, allowing drop-down selection of the GRP files and Overlays. Same improvements concern the Campaign, Portrait and Sound Editors, as well as the "Sounds" tab of the Units Editor.
+-Now using system dialog boxes - the old ones were ugly :)
+-Improved various Hints.
+-Optimized the TBL-reading routine, which means the program should start faster now (especially on low-end processors).
+-Unsaved DAT Exporting now works fine.
+-Different viewing options are now hotkey-ed to: 1-Sort by Data;2-Sort by Origin;3-Sort by ID
+-The History list supports MPQs and not only DATs.
+
+New in DatEdit 1.1:
+-MPQ Support
+Yes, you heard it correctly - from now DatEdit is able to operate off MPQs alone. No more DATs cluttering up your hard drives, no more "Where the f*ck is that file?!", no more "Damn...which mod does THIS belong to....". You edit the files just as usual, but the program automatically carries out the MPQ importing/exporting stuff.
+
+This feature works in a simple way: instead of a DAT file, you select your MPQ archive with "Load File", and then the DatEdit-compatible files (and ONLY them!) are automatically exported to a temporary directory in the DatEdit's folder (they're removed when the application closes or another MPQ archive is opened) and opened for you to do the editing. In order to automatically save all the imported files back to your MPQ you use the new "Return MPQ Export" option in the File menu or use the CTRL+R hotkey. Unsaved modifications will be exported just fine, you don't need to save them before return-exporting.
+
+DatEdit will report to you what files it has found in the designated MPQ archive, but in case you forget it later here's a hint - look at the path shown at the bottom of the application window: files imported from an MPQ will be put inside a "temp\mpq" subdirectory of the directory you keep DatEdit in.
+
+A VERY important fact to know is that when you open an MPQ, DatEdit enters a "Protected" mode of operation. This means that while you're editing the content of an MPQ archive, the editors for DATs that were NOT found in the MPQ are disabled and hidden. For more, "Options" and "Reload Default" menu items are disabled too, as are Bookmarks for the disabled editors.
+You may not like it, but it was necessary to prevent errors caused by TBLs/Icons ambiguities. Just live with it. DatEdit returns to the "Standard" mode when you "Return Export" the data, or when you open a DAT file or a DAT folder.
+
+-Right-click list popup menu
+It contains the most useful options (to my mind at least):Copying,Pasting and bookmarking the currently selected entry as well as the Quick Bookmarks.
+
+-Bookmarking (per public request)
+DatEd v1.1 introduces this nice feature per request of nirvanajung and Rikimbo. Each editor has its own bookmarks that are preserved between sessions and you can clear the currently used editor's bookmark list as well or clear them all. Bookmarks related to the currently used editor are also avaialable via the right-click popup menu (aka Quick Bookmarks).
+
+Remember though that bookmarks are not specific, meaning they're barely pointing to an entry in a DAT file, no matter what file you're currently working on. This limits their usage to one project at a time, but if you want you can just put a copy of DatEdit in a different folder and then it'll have its own bookmarks.
+
+NOTE:This "issue" will NOT be addressed, so don't even bother asking :)
+
+
+#####DATEDIT v1.0#####
+
+We're finally there folks. I'm proud to present to you DatEdit v1.0, the first official release of the program. It has everything that you expect from it, plus one or two little improvements over v0.95b. 
+
+Fixed/Changed in DatEdit 1.0:
+-Now using the new splash screen by Ermac.
+-The search box is now a drop-down box, which remembers your previous input.
+-The search algorithm is now case-insensitive! (so 'zealot' will go just fine now)
+-Moved the Subunit Range property to the Basic subtab, as it does not have to do with graphics.
+-Changed the basic tab layout a bit.
+-Fixed the supply-properties bug.
+
+
+
+#####DATEDIT v0.95b#####
+
+Just small update to cope with the v0.95 issues/comments/ideas. In 99% this is what you'll see released as v1.0 :)
+
+Fixed/Changed in DatEdit 0.95b:
+-Icon listing (unused things are marked as unused)
+-Splash screen now works properly
+-Ranks display is now correct (I found out that there are in fact 2 rank listings in stat_txt.tbl, one for the original SC, and one for BW. I was wrongly using the first one. Now it works well - thanks, TERRAINFIGHTER)
+-DatEdit now remembers whether you keep the program window maximized or not. (Darius, we happy? :))
+-Unit's race affiliation was moved to the Basic tab, next to the supply values.
+-The two supply properties are back to normal in-game values, with an additional "+0.5" box next to each of them. (Thanks again Darius :))
+
+New in DatEdit 0.95b:
+-Jump Forest, Jump!
+Added Jump buttons for the AI/Order tab in units editor. You never know...:P
+
+
+
+
+#####DatEdit v0.95 Update#####
+
+It is my pleasure yet again to present to you a new version of DatEdit. As always, I prepared some new toys for you people to play with (yeah, I know - I'm too good for ya...:P), which you can check out and enjoy after you're finished reading this. 
+
+As far as I can tell, this version is the most probable candidate to become the official and public "v1.0" release, after necessary bugfixing. So, get your ass and get moving: there is a lot of testing work to do, aye?! ;)
+
+Fixed/Changed in DatEdit 0.95:
+-Units Editor: the Basic tab has changed a little - I separated the previously "Others" properties and put the appropriate property pairs into their own boxes. It looks better this way.
+-Also in the Basic tab - the Provided and Required Supply has been changed to display the raw hex value, which is TWO TIMES more than the supply used in-game. This fixes the Zergling and Scourge supply bug. Appropriate note was added to the hint as well.
+-In the StarEdit tab the "Player Settings" and "Special Effect" options have been exchanged, because their function turned out to be wrongly labeled.
+-Again in the StarEdit tab of the Units Editor, the Sublabel dropdown menu has been changed into a display-only text box, to eliminate the errors produced by the old control.
+-Portraits Editor: the Unknown2 property is now called "SMK Change". Read the hint for explanation.
+-Repositioned the ID# from the status bar to the interface. Should be more accessible now.
+-Images Editor: Added a "Check ->" button for the GRP property. You no longer have to reselect the entry in order to get back its GRP (more specifically - an images.tbl pointer ;))
+-Images Editor: Added a "Check ->" button for the Shield property, as well as a text box displaying the raw hex value (pointer to images.tbl). This will allow you to use your custom shield overlays. The dropdown box is still there with shield overlay 'templates'.
+-Images Editor: Verified some of the Palette options. Should be more clear now.
+-Sprites Editor: Added a text box for the Selection Circle property, which displays the raw hex value (a 561-based pointer to images.dat). This will allow you to use your custom selection circle graphics. Of course, the dropdown box is still there to provide you with the standard options.
+-Weapons Editor: Changed the labels for the different Splash types. Radial Splash = Splash (Radial), Line Splash = Splash (Enemy), Air Splash = Splash (Air).
+
+-Renamed all "Afterburners" to "Engines", not to create confusion when speaking of the Valkyrie's Afterburners tech.
+
+
+
+New in DatEdit 0.95:
+-Search for Name
+Below the listings you'll find a new textbox and a button. Just type in the entry name (or just a part of the name) you're looking for, and you'll be taken directly to it! This is an alternate way of getting to a particuliar entry to the "Jump to ID" feature.
+Pressing the ENTER key will work the very same way as pressing the "Search" button.
+IMPORTANT:The search is case-sensitive!!!
+(which means typing in "zealot" will do you no good)
+
+-Hints (finally!)
+Self-explanatory, I guess. I tried my best but at the current state they're far from satisfactory. They will be updated in the incoming updates, but if you feel like there is something important missing in any of them, then contact me ASAP.
+
+-Splash screen
+Not a thing of high importance, but it looks cool :). No, it ain't one of those posted here, 
+
+-Last Opened Folder
+DatEdit now remembers the last folder you opened (its path is stored in the INI file, if you're curious)
+
+-Reload Default
+Want to start a new mod from scratch after some long editing? This option loads the appropriate default DAT file right away, without even launching the "Open File" box.
+
+-More jumping
+Added the Jump buttons for the Sounds in Units Editor. :)
+
+
+
+#####DATEDIT v0.94b Update#####
+
+A minor update over v0.94.
+
+Fixed/Changed in DatEdit 0.94b:
+-standarized the layout (length of different boxes, titles positioning etc)
+
+New in DatEdit 0.94b:
+-Flingy and Sprites editors now possess new dropdown boxes related to their pointer properties, for easier control over the Flingy->Sprites->Images pathway. Together with what Backward Reporting provides, you will now have full information about what-is-what in it.
+
+
+#####DATEDIT v0.94 Update#####
+
+Once more DatEdit would like to show its new and improved face, with yet more power, yet more abilities, and -hopefully- yet less bugs. 
+Again, some fixups are included, but most of these concern the program internal functioning, so details only about the most important of them are revealed. These include also various code, speed and memory optimizations, which -even though not really visible- adds to a better global workout of the application.
+
+Of course, version 0.94 has enhanced capabilites over the previous release, so make sure to try it out =)
+
+Fixed/Changed in DatEdit 0.94:
+-Updated listings (especially for the Icons: the old ones just sucked)
+-the 'UsedBy' box is wider, to compensate for the fact that it no longer displays the horizontal scroll bar (and it never will, even if the text doesn't fit. Don't like it? Your bad ;))
+-'Time' properties in Units, Upgrades and Tech editors are now displayed (and calculated) in seconds instead of the raw hex value. I hope it is more useful this way.
+(Just FYI, Weapon's 'Cooldown' remains itself, I just added a sidenote that "23 = 1sec")
+-In Weapons Editor, The X1-Y1 and X2-Y2 properties are now labeled properly (thanks to Xenon from SA):
+     X1-Weapon's Attack Angle (angle within which the weapon can be fired without waiting for the unit's graphics to turn)
+     Y1-Weapons Launch Angle (angle by which the weapon's sprite will spin after it is spawned)
+
+IMPORTANT: For the above two 128 = 180 degrees!
+     X2-Weapon's Forward Offset (distance [in pixels] from the front of the attacking unit, at which the weapon's sprite will be spawned)
+     Y2-Weapons Upward Offset (distance [in pixels] from the top of the attacking unit, at which the weapon's sprite will be spawned)
+-Also in weapons Editor, the "Spell" property is now properly labeled "Use Tech", because it turned out to be just a techdata.dat pointer.
+(It becomes more clear now...:))
+-Doodads Info, Load Directory and Multiple DAT Export dialogs now close after you press the "Escape" key.
+-Change Hotkeys for Copy/Paste Tab - now it's CTRL+SHIFT+C and CTRL+SHIFT+V (like Arsenal 3 once had), to allow the standard Copy/Paste to function (So that you can copy the values from the Editors using CTRL+C/CTRL+V, and not only with the Right-Click menu as it was before)
+-Linkified the fields in the "Credits" and "About" boxes
+-Fixed the unfriendly Tab-order
+-Dropdown boxes now hotkeyed properly (yay!). Thanks to DiscipleofAdun for advice :).
+-Added a text field to the "Load Directory" dialog. The directory where the program will look for the DATs to load is read from it, so you can as well type-in the path directly. It will also detect whether a directory exists or not.
+
+
+New in DatEdit 0.94:
+-Icon Preview for Upgrades, Techs and Weapons Editors (per public request)
+You asked for it - here it comes. Thanks flies here to DiscipleOfAdun for 'fixing' my incorrect application of the GRP_API :)
+
+-More Jump Buttons (lotsa....:P)
+Units Editor: Graphics tab
+Weapons Editor: Jump-to-Upgrade, Jump-to-Graphics 
+Orders Editor: Jump-to-Tech, Jump-to-Weapon
+
+There is no Jump-to-Armor-Upgrade in Units Editor (what was asked for as well) because:
+!)It sucks visually (read: fucks up the entire tab layout)
+@)It is pretty useless
+#)It sucks visually A LOT
+
+-Extended Backward Reporting
+Upgrades and Techs are also in the game now: Upgrades for both Units and Weapons, and Techs for both Weapons and Orders. This will help you keep track of these details of your customs, but will also give you a broader view over the DAT inter-connection (useful for researches etc.)
+The Orders editor is not a part of this ability because in its case the resulting listing would be less than readable. Same goes for Sounds, and Portraits are already well labeled. If I get enough requests for it, I will add these too, but for now I don't feel like doing it.
+
+-Copy Tab/Paste Tab/Paste Mixed (per public request)
+In Units Editor you can now not only copy/paste an entire entry, but also some of its properties stored in one subtab (Basic, Advanced...etc), using the Copy Tab/Paste Tab ability.
+Note: You need to have the same Subtab opened in order to use the 'Paste Tab'.
+
+It is important that you realize that the Copy Tab/Paste Tab ability works completely independently from the standard, entry-related Copy/Paste routine. Their data are stored separately from each other and does not interact (well, it actually does, but about this later :P). This means, that if you coied an entire Units Editor entry, you can't e.g. 'Paste' only one tab of it. It goes the other way as well - copying a tab doesn't alter, in ANY way, the data copied using the 'Copy entry' ability.
+
+Definitely an advantage of the above is the ability to store two different sets of properties, one being an entire DAT-entry, and the other being a set of subtabs of different other entries.
+However, to give you even more power, DatEdit 0.94 introduces one more ability: "Paste Mixed".
+As the name suggests, this option allows you to mix the entry-oriented copying with its tab-oriented brother. What does it do? Well, it allows you to paste an entire DAT entry being a combination of the last DAT entry that you 'Copy Entry'-ed, with whatever subtabs you 'Copy Tab'-ed afterwards. Pretty neat,huh?
+This way you can easily construct units being hybrids of different properties from different other units in one (maybe not-so) easy step.
+
+-Options
+Starting from now, DatEdit grants you a (small but always) level of custom-set options. Just click on the appropriate item under the "Options" menu to toggle a particular property. These include:
+-Confirm On Exit (toggles whether to display the 'Are you sure' dialog on program termination)
+-Use Back-Reporting (toggles the use of the "Used By" box)
+-Show Unit Size Preview (toggles the display of the size preview under the Mov/Sound tab of Units Editor)
+-Start in Editor (You can select the editor you want to start with, instead of the default - Units Editor)
+-Clear File History (Clears out the history list-see below)
+-Reset Window (loads back the application window default size)
+-Custom TBLs (see below)
+
+
+-Config File
+Starting from this release (0.94), DatEdit uses an INI config file named DatEdit.ini (what a surprise :P) to store its options. These include everything from the "Options" box as well as the History List and the Editors' sorting styles.
+
+
+-History List (per public request)
+In the File Menu you'll find a "File History" menu, which can store up to 10 recently used DAT files. Clicking on them will take you right to the DAT file of your choice.
+If the number of items exceeds 10, the new items are added normally at the beginning, but at the same time the List is truncated by the last, oldest item. The History List is kept inside the config file and restored when the program launches.
+
+
+-TBL Target Hints
+Sound, Portrait, Campaign and Images Editors now has a new box, which displays the particular string from the TBL file which is their main property (Images - "images.tbl", Campaign - "mapdata.tbl" etc.). It is display-only for now, but if I get enough requests I may consider making it editable, so that you can input custom paths into to (:)) but can't really tell. The biggest use for this would be, to my mind, in the Images Editor, because you will directly see what GRP file should you be looking for, without needing to open up images.tbl and look up your particular entry inside.
+
+-Custom TBLs (per public request)
+DatEdit now gives you the chance to locate and load the TBLs of your own, to use inside the program. After you choose a new TBL file, all related Editors are updated, so that you can see the changes right away. There are 5 TBLs you can have fun with:
+-stat_txt.tbl: obviously, the most interesting TBL file
+-images.tbl: the one containing paths to GRP and LO files
+-portdata.tbl: this one contains the directories where resides various portraits
+-sfxdata.tbl: it stores the paths to sound files use in-game
+-mapdata.tbl: this one contains directories the original campaigns (SC and BW) are located in
+
+Although most probably it'll only be the first of these that this feature would ever be used for, support for all DAT-related TBLs are implemented, just in case (and for programming practice ;))
+
+-List Sorting Styles
+There are 4 different styles that can be used (some works only is certain Editors):
+1)Sort by Data - the current DAT properties are parsed through and according to them, a new treeview is dynamically generated.
+[Units, Upgrades and Techs Editors only]
+2)Sort by Origin - the list is sorted according to a specific, predefined mask. (Note: this mask IS NOT hardcoded! Check out the "default/Origins.ini" file)
+[Units, Weapons, Upgrades and Techs Editors only]
+3)Sort By ID - the list is a simple listing of the entries (just like it was until now)
+
+
+
+#####DATEDIT 0.93#####
+
+Hello everyone,
+A new build of DatEdit is ready for all of you interested, being a yet another step that brings us forwards to the magic "v1.0" release that will -hopefully- happen quite soon. :)
+
+This one, of course, fixes the reported errors and bugs, but I've also put in a few new toys for you to play with 8)
+
+Fixed/Changed in DatEdit 0.93:
+-Resizing problems (check it out now)
+-Sprites.dat corruption (1 additional byte removed)
+-Saving error (loading of an unsupported name)
+-displaying error (lack of display update in certain situations)
+
+New in DatEdit 0.93:
+-Directory Loading (per Lord Agamemmnon request :))
+The program will load to the editor any DATs located in the selected directory. It may be 1, it may be 5, it may be all 11 of'em - the program will load any existing files.
+
+-MPQ Exporting/Multiple DAT Exporting
+Instead of selecting a DAT in the "Save As" dialog, select an MPQ archive and the current DAT file will be exported right into it (Overwriting the existing file, mind you!). You can also type in a name with the ".mpq" extension and a new MPQ archive will be created with your DAT inside.
+
+You can also export multiple DAT files at once, using the "Multiple DAT Export" ability. Note: The program WILL NOT save your changes before exporting. You have to do this yourself prior to performing the MPQ export.
+
+Importing from MPQ archives is not yet available.
+
+-Backward reporting
+In certain editors you'll see in the right-hand bottom corner a new area entitled "Used By". As you may guess it, it displays the entries from other DAT files which reference to the currently selected entry. In other words, it works the opposite way the Jump buttons do - it takes you back to whatever DAT entry which uses the entry you're currently viewing.
+For example, for the images.dat entry #5 (Broodling) it says:
+"(S133) Broodling"
+Which you should read:"Sprites.dat entry #133, named 'Broodling'"
+The capital letter indicates the DAT file:
+S-sprites.dat,
+F-flingy.dat,
+W-weapons.dat
+and U-units.dat.
+
+-Copy/Paste entry (finally!)
+No need to explain anything here, I presume. It worked all nice'n'fine for me, so I think there is no bug in this routine (which makes me happy because I spent a whole day coding this =)
+
+-Doodad Information Box
+Added in case someone may wonder about those strange numbers before the tilesets in sprites.dat and images.dat.
+
+
+#####DATEDIT 0.92#####
+-undocumented update
+
+#####DATEDIT 0.91#####
+-initial public release
+
+#####DATEDIT RC2.1#####
+-unreleased closed testing build
+
+#####DATEDIT RC2.0#####
+-unreleased closed testing build
+
+#####DATEDIT RC1.2#####
+-unreleased closed testing build
+
+#####DATEDIT RC1.0#####
+-unreleased closed testing build

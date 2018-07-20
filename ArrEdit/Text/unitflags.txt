@@ -1,0 +1,32 @@
+Building
+Addon
+Flyer
+Worker
+Subunit
+Flying Building
+Hero
+Regenerates HP
+Animated Idle
+Cloakable
+2 Units in 1 Egg
+Neutral Accessories
+Resource Depot
+Contains Gas
+Robotic Unit
+Detector
+Organic Unit
+Creep Building
+Unused
+Requires Psi
+Burrowable
+Spellcaster
+Permanent Cloak
+NPC / accessories
+Morph from other unit
+Large Unit ???
+Huge Unit ???
+Auto attack and move
+Attack
+Invincible
+Mechanical
+Produces Units

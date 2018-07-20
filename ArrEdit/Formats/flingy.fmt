@@ -1,0 +1,48 @@
+[Info]
+Name=Flingy
+
+[Formats->Flingy]
+Vars=07
+0000=Sprite
+0001=Speed
+0002=Turn Style
+0003=Acceleration
+0004=Turn Radius
+0005=Unknown
+0006=Move Control
+
+[Formats->Flingy->Sprite]
+Type=Word
+Size=D1
+Control=Text
+
+[Formats->Flingy->Speed]
+Type=DWord
+Size=D1
+Control=Text
+
+[Formats->Flingy->Turn Style]
+Type=Word
+Size=D1
+Control=Text
+
+[Formats->Flingy->Acceleration]
+Type=DWord
+Size=D1
+Control=Text
+
+[Formats->Flingy->Turn Radius]
+Type=Byte
+Size=D1
+Control=Text
+
+[Formats->Flingy->Unknown]
+Type=Byte
+Size=D1
+Control=Text
+
+[Formats->Flingy->Move Control]
+Type=Byte
+Size=D1
+Control=List
+ListFile=MoveControl

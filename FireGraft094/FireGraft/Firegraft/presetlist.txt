@@ -1,0 +1,9 @@
+Building
+Normal Unit
+Unit w/ Subunits
+Transport
+Transport w/ Supply
+Powerup
+Morph Unit
+Merge Unit
+Unselectable

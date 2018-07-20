@@ -1,0 +1,98 @@
+[Info]
+Name=Images
+
+[Formats->Images]
+Vars=0E
+0000=File
+0001=Gfx Turns
+0002=Shadow Turns
+0003=Unknown
+0004=Floats
+0005=Palette Type
+0006=Palette
+0007=IScript ID
+0008=Sheild Overlay
+0009=Overlay 2
+000A=Overlay 3
+000B=Overlay 4
+000C=Overlay 5
+000D=Overlay 6
+
+[Formats->Images->File]
+Type=DWord
+Size=3E7
+Control=List
+ListFile=ImageFiles
+
+[Formats->Images->Gfx Turns]
+Type=Byte
+Size=3E7
+Control=CheckBox
+
+[Formats->Images->Shadow Turns]
+Type=Byte
+Size=3E7
+Control=CheckBox
+
+[Formats->Images->Unknown]
+Type=Byte
+Size=3E7
+Control=CheckBox
+
+[Formats->Images->Floats]
+Type=Byte
+Size=3E7
+Control=CheckBox
+
+[Formats->Images->Palette Type]
+Type=Byte
+Size=3E7
+Control=List
+ListFile=PaletteTypes
+
+[Formats->Images->Palette]
+Type=Byte
+Size=3E7
+Control=List
+ListFile=Palettes
+
+[Formats->Images->IScript ID]
+Type=DWord
+Size=3E7
+Control=Text
+
+[Formats->Images->Sheild O.L.]
+Type=DWord
+Size=3E7
+Control=List
+ListFile=ImageFiles
+
+[Formats->Images->Overlay 2]
+Type=DWord
+Size=3E7
+Control=List
+ListFile=ImageFiles
+
+[Formats->Images->Overlay 3]
+Type=DWord
+Size=3E7
+Control=List
+ListFile=ImageFiles
+
+[Formats->Images->Overlay 4]
+Type=DWord
+Size=3E7
+Control=List
+ListFile=ImageFiles
+
+[Formats->Images->Overlay 5]
+Type=DWord
+Size=3E7
+Control=List
+ListFile=ImageFiles
+
+[Formats->Images->Overlay 6]
+Type=DWord
+Size=3E7
+Control=List
+ListFile=ImageFiles

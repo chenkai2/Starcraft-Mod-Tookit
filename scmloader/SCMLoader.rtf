@@ -1,0 +1,150 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fprq2 Arial;}{\f2\fmodern\fprq1\fcharset0 Courier New;}{\f3\fnil\fcharset0 Times New Roman;}{\f4\fnil\fcharset2 Symbol;}}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\b\f0\fs36 ShadowFlare SCMLoader\f1  v1.\f0 30\b0\f1\fs20\par
+\par
+\pard\li360\f0 This program allows almost all modified Starcraft data files to be loaded from Starcraft maps instead of just preloaded mpq archives.\f1\par
+\par
+\pard\ul\b\f0\fs24 Creating a map for use with this program\ulnone\b0\f1\fs20\par
+\pard\li360\f0 1) Create a Starcraft map.  You may want to add a note somewhere in the map that it needs SCMLoader for using all of the maps features and give my site address somewhere.\par
+\par
+2) Add modified Starcraft data files to your map with your favorite MPQ archiver.\par
+\par
+\pard\ul\b\fs24 Using SCMLoader\ulnone\b0\f1\fs20\par
+\pard\li360\f0 1) Run SCMLoader.exe\par
+\par
+2) When Starcraft is loaded, open your map containing the modified files to see the effects.\i\par
+\i0\par
+\pard\ul\b\fs24 Using the SCMLoader plugin with MPQDraft\ulnone\b0\f1\fs20\par
+\pard\li360\f0 1) Load MPQDraft, select Starcraft, and on the plugin screen add SCMLoader.qdp to the list and make sure it has a check by it, then click "Finish."\par
+\par
+2) When Starcraft is loaded, open your map containing the modified files to see the effects.\i\par
+\i0\par
+\i Note:  This plugin may also be used in the Campaign Editor, but to a lesser extent.  I recommend instead adding the modified files to a separate mpq archive and using MPQDraft to load that to use the modified data files while making your map.\par
+\i0\par
+\pard\ul\b\fs24 Creating all-in-one mod exe files\ulnone\b0\f1\fs20\par
+\pard\li360\f0 1) Add SCMLoader.qdp to your mod MPQ archive.\par
+\par
+2) Make a copy of SCMLoader.exe and give the copy an appropriate name.\par
+\par
+3) Use MPQ Embedder (available with WinMPQ or as a separate program) to open the copy of SCMLoader.exe that you made in step 2.\par
+\par
+4) Click the Add button and when prompted open up your mod MPQ archive to attach it to the exe.\par
+\par
+The exe file you have just packaged with your mod can be used to launch StarCraft with your modifications or load your mod into StarCraft when SCMLoader is already running.\par
+\par
+\pard\ul\b\fs24 Using SCMLoader for single-player campaign maps\ulnone\b0\f1\fs20\par
+\pard\li360\f0 1) Add your map uncompressed to your mod MPQ archive at the location for a campaign map.  For example, if the campaign map was campaign\\expprotoss\\protoss01\\staredit\\scenario.chk then add your map at campaign\\expprotoss\\protoss01.scx\par
+The file extension can be either scm or scx.  SCMLoader with check for either.\par
+\par
+2) Load your mod with SCModLoader or use a separate mod loader and use the SCMLoader plugin with it.  When playing that campaign map, SCMLoader will direct StarCraft to your included scm/scx file and load any mods that are included in it. (each campaign map can have its own set of modified files)\par
+\par
+\pard\ul\b\fs24 Using MPQ packs\ulnone\b0\f1\fs20\par
+\pard\li360\f0 1) Create an MPQ archive with modified data files for Starcraft.  In practice these should only be files which do not affect gameplay and that would not cause players to be dropped if some players do not have the MPQ pack.  Basically, any files that you want to be just optional.\par
+\par
+2) Create a list of the optional MPQ archives and add it to your Starcraft map as mpqpacks\\mpqlist.txt with an MPQ archiver.  Do not include any absolute paths in the list, they will not work; however, you may include any type of relative path that you wish to use.\par
+\par
+By default, the MPQ archives will be loaded with priority under the scm/scx, meaning that the scm/scx will be checked for the modified files first before the MPQ archive.  A plus sign "+" may be added to the beginning of the line to boost priority over the scm/scx.  For MPQ archives with the same type of priority, the one further down in the list will have higher priority.\par
+\par
+SCMLoader will by default look for the MPQ archives in the same folder as SCMLoader.  To have it look in the Starcraft folder instead, add a pipe character "|" to the beginning of the name.  To have it look in the same folder as the map, add an "at" symbol "@" to the beginning of the name.  To load the archive from any open archive, place a colon ":" before the MPQ path (useful for campaign maps with mods shared between only a portion of the maps).  Any of these go immediately after the plus sign "+" if it is being used.\par
+\par
+A sample mpqpacks\\mpqlist.txt file demonstrating several of the different ways that the MPQ list may be set up:\par
+\par
+\f2 |Stardat.mpq\par
+|Broodat.mpq\par
+|patch_rt.mpq\par
+My mpq1.mpq\par
+folder\\My mpq2.mpq\par
++@My mpq3.mpq\par
+@My mpq4.mpq\par
++My mpq5.mpq\par
+|My mpq6.mpq\par
+:mods\\My mpq7.mpq\i\f0\par
+\i0\par
+For this example, if Starcraft was installed to "C:\\Starcraft" and SCMLoader was extracted to "C:\\SCMLoader" and SCMLoader was loaded through MPQDraft along with an mpq archive named "mpqdraft patch.mpq" and a map named "My map.scm" is loaded from "C:\\Starcraft\\maps" , when Starcraft requests a file from an MPQ archive, they will be checked in this order and will have these paths (where full paths are shown):\par
+\par
+\f2 C:\\SCMLoader\\My mpq5.mpq\par
+C:\\Starcraft\\maps\\My mpq3.mpq\par
+C:\\Starcraft\\maps\\My map.scm\par
+mods\\My mpq7.mpq (opened from another open MPQ)\par
+C:\\Starcraft\\My mpq6.mpq\par
+C:\\Starcraft\\maps\\My mpq4.mpq\par
+C:\\SCMLoader\\folder\\My mpq2.mpq\par
+C:\\SCMLoader\\My mpq1.mpq\par
+C:\\Starcraft\\patch_rt.mpq\par
+C:\\Starcraft\\Broodat.mpq\par
+C:\\Starcraft\\Stardat.mpq\par
+mpqdraft patch.mpq\par
+C:\\Starcraft\\patch_rt.mpq\par
+C:\\Starcraft\\Broodat.mpq\par
+C:\\Starcraft\\Stardat.mpq\par
+(CD drive letter):\\Install.exe\f0\par
+\par
+Notice that the last archive with a "+" by it was the first checked, then the next one above it with a plus.  After that is the map, then all of the archives in the list without a "+ by them in order from last to first.  After that are any archives loaded by MPQDraft, then the four archives that are always loaded by Starcraft Brood War.  By adding those first three lines to the MPQ list, you can make it so that only your own modified files get used with your map when it is being used with SCMLoader.\par
+\pard\f1\par
+\ul\b\fs24 Version history\ulnone\b0\fs20\par
+\par
+\ul\b 1.\f0 30.3\f1 __________\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent720{\pntxtb\'B7}}\fi-720\li720\ulnone\b0\f0 Added support for MPQDraft plugins.  No launcher is available yet for picking plugins, but there is a way to use it for a certain plugin that exists.  See the news on my site for more information.\f1\par
+\f0{\pntext\f4\'B7\tab}Added a FireGraft version data file for StarCraft 1.10.\f1\par
+\pard\par
+\ul\b 1.\f0 30.2\f1 __________\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent720{\pntxtb\'B7}}\fi-720\li720\ulnone\b0\f0 Fixed a bug that caused SCMLoader.qdp to get stuck at startup if used as a plugin to another launcher (like MPQDraft).\f1\par
+\pard\par
+\ul\b 1.\f0 30\f1 __________\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent720{\pntxtb\'B7}}\fi-720\li720\ulnone\b0\f0 Added custom loading screens that are shown when reloading graphics.  The images are in an MPQ archive embedded in SCMLoader.qdp.\f1\par
+\f0{\pntext\f4\'B7\tab}Added support for running under Wine.\f1\par
+\f0{\pntext\f4\'B7\tab}Added FireGraft patch support.  Version data files are in an MPQ archive embedded in SCMLoader.qdp.\f1\par
+\f0{\pntext\f4\'B7\tab}Added support for StarCraft 1.15.0, 1.15.1, and 1.16.1.\f1\par
+\f0{\pntext\f4\'B7\tab}rez\\network.tbl is now patchable.\f1\par
+\f0{\pntext\f4\'B7\tab}Added SCModLoader.  This can launch StarCraft to play a mod or load/unload a mod while SCMLoader is already running.\f1\par
+\f0{\pntext\f4\'B7\tab}All-in-one exe mod packages can be created that use SCMLoader.  Add SCMLoader.qdp to your mod and attach your mod mpq to a copy of SCMLoader.exe using MPQ Embedder.\f1\par
+\f0{\pntext\f4\'B7\tab}SCMLoader for single player campaigns.  Add your scm or scx map uncompressed to your mod mpq at the campaign map location, removing staredit\\scenario.chk from the name and adding .scm or .scx to the end. (for example, campaign\\expprotoss\\protoss01.scx)\f1\par
+\f0{\pntext\f4\'B7\tab}SCMLoader.exe and SCModLoader.exe accept a command-line parameter to load an mpq archive.  One way to use this is to drag and drop an mpq onto the program file.\f1\par
+\f0{\pntext\f4\'B7\tab}mpqpacks\\mpqlist.txt can accept a colon ":" at the beginning of a file name to load an mpq from another mpq (mpq must be added uncompressed into the other mpq).  Useful for campaign maps that share the same mod when not all of them use that mod.\f1\par
+\f0{\pntext\f4\'B7\tab}Updates to some patching code to make it more compatible with other plugin loaders.\f1\par
+\f0{\pntext\f4\'B7\tab}Version-specific offsets and data are no longer hardcoded.  They are now stored in a file called scmloader\\versiondata.ini in an MPQ archive embedded in SCMLoader.qdp.\f1\par
+\pard\ul\b\par
+1.\f0 21\f1 __________\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent720{\pntxtb\'B7}}\fi-720\li720\ulnone\b0\f0 In-game cursors are now patchable.\f1\par
+\f0{\pntext\f4\'B7\tab}Previous SCMLoader versions performed a little more extensive patches to Starcraft.exe and Storm.dll in memory; these have been reduced to the minimum required, so that SCMLoader will be compatible with Battle.net's updated version checking.  None of the existing functionality should be reduced by this change.\f1\par
+\f0{\pntext\f4\'B7\tab}Fixed a bug that would cause the self-patcher for SCMLoader to crash on some systems if not placed in the same folder as Starcraft.exe\f1\par
+\pard\ul\b\par
+1.\f0 2\f1 0\f0 .4\f1 __________\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent720{\pntxtb\'B7}}\fi-720\li720\ulnone\b0\f0 Fixed a bug that would potentially cause the update checker to not notify of some updates.  This would cause the notification of a 1.21 update to never show up, for example.\f1\par
+\pard\par
+\ul\b 1.\f0 2\f1 0\f0 .3\f1 __________\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent720{\pntxtb\'B7}}\fi-720\li720\ulnone\b0\f0 Checks whether Starcraft is already running or not and will give a message saying to close Starcraft before running SCMLoader.\par
+{\pntext\f4\'B7\tab}Added an option for suppressing update notifications until the next new version.  This is for those who do not want to download every little update that does not add any real functionality or fix bugs but still want to at least know when new versions are available.\f1\par
+\pard\par
+\ul\b 1.\f0 2\f1 0\f0 .2\f1 __________\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent720{\pntxtb\'B7}}\fi-720\li720\ulnone\b0\f0 Minor bug fix for Windows 9x.\f1\par
+\pard\par
+\ul\b 1.\f0 2\f1 0__________\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent720{\pntxtb\'B7}}\fi-720\li720\ulnone\b0\f0 Added support for Brood War 1.07, 1.10, 1.11b, and 1.12b.\f1\par
+\f0{\pntext\f4\'B7\tab}Checks for modified files related to graphics before forcing Starcraft to reload them; significantly reduces the load time of maps not containing modified graphics.\f1\par
+\f0{\pntext\f4\'B7\tab}A list of additional MPQ archives to load along with the scm/scx map may now be included.  For example, this may be used to have optional graphics/sound/music packs which contain files that are not critical to actual gameplay.\f1\par
+\f0{\pntext\f4\'B7\tab}New executable for self-patcher which does not use MPQDraft and has its own new SCMLoader icon.\f1\par
+\f0{\pntext\f4\'B7\tab}Automatically checks for updates and notifies when a new version is available. (can be disabled)\f1\par
+\f0{\pntext\f4\'B7\tab}New configuration program which can change the update notification setting and will later have other options to configure.\f1\par
+\f0{\pntext\f4\'B7\tab}Now works properly with Data Execution Prevention in Windows XP SP2 and other Windows versions which use it.\f1\par
+\f0{\pntext\f4\'B7\tab}Fixed a crashing bug related to including a music\\playlist.txt file in the plain list format.\f1\par
+\f0{\pntext\f4\'B7\tab}Fixed a crash that would occur when exiting Starcraft while running SCMLoader on Windows 9x.\f1\par
+\pard\par
+\ul\b 1.\f0 1\f1 0__________\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent720{\pntxtb\'B7}}\fi-720\li720\ulnone\b0\f0 Almost all data files used during gameplay are now patchable.\f1\par
+\f0{\pntext\f4\'B7\tab}Updated support for Brood War 1.14 (and still supports 1.13f)\f1\par
+\f0{\pntext\f4\'B7\tab}Added Starcraft version detection to prevent crashing on an unsupported version.\f1\par
+\f0{\pntext\f4\'B7\tab}New "Use Map Settings (SCMLoader)" game type to help with finding games with SCMLoader-enabled maps.\f1\par
+\f0{\pntext\f4\'B7\tab}When playing maps that aren't from scm/scx files (the campaign), the proper data files will be used, not just the ones from the last scm/scx map played.\f1\par
+\pard\ul\b\par
+1.00__________\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent720{\pntxtb\'B7}}\fi-720\li720\ulnone\b0 Initial release.\par
+\pard\par
+\ul\b\fs24 Bug Reports\ulnone\b0\fs20\par
+\par
+\pard\li360 If you find a bug, please send me an e-mail with a description of the error and step-by-step instuctions on how you made it happen.\par
+\pard\par
+-ShadowFlare\par
+\pard\li360 email:\tab blakflare@hotmail.com\par
+web page:\tab http://s\f0 fsrealm.hopto.org\f1 /\f3\par
+}
+ 

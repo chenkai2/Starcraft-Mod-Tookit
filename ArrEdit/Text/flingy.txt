@@ -1,0 +1,209 @@
+Zerg Scourge
+Zerg Broodling
+Zerg Infested Terran
+Zerg Cocoon
+Zerg Defiler
+Zerg Drone
+Zerg Egg
+Zerg Guardian
+Zerg Hydralisk
+Infested Kerrigan
+Zerg Larva
+Zerg Mutalisk
+Zerg Overlord
+Zerg Queen
+Zerg Ultralisk
+Zerg Zergling 
+Zerg Cerebrate
+Infested Command Center
+Zerg Spawning Pool
+Zerg Mature Chysalis
+Zerg Evolution Chamber
+Zerg Creep Colony
+Zerg Hatchery
+Zerg Hive
+Zerg Lair
+Zerg Sunken Colony
+Zerg Greater Spire
+Zerg Defiler Mound 
+Zerg Queen's Nest 
+Zerg Nydus Canal
+Zerg Overmind w/shell 
+Zerg Overmind w/out shell
+Zerg Ultralisk Cavern
+Zerg Extractor 
+Zerg Hydralisk Den
+Zerg Spire 
+Zerg Spore Colony 
+Protoss Arbiter
+Protoss Archon
+Protoss Carrier
+Protoss Dragoon
+Protoss Interceptor
+Protoss Probe
+Protoss Scout
+Protoss Shuttle
+Protoss High Templar
+Protoss Dark Templar (Hero)
+Protoss Reaver 
+Protoss Scarab
+Protoss Zealot
+Protoss Observer
+Protoss Templar Archives
+Protoss Assimilator
+Protoss Observatory 
+Protoss Citadel of Adun
+Protoss Forge
+Protoss Gateway
+Protoss Cybernetics Core
+Khaydarin Crystal Formation
+Protoss Nexus
+Protoss Photon Cannon
+Protoss Arbiter Tribunal
+Protoss Pylon
+Protoss Robotics Facility
+Protoss Shield Battery
+Protoss Stargate
+Stasis Cell/Prison
+Protoss Robotics Support Bay
+Protoss Temple
+Protoss Fleet Beacon
+Terran Battlecruiser
+Terran Civilian
+Terran Dropship
+Terran Firebat
+Terran Ghost
+Terran Goliath Base
+Terran Goliath Turret
+Kerrigan (Ghost)
+Terran Marine
+Scanner Sweep
+Terran Wraith
+Terran SCV
+Terran Siege Tank (Tank) Base
+Terran Siege Tank (Tank) Turret
+Terran Siege Tank (Siege) Base
+Terran Siege Tank (Siege) Turret
+Terran Science Vessel
+Terran Science Vessel Turret
+Terran Vulture
+Terran Spider Mine
+Terran Academy
+Terran Barracks
+Terran Armory
+Terran Comsat Station
+Terran Command Center
+Terran Supply Depot
+Terran Control Tower
+Terran Factory
+Terran Covert Ops
+Ion Cannon
+Terran Machine Shop
+Terran Missle Turret (Base)
+Crashed Norad II
+Terran Physics Lab
+Terran Bunker
+Terran Refinery
+Terran Barracks
+Terran Science Facility
+Terran Nuke Silo
+Nuclear Missile
+Terran Starport
+Terran Engineering Bay
+Terran Building Construction Site
+Terran Addon Construction Site
+Ragnasaur
+Rhynadon
+Benglaas
+Vespene Geyser
+Mineral Deposit 1
+Mineral Deposit 2
+Mineral Deposit 3
+Protoss Scout (Unused)
+Zerg Flag Beacon
+Terran Flag Beacon
+Protoss Flag Beacon
+Dark Swarm
+Flag
+Young Chrysalis
+Psi Emmiter
+Data Disc
+Khadarin Crystal
+Mineral Chunk Type 1
+Mineral Chunk Type 2
+Protoss Gas Orb Type 1
+Protoss Gas Orb Type 2
+Zerg Gas Sac Type 1
+Zerg Gas Sac Type 2
+Terran Gas Tank Type 1
+Terran Gas Tank Type 2
+Map Revealer
+Start Location
+Fusion Cutter
+Gauss Rifle
+C-10 Canister Rifle
+Longbolt Missiles
+Fragmentation Grenade
+Gemini Missiles
+147
+ATS/ATA Laser Battery
+Burst Lasers
+Arclite Shock Cannon
+EMP Shockwave
+Dual Photon Blasters
+Particle Beam
+Anti-Matter Missiles
+Psi Blades
+Psionic Shockwave
+Lockdown
+Yamato Gun
+Phase Disruptor
+Phase Disruptor
+Tentacle
+Glave Wurm
+Acid Spore
+Suicide
+Glave Wurm
+Seeker Spores
+Broodling
+Plague
+Consume
+Ensnare
+Needle Spines
+No Graphics
+Floor Left Door
+Floor Right Door
+Substructure Left Door
+Substructure Right Door
+Substructure Closed Hole
+Substructure Open Hole
+Floor Gun - Closed
+Floor Missile - Closed
+181
+182
+183
+Zerg Lurker Egg
+Zerg Devourer
+Zerg Lurker
+Protoss Dark Archon
+Protoss Dark Templar
+Terran Medic
+Terran Valkyrie
+Protoss Corsair
+Disruption Web
+Zerg Overmind Cocoon
+Psi Disruptor
+Warp Gate
+Power Generator
+Xel'Naga Temple
+Scantid
+Kakaru
+Ursadon
+Optical Flare
+Halo Rockets
+Maelstrom
+Corrosive Acid
+Unknown
+Neutron Flare
+Uraj Crystal
+Khalis Crystal

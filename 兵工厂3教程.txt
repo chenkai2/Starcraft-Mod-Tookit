@@ -1,0 +1,211 @@
+Arsenal III是一个综合的星际争霸修改工具。它可以直接修改星际争霸的Dat文件，并将它们保存成可制作MPQ的格式。 
+进入Arsenal III（当然你要先安装），首先你会看到右面列出了修改工具列表。它们分别是： 
+·Unit Editor 单位修改 
+·Weapon Editor 武器修改 
+·Technology Editor 科技修改 
+·Upgrade Editor 升级修改 
+·Order Editor 单位指令修改 
+·Campaign Editor 战役修改 
+·Flingy Editor 移动修改 
+·Image Editor 图片修改 
+·Portrait Editor 单位头像修改 
+·Sound Editor 声音修改 
+·Sprite Editor 效果修改 
+·Tileset Editor 地形修改 
+这其中，我们将经常用到的主要是前三项。 
+打开其中的一项（以单位修改为例），将弹出一个窗口。窗口左边是一个列表，分类列出了星际争霸中的各种单位。选择一种单位，右面的窗口给出了这种单位的相关数据。这里我选择重要的给大家翻译： 
+Vital Statistics： 
+·Hit Points 即单位HP 
+·Shields 神族的离子护盾，右面的选择框标明该单位是否拥有护盾 
+·Armor 单位的默认护甲 
+
+Build： 
+·Time 单位的建造时间 
+·Minerals 消耗水晶矿 
+·Gas 消耗气矿 
+
+Weapons： 
+·Ground 地面武器（这里最好不要选不符合该单位的武器，如农民不要选离子光刀，否则会无法攻击；也不要选魔法攻击，除非在此同时修改了Weapon属性和Technology属性） 
+·Max Hit 地面连击数（如Zealot就属于2连击） 
+·Air 空中武器，注意事项同地面武器 
+·Max Hit 同上一个Max Hit，不过是空中的 
+
+Food： 
+·Required 消耗人口 
+·Provided 提供人口 
+
+Score： 
+·Produce 建造一个这种单位的得分加成 
+·Destroy 杀死敌方这种单位的得分加成 
+
+第二页Advance主要是这个单位的特殊标记。注意，不要给士兵选择建筑的属性或相反，否则会跳出 
+·Building 建筑 
+·Addon 附加建筑 
+·Flyer 飞行（在Flingy Editor中设定飞行的属性） 
+·Worker 农民 
+·Subunit 子单位（正常单位不要选） 
+·Flying Building 可飞行的建筑 
+·Hero 英雄 
+·Regenerates HP 自动回血 
+·Animated Idle 静止时有动画（除非修改了Sprite否则不要乱选） 
+·Cloakable 可能隐形（不给出按钮） 
+·2 Units in 1 Egg 1个蛋里出2个单位（不是虫族单位不要选） 
+·Neutral Accessories 中立物品（即战役中的虫族幼卵等，不要选） 
+·Resource Depot 矿厂 
+·Contains Gas 含气矿 
+·Robotic Unit 机械单位 
+·Detector 反隐形 
+·Organic Unit 肉体单位 
+·Creep Building 需要虫族粘液地毯的建筑 
+·Unused 二话不说，坚定信心，打死不要选它 
+·Requires Psi 需要神族水晶支持的建筑 
+·Burrowable 可钻地的单位（不给出按钮） 
+·Spellcaster 魔法释放单位 
+·Permanent Cloak 永远隐形 
+·NPC/accessories 没用的选项，无视之 
+·Morph from other unit 从其他单位变异（潜伏者、守护者、吞噬者） 
+·Large Unit ??? 连作者都不明白什么意思，咱们还是不要选了 
+·Huge Unit ??? 同上 
+·Auto Attack and move 自动攻击 
+·Attack 攻击（这个……说实在的我也不懂） 
+·Invincble 无敌（还是不要选了） 
+·Mechanical 混合单位（就是既能被特工锁定又能被女王产卵的单位，如SCV、坦克、雷车） 
+·Produces Units 生产单位 
+
+第三页 Miscellaneous 
+这一页是单位属性页。比较有用的有：Subunit Range是子单位范围（子单位这个概念在以下示例中会给出）；Armor Upgrade是何种升级对此单位有效；Brood War Only标记这是否是母巢之战专用；Movement Flags是该单位可以通过的，Ground陆地，Air天空，Creep粘液地毯 
+
+后三页：全部无视。英语好的朋友有兴趣的可以弄弄，反正没什么用 
+
+示例1：我的第一个星际MOD 
+有的朋友可能会奇怪，为什么我不写Weapon Editor，先写这个示例呢？呵呵，想要自己制作星际争霸MOD的朋友肯定不在少数，我将先用这个示例告诉大家制作MOD的基本模式，大家举一反三，后面的课程理解起来就不难了
+
+这个示例，我将会给大家创造一个强大的SCV。 
+
+1、启动Arsenal III。进入Unit Editor，在Terran Unit里找到SCV。 
+2、在右面的单位属性里，把Hit Point改成1000。 
+3、选中Shield后面的选项框，在Shield后面的文本框里填入1000。 
+4、把下面Weapon栏里的Ground改成C-10 Canister Rifle。 
+5、File——Save，保存文件。默认目录为Arsenal III安装目录下的arr文件夹。更换成任意一个其他文件夹（这里一定要更换文件夹！不要保存到默认文件夹下），保存为units.dat（必须是units.dat，其他名字不可以）。 
+6、打开WinMPQ。执行File——New，新建一个MPQ，保存到一个文件夹（最好和units.dat保存到一起）。 
+7、在工具栏里选择Add，找到刚才保存的units.dat。 
+8、在弹出的窗口里输入arr\
+9、退出WinMPQ（WinMPQ是自动保存的，所以不用费心保存）。 
+10、进入MPQDraft。选择Load MPQ Patch，在弹出的向导里，首先在上面的框里选择Starcraft，然后下面的框里也选择Starcraft。按Next。 
+11、选择Browse for MPQ，找到刚才用WinMPQ制作的MPQ文件，按Next，按Finish。 
+12、进入星际争霸界面。选择人族进入游戏，看看你强大的SCV吧 
+以下为示例1效果图： 
+
+
+第二讲 
+相信第一讲的超级SCV大家一定是十分喜欢对于一部分单位来说，武器可以直接修改（但仅限少数武器），如第一讲中让SCV装备C-10 Canister Rifle（特工的武器），但是不仅修改面小，而且不能修改攻击力。我即将为大家介绍的Weapon Editor，就是这样一个满足大家修改要求的工具。 
+Weapon Editor位于Arsenal III主界面的第二项，进入后左面会分类列出所有的武器（也可以理解为攻击方法）。右面有4个选项卡，但后3个一般都是摆设，让我们华丽地将它无视。 
+第一个选项卡才是真正有用的，下面我为大家列举一下它们的翻译内容： 
+Display Properties 显示设置 
+·Label 标签（就是你把鼠标放在星际争霸选中一个单位后下面出现属性的攻击方式图标上，弹出的提示里的内容） 
+·Icon 图标（顾名思义，就是下面单位属性攻击方式的图标） 
+Damage Properties 伤害设置 
+·Amount 伤害值（这个不用说了） 
+·Bonus 伤害增加值（不好意思的说，这个我也不大清楚） 
+·Factor 攻击次数（如Zealot就是2次） 
+·Cooldown 攻击间隔（小狗为8，狂狗为6，其他的就推算吧，不要改得太过分啊） 
+·Type 攻击方式（这个决定了攻击对于不同大小的单位造成的伤害，具体伤害系数因为和主题关系不大，不加赘述。有不明白的读者可以搜索一下） 
+·Spell 特技（这个决定了攻击者的动画） 
+·Explosion 溅射（Normal=不溅射；Radial Splash=扩散性溅射，坦克那种；Line Splash=线性溅射，其他的暂时就无视一下吧） 
+·Upgrade 升级（这个决定何种升级能提升这种武器的进攻） 
+Missle Properties 导弹属性 
+（注意：这个最好不要乱改，否则很可能导致跳出） 
+·Type 类型（如果不想发生跳出，这3种类型不要乱改） 
+·Behavior 行为（Appears on Target是直接出现在被攻击者身上；Flies to Target是直飞向目标，如果目标离开了，导弹不会去追他，但他一样受伤害；Seeks Target是追踪目标，什么时候追上什么时候罢休） 
+Graphical Properties 图形属性 
+这个暂时无视吧，很容易导致跳出的 
+Error Msg 错误信息 
+顾名思义，就是选择在攻击无效（比如对地攻击单位选择空中目标）时发出的错误信息。 
+Attack Ranges 攻击范围（找不到这个的，看右边哦） 
+·Min 最小攻击范围（一般都是0，像架起来的坦克就不是0了） 
+·Max 最大攻击范围（这个不用说了） 
+Splash Radii 溅射设定 
+多半不用改，无视 
+Attack Flags 攻击属性 
+下面一堆乱七八糟的全部无视，只看前两个，Air=对空，Ground=对地，应该很好理解吧 
+明白了这些，下面进入——激动人心的——自己动手做时刻！打开你的修改工具包，Follow Me！ 
+
+示例2：火箭坦克 
+1、打开Arsenal III，进入Unit Editor。 
+2、找到Terran Ground Unit里的Tank Turret（注意！如果有多个Tank Turret，请选择第一个，Tank Turret即坦克架上时的攻击子单位），将攻击方式改成Longbolt Missle。 
+3、选择Miscellaneous选项卡，找到Subunit Range，改成188。 
+4、保存在任意其他文件夹，文件名还是必须是units.dat 
+5、关闭Unit Editor，打开Weapon Editor。 
+6、在Other Weapon里找到Longbolt Missle，将Attack Range里的Max改成700。 
+7、在Damage Properties里将Damage改成5，将Cooldown改成3。 
+8、取消Attack Flags里的Air，选中Ground。 
+9、保存到任意其他文件夹（最好和units.dat同一文件夹），文件名必须是weapons.dat。 
+10、关闭Arsenal III。 
+11、用和示例1里一样的方法将两个文件导入新建MPQ里（什么？你还不会导入MPQ？赶快将示例1做一遍！），两个文件的前缀都输入arr\\。 
+12、用和示例1里一样的方法，用MPQDraft装载这个MPQ。 
+13、进入星际争霸，选择人族，造几个坦克，把它们架起来，让它们攻击，发现什么了？ 
+
+Ar3是最容易学的修改工具,可以修改单位,武器,升级,科技等等.
+Ar3要配合Mpqworkshop(mpq文件解压工具)一起使用.
+
+用StarGraft可以修改单位的按钮,比如让建筑可以造英雄单位.
+StarGraft要配合Memgraft(bat文件打包工具)一起使用.
+
+Ice用于修改单位的动作,也要配合Mpqworkshop一起使用.
+
+让MOD做出最强的兵。。。
+这个教程让人觉得很爽的，因为用这个教程，可以弄出非机械单位被锁，机械单位被E，
+天空单位被B，甚至地面单位被简慢攻击速度。
+打开A3！！！！
+按顺序：
+Unit Editor
+Terran Units
+Ground Units
+Terran Ghost
+找到
+Weapons
+Ground和Air,点一下那个下拉框，知道了这个武器是C-10 Canister ...是上面有一个Gurss
+下面又一个C-10 Canister...，关闭。
+
+退主界面，顺序。。。
+Weapon Editor
+Terran Weapons
+找到刚刚的东东（不用定位方法也可以，可以看攻击，例如普通鬼子攻击是10）
+点啊！！！
+改咯。。。跟我设置！
+Label:Lockdown
+Icon:Irradiate
+Amount:0
+Bounds:0
+Factor:1
+Cooldown:22
+Type:Explosive
+Spell:Lockdown
+Explosion:Lockdown
+下面
+Sprite:Seeker Spores
+改完了。。。保存，名为weapons.dat，存在任何一个文件夹下
+
+打开：
+Unit Editor
+Terran Units
+Ground Units
+Terran Ghost
+继续：
+Hit points:50
+Shidels point:75
+旁边打钩。
+保存，名为units.dat，存在任何一个文件夹下。
+
+把东西弄到MPQ里面，打包，放到arr\\里面！。开SC。
+找一个有鬼子的地图耍。
+霜啊。。。
+  
+  
+  
+  
+picture04.gif (147 KB, 下载次数: 0)
+下载附件  保存到相册
+2013-8-24 00:00 上传
+好咯。。。自己看看吧，Lockdown就是附加武器的—　—
+by zhangyuong...

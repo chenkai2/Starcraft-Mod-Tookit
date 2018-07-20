@@ -1,0 +1,13 @@
+[Info]
+Name=Campaigns
+
+[Formats->Campaigns]
+Vars=01
+0000=File
+
+[Formats->Campaigns->File]
+Type=DWord
+Size=41
+Control=List
+ListFile=CampFiles
+None=Start

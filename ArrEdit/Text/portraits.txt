@@ -1,0 +1,111 @@
+Terran Marine
+Terran Ghost
+Terran Firebat
+Terran Vulture
+Spider Mine
+Terran Goliath
+Terran Seige Tank
+Terran SCV
+Terran Wraith
+Terran Science Vessel
+Terran Dropship
+Terran Battlecruiser
+Sarah Kerrigan
+Jim Raynor 
+Edmund Duke
+Terran Civilian
+Arcturus Mengsk
+Terran Advisor
+Zerg Larva
+Zerg Egg
+Zerg Zergling
+Zerg Hydralisk
+Zerg Ultralisk
+Zerg Broodling
+Zerg Drone
+Zerg Overlord
+Zerg Mutalisk
+Zerg Guardian
+Zerg Queen
+Zerg Defiler
+Zerg Scourge
+Zerg Cocoon
+Zerg Chrysalis
+Infested Terran
+Zasz
+Daggoth
+Infested Kerrigan
+Hunter Killer
+Overmind
+Protoss Probe
+Protoss Zealot
+Protoss Dragoon
+Protoss Templar
+Protoss Archon
+Protoss Shuttle
+Protoss Scout
+Protoss Arbiter
+Protoss Carrier
+Protoss Interceptor
+Protoss Dark Templar
+Fenix (Zealot)
+Fenix (Dragoon)
+Zeratul
+Tassadar
+Gantrithor
+Protoss Observer
+Protoss Reaver
+Protoss Scarab
+Khaydarin Crystal Formation
+Aldaris
+Protoss Advisor
+Merc Biker
+Rhynadon (Badlands Critter)
+Bengalaas (Jungle Critter)
+Ragnasaur (Ashworld Critter)
+Cargo Ship
+Merc Gunship
+Raider
+Grom Biker
+Space Critter
+Sally
+Greedo
+Boskk
+Peter
+Independant Advisor
+Terran Gas Tank
+Protoss Gas Orb
+Zerg Gas Sac
+Mineral Cluster
+Data Disc
+Psi Emitter
+Khaydarin Crystal
+Flag (Red)
+Flag (Blue)
+Flag (Teal)
+Flag (Purple)
+Flag (Orange)
+Flag (Brown)
+Flag (White)
+Flag (Yellow)
+Medic
+Valkyrie
+Dugalle
+Stukov
+Duran
+Artanis
+Raszagal
+Devourer
+Lurker
+Dark Archon
+Corsair
+Scantid
+Kakaru
+Ursadon
+Uraj Crystal
+Khalis Crystal
+Flag (Green)
+Flag (Bright Yellow)
+Flag (Tan)
+Flag (Blue)
+None

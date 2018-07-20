@@ -1,0 +1,11 @@
+[Setting]
+FileNumber=2
+FilePath=nofood\
+MPQName=Patch_rt.mpq
+Description=星际人口无限版:以前被托完成/制作版权及打包:zhmwwl
+
+[MPQFile]
+Path1=arr\
+File1=units.dat
+Path2=rez\
+File2=titledlg.bin

@@ -1,0 +1,8 @@
+使用教程范例:
+[MPQSetup]
+//这块区域只适用于MPQLoader.ini,完成自动安装效果
+//图片将调用MPQLoader\MPQSetup.jpg,文本调用MPQLoader\MPQSetup.txt
+MODSetup=0
+//是否启用星际MOD安装模式,范围0~1
+MODName=星际人口无限
+//星际MOD安装模式下MOD名

@@ -1,0 +1,189 @@
+Die
+Stop
+Guard
+Player Guard
+Turret Guard
+Bunker Guard
+Ignore
+Reaver Stop
+Attack
+Attack
+Attack Unit
+Attack Fixed Range
+Attack Tile
+Hover
+Attack Move
+Infest Mine
+Nothing
+Powerup
+Tower
+Tower
+Vulture Mine
+Stay In Range
+Turret Attack
+Nothing
+Nothing
+Drone Start Build
+Drone Build
+Infest Mine
+Infest Mine
+Infest Mine
+Build
+Build
+Build
+Build
+Repair
+Repair
+Place Add-On
+Build Add-On
+Train
+Rally Point
+Rally Point
+Zerg Birth
+Morph
+Morph
+Build Self
+Zerg Build Self
+Build
+Enter Nydus Canal
+Build Self
+Follow
+Carrier
+Carrier Ignore
+Carrier Stop
+Carrier Attack
+Carrier Attack
+Carrier Ignore
+Carrier Fight
+Hold Position
+Reaver
+Reaver Attack
+Reaver Attack
+Reaver Fight
+Reaver Hold
+Train Fighter
+Strafe Unit
+Strafe Unit
+Recharge Shields
+Recharge Shields
+Shield Battery
+Return
+Drone Land
+Building Land
+Building Lift Off
+Drone Lift Off
+Lift Off
+Research Tech
+Upgrade
+Larva
+Spawning Larva
+Harvest
+Harvest
+Harvest Gas
+Harvest Gas
+Harvest Gas
+Return Gas
+Harvest Minerals
+Harvest Minerals
+Harvest Minerals
+Harvest
+Harvest
+Return Minerals
+Harvest
+Enter Transport
+Pick Up
+Pick Up
+Pick Up
+Pick Up
+Powerup
+Siege Mode
+Tank Mode
+Watch Target
+Initing Creep Growth
+Spread Creep
+Stopping Creep Growth
+Guardian Aspect
+Warping Archon
+Completing Archon Summon
+Hold Position
+Hold Position
+Cloak
+Decloak
+Unload
+Move Unload
+Fire Yamato Gun
+Fire Yamato Gun
+Magna Pulse
+Burrow
+Burrowed
+Unburrow
+Dark Swarm
+Cast Parasite
+Summon Broodlings
+Emp Shockwave
+Nuke Wait
+Nuke Train
+Nuke Launch
+Nuke Paint
+Nuke Unit
+Nuke Ground
+Nuke Track
+Initializing Arbiter
+Cloaking Nearby Units
+Place Mine
+Right Click Action
+Sap Unit
+Sap Location
+Hold Position
+Teleport
+Teleport to Location
+Place Scanner
+Scanner
+Defensive Matrix
+Psionic Storm
+Irradiate
+Plague
+Consume
+Ensnare
+Stasis Field
+Hallucination
+Hallucination
+Reset Collision
+Reset Collision
+Patrol
+CTF COP Init
+CTF COP
+CTF COP
+Computer AI
+Atk Move EP
+Harass Move
+AI Patrol
+Guard Post
+Rescue Passive
+Neutral
+Computer Return
+Initing Psi Provider
+Self Destructing
+Critter
+Hidden Gun
+Open Door
+Close Door
+Hide Trap
+Reveal Trap
+Enable Doodad
+Disable Doodad
+Warp In
+Medic
+Medic Heal
+Heal Move
+Medic Hold Position
+Medic Heal
+Restoration
+Cast Disruption Web
+Cast Mind Control
+Warping Dark Archon
+Cast Feedback
+Cast Optical Flare
+Cast Shockwave
+Junk Yard Dog
+Fatal

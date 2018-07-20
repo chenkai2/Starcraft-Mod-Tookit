@@ -1,0 +1,12 @@
+[Setting]
+FileNumber=2
+FilePath=H-AI\
+MPQName=Patch_rt.mpq
+NextLst=人海.zhmlt
+Description=超级电脑+无限人口的组合打包/制作版权及打包:zhmwwl
+
+[MPQFile]
+Path1=scripts\
+File1=aiscript.bin
+Path2=rez\
+File2=titledlg.bin

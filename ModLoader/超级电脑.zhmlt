@@ -1,0 +1,11 @@
+[Setting]
+FileNumber=2
+FilePath=H-AI\
+MPQName=Patch_rt.mpq
+Description=星际超级电脑的RPG兼容版:从超级电脑AI增加了对大部分RPG地图的兼容/改进版权及打包:zhmwwl
+
+[MPQFile]
+Path1=scripts\
+File1=aiscript.bin
+Path2=rez\
+File2=titledlg.bin

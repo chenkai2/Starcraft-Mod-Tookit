@@ -1,0 +1,61 @@
+Terran Infantry Armor
+Terran Vehicle Plating
+Terran Ship Plating
+Zerg Caparace
+Zerg Flyer Carapace
+Protoss Armor
+Protoss Plating
+Terran Infantry Weapons
+Terran Vehicle Weapons
+Terran Ship Weapons
+Zerg Melee Attacks
+Zerg Missile Attacks
+Zerg Flyer Attacks
+Protoss Ground Weapons
+Protoss Air Weapons
+Protoss Plasma Shields
+U-238 Shells
+Ion Thrusters
+Burst Laser Upgrade
+Titan Reactor
+Ocular Implants
+Moebius Reactor
+Apollo Reactor
+Colossus Reactor
+Ventral Sacs
+Antennae
+Pneumatized Carapace
+Metabolic Boost
+Adrenal Glands
+Muscular Augments
+Grooved Spines
+Gamete Meiosis
+Metasynaptic Node
+Singularity Charge
+Leg Enhancements
+Scarab Damage
+Reaver Capacity
+Gravitic Drive
+Sensor Array
+Gravitic Boosters
+Khaydarin Amulet
+Apial Sensors
+Gravitic Thrusters
+Carrier Capacity
+Khyadarin Core
+Unused
+Unused
+Argus Jewel
+Unused
+Argus Talisman
+Unused
+Caduceus Reactor
+Chitinous Plating
+Anabolic Synthesis
+Charon Boosters
+Unused
+Unused
+Unused
+Unused
+Unused
+Unused

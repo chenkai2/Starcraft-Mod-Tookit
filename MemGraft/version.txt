@@ -1,0 +1,17 @@
+
+MGBeta_0.1.1b MG for 1.10
+MG_20Beta MG for 1.09B
+MemGraft MG for 1.11B
+MG112 MG for 1.12B
+Memgraft113e MG for 1.13E
+
+
+WinMPQ:
+(01) The *.exe file is the file that you load your changes with. It now expects to find the *.mgd file in civilian.mpq, under the name custom\mgpatch.mgd . 
+(02) In your StarCraft folder, you will find the file patch_rt.mpq. Make a copy of it, and name the copy civilian.mpq. Open this file in WinMPQ 
+(03) Now click add, and open the *.mgd file. A window will pop up asking in which folder to put it in. Write "custom\" (without the ", of course)
+(04) Unless the *.mgd file was called mgpatch.mgd, right-click on the file you just added, and select rename. Make sure that the name now is custom\mgpatch.mgd.
+(05) Close WinMPQ. All changes you do to the MPQ files are directly saved (in other words, be careful about deleting files - they're not comming back), thus the lack of those buttons in the menu.
+How to run:
+(01) Now that you've created the patch and put it into an MPQ, all you have to do is to run it. 
+(02) Make sure that the MPQ is in the StarCraft directory, and run the *.exe that MemGraft gave you (can be run from anywhere). You should now be able to train Civilians at the Supply Depot!

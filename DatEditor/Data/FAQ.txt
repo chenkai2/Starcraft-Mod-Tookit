@@ -1,0 +1,60 @@
+##########################################################
+All entries in this file MUST respect the following format: "Question#=","Answer#=".Questions can be separated from answers, they do not have to directly follow each other. No line breaks are allowed in the middle of the text, only as a separation between consecutive questions and answers, no "\n" symbols or anything like that will work. Sorry,but the content is read as a string, you have to live with it. Other than this, you can put pretty much anything inside, there are no restrictions to the length of the hints. Please keep in mind however that Datedit uses the "MS Sans Serif" font to display the Q&As, so you may encounter problems should you use some non-standard characters that may not appear in this font.
+##########################################################
+
+Question0=What DatEdit can and what can't it do? 
+Answer0=From its title, DatEdit is a Starcraft modding tool that allows you to modify game properties stored in the *.DAT files. Because of such scope of manipulation, DatEdit can change basic & advanced technology, upgrades and unit aspects, weapons, portraits, and to certain extent also the AI and unit orders. Although it does not alter the game graphics, it can edit various properties related to them, found mostly in the Flingy, Sprites and Images editors. Since DatEdit is about *.DAT files, it does not edit Starcraft harcoded data (use StarGraft/MemGraft/FireGraft for this), animation scripts (use ICE and IceCC), text properties (Use TBLPad) or extract game graphics (use SFGrpConv,RetroGRP or GRPEdit for this).
+
+Question1=How do I get my changes to Starcraft?
+Answer1=DatEdit offers you 2 options: you can export your modifications to a MPQ archive and then load them with a patching program, such as MPQDraft, or export them to a self-executable file directly, by selecting the "Self-executable StarCraft patch" option in the "File->Export files..." dialog. With the second option, the only thing to do is to double-click the created file.
+
+Question2=Is DatEdit Windows-specific?
+Answer2=Partially yes. Partially because it was reported to work properly under Linux while using Wine, it doesn't have a Mac port however. Feel free to make one yourself, the program's source is open.
+
+Question3=How can I change unit speeds?
+Answer3=There are two types of unit speeds - one for units that walk/drive, and another for units that hover/float/fly. To change units that use the first type (units like zergling, siege tank, reaver) you'll need to use either ICE or IceCC. DatEdit will only let you change speeds of units of the latter type (such as scout, overlord, vulture etc.); to do that, access Flingy editor and use the properties there.
+
+Question4=How can I change the damage/duration time of special abilities?
+Answer4=In some cases it is possible with DatEdit. Open the Weapons editor and look for entries named after specific abilities and try editing them. If this method doesn't work, you should consider using tools like, for example, FireGraft.
+
+Question5=How can I make a unit fly?
+Answer5=You can do this by checking the "Flyer" flag in the advanced tab under Units Editor. This will also make the unit be targeted by enemy Air Weapons. If you want to make a unit only MOVE over obstacles as if it was flying, but still remain a ground unit, change the Elevation Level property (Graphics tab under Units Editor) to a value over 12.
+
+Question6=How can I change how a unit looks like?
+Answer6=To do this you have to change the Graphics property on the Graphics subtab under Units Editor. You'll also find elevation level, portrait used and unit's dimension there. If you want to give a unit a completely different graphics, you'll need to change the GRP file that your target unit uses. You can use a GRP-manipulating program like SFGrpConv, RetroGRP or GRPEdit, to extract the unit frames and edit them with an image editor (like Photoshop or Paint Shop Pro).
+
+Question7=How can I change the length of the shown unit health bar?
+Answer7=The answer for this question is not obvious, because you can find it under Sprites Editor, not Units Editor. The "Health bar" property is the key.
+
+Question8=How can I change unit/weapon/technology names?
+Answer8=That's not inside DAT files. To change the text properties you'll need to edit *.TBL files, for example using a program called TBLPad.
+
+Question9=How can I change the coloring scheme of an in-game graphics?
+Answer9=This is possible but only to a limited extent. Under Images Editor you will find the "Drawing properties", and then one you need is called Remapping. You can then select from a few special Starcraft color remapping palettes, that allow you change the general coloring scheme to Orange/Blue (light or dark) and Green.
+
+Question10=How can I give a new ground/air weapon to a unit that doesn't have it originally?
+Answer10=For most units to get it to work you will need a program like ICE or IceCC to add an attack animation to the units animation scripts (stored in a special file,Iscript.bin). However, there are some units which can receive new weapons safely: Defiler and High Templar can safely receive any ground weapon, because they have the appropriate animations already (leftovers from an early version of the game).
+
+Question11=How do I get the "2 units in 1 egg" property to work?
+Answer11=Read the property's hint: you have to add a "Construction" graphics for the unit and and give it a "Landing Dust" overlay. You can use one of the existing construction graphics, for example the "Scourge Birth" or "Zergling Birth" too.
+
+Question12=Starcraft crashed after I gave a unit a weapon!
+Answer12=Simply giving a unit a weapon it didn't have before is not enough to make it attack properly. You also have to give it an attack animation, so Starcraft will be able to use the weapon properly. Adding an attack animation to a unit is beyond the power of DatEdit, and involves the so-called "iscripting", which is graphic animation editing. You need to search for programs called ICE or IceCC to do this. If you also want to give the unit an attack button (they will attack with right-click automatically), you need to look for tools such as FireGraft or MemGraft, which can edit game buttons.
+
+Question13=Starcraft crashed after I gave a unit a Build Time of 0!
+Answer13=A Build time of 0 will always crash Starcraft. You have to set the build time to 1 if you want a near-instantaneous build.
+
+Question14=Starcraft crashed after I gave a unit a Sight Range higher than 11!
+Answer14=This always crashes Starcraft. Unfortunately, you cannot give a unit Sight Range higher than 11, even through upgrades.
+
+Question15=Starcraft crashed after I set a unit's Portrait property to a "Talking Portrait"!
+Answer15=Starcraft calculates a unit's REAL talking portrait by adding 110 to its Portait property. If the value is higher than the amount of portraits, it will often crash. Change the portrait to the "Idle Portrait" form.
+
+Question16=Starcraft crashed after I gave a unit the "Resource harvester" property and tried to mine!
+Answer16=To carry minerals or gas, a unit must have a .loo file as "Special Overlay" in its images.dat entry. To harvest minerals, a unit must have an "AlmostBuilt" animation in its iscript.bin entry.
+
+Question17=Starcraft crashed after I set the "Subunit" property for a unit!
+Answer17=Subunits are tricky to do. In order to do so, the "parent" unit must have the unit set as a subunit, it must also have a .lol file with an appropriate number of frames as "Special Overlay" in its images.dat entry, and have its iscript.bin properly edited.
+
+Question18=Starcraft crashed after I gave a unit a different GRP file!
+Answer18=This crash may be caused by the unit's animation script (stored in a special file, Iscript.bin) trying to display non-existant frames from the GRP file. If the GRP file you are using has less frames than the original one, you may have to fix the animation script, using programs like ICE or IceCC.

@@ -1,0 +1,70 @@
+Tileset Editor Notes:
+--------------------
+
+You have to extract the Tilesets that you want to edit on your own. I'm not including them with Arsenal III because it would really constitute copyright infringement (as most of the Tileset data is graphical in nature) and would take up at least 7mb. What you need to do is to extract the files listed below (using an MPQ Viewer), depending upon the tileset you want to edit. Once they are extracted, you have to select one of the files with the Tileset Editor (any one - doesn't matter which). Do the same thing when saving. If you're saving a new tileset, just type in any name you want. Be warned that it probably won't prompt you to overwrite the files when you're saving so make sure you back up anything before you save.
+
+Right now the Tileset Editor can only modify the MegaTiles (the tiles displayed in StarEdit). There is a smaller portion of each tile known as a MiniTile (there are 16 per MegaTile). You can select any of the MegaTiles you want, and then edit the properties of each MiniTile there. What you cannot do is to replace the graphics of each MiniTile. For each of the 16 MiniTiles that each MegaTile has, you can select the MiniTile to be used, you can select the MiniTile type, and also whether it appears flipped or not in the MegaTile.
+
+The next version should support MiniTile graphical changes, as well as the addition of new Mini- and MegaTiles. I also will try to add in some sort of editor to change the StarEdit groupings of MegaTiles.
+
+Note that not all your changes will appear when you patch StarEdit - some tilesets have duplicate copies which are only used in StarEdit that you may want to replace as well.
+
+
+Tileset File List:
+-----------------
+
+Ashworld:
+tileset\AshWorld.cv5
+tileset\AshWorld.vf4
+tileset\AshWorld.vr4
+tileset\AshWorld.vx4
+tileset\AshWorld.wpe
+
+Badlands:
+tileset\badlands.cv5
+tileset\badlands.vf4
+tileset\badlands.vr4
+tileset\badlands.vx4
+tileset\badlands.wpe
+
+Desert:
+tileset\Desert.cv5
+tileset\Desert.vf4
+tileset\Desert.vr4
+tileset\Desert.vx4
+tileset\Desert.wpe
+
+Iceworld:
+tileset\ice.cv5
+tileset\ice.vf4
+tileset\ice.vr4
+tileset\ice.vx4
+tileset\ice.wpe
+
+Installation:
+tileset\Install.cv5
+tileset\Install.vf4
+tileset\install.vr4
+tileset\Install.vx4
+tileset\install.wpe
+
+Jungle:
+tileset\Jungle.cv5
+tileset\Jungle.vf4
+tileset\Jungle.vr4
+tileset\Jungle.vx4
+tileset\Jungle.wpe
+
+Space Platform:
+tileset\platform.cv5
+tileset\platform.vf4
+tileset\platform.vr4
+tileset\platform.vx4
+tileset\platform.wpe
+
+Twilight:
+tileset\twilight.cv5
+tileset\twilight.vf4
+tileset\twilight.vr4
+tileset\twilight.vx4
+tileset\twilight.wpe

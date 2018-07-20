@@ -1,0 +1,131 @@
+Gauss Rifle (Normal)
+Gauss Rifle (Hero)
+C-10 Concussion Rifle (Normal)
+C-10 Concussion Rifle (Hero 1)
+Fragmentation Grenade (Normal)
+Fragmentation Grenade (Hero)
+Spider Mines
+Twin Autocannons (Normal)
+Hellfire Missile Pack (Normal)
+Twin Autocannons (Hero)
+Hellfire Missile Pack (Hero)
+Arclite Cannon (Normal)
+Arclite Cannon (Hero)
+Fusion Cutter
+Fusion Cutter (Harvest)
+Gemini Missiles (Normal)
+Burst Lasers (Normal)
+Gemini Missiles (Hero)
+Burst Lasers (Hero)
+ATS Laser Battery (Normal)
+ATA Laser Battery (Normal)
+ATS Laser Battery (Hero 1)
+ATA Laser Battery (Hero 1)
+ATS Laser Battery (Hero 2)
+ATA Laser Battery (Hero 2)
+Flame Thrower (Normal)
+Flame Thrower (Hero)
+Arclite Shock Cannon (Normal)
+Arclite Shock Cannon (Hero)
+Longbolt Missiles
+Yamato Gun
+Nuclear Missile
+Lockdown
+EMP Shockwave
+Irradiate
+Claws (Normal)
+Claws (Hero 1)
+Claws (Hero 2)
+Needle Spines (Normal)
+Needle Spines (Hero)
+Kaiser Blades (Normal)
+Kaiser Blades (Hero)
+Toxic Spores
+Spines
+Spines (Harvest)
+Acid Spray
+Acid Spore (Normal)
+Acid Spore (Hero)
+Glave Wurm (Normal)
+Glave Wurm (Hero 1)
+Glave Wurm (Unused)
+Glave Wurm (Hero 2)
+Seeker Spores
+Subterranean Tentacle
+Suicide (Ground)
+Suicide (Air)
+Parasite
+Broodling
+Ensnare
+Dark Swarm
+Plague (Normal)
+Plague (Hero)
+Particle Beam
+Particle Beam (Harvest)
+Psi Blades (Normal)
+Psi Blades (Hero)
+Phase Disruptor (Normal)
+Phase Disruptor (Hero)
+Psi Assault (Normal)
+Psi Assault (Hero)
+Psionic Shockwave (Normal)
+Psionic Shockwave (Hero)
+<< Unknown >>
+Dual Photon Blasters (Normal)
+Anti-matter Missiles (Normal)
+Dual Photon Blasters (Hero 1)
+Anit-matter Missiles (Hero 1)
+Phase Disruptor Cannon (Normal)
+Phase Disruptor Cannon (Hero)
+Pulse Cannon
+STS Photon Cannon
+STA Photon Cannon
+Scarab
+Stasis
+Psi Storm
+Warp Blades (Hero 1)
+Warp Blades (Hero 2)
+Missiles (Unused)
+Laser Battery (Unused)
+Tormentor Missiles (Unused)
+Bombs (Unused)
+Raider Gun (Unused)
+Laser Battery (Unused)
+Laser Battery (Unused)
+Dual Photon Blasters (Unused)
+Flechette Grenade (Unused)
+Twin Autocannons (Trap)
+Hellfire Missile Pack (Trap)
+Flame Thrower (Trap)
+Hellfire Missile Pack (Unused)
+Neutron Flare
+Disruption Web
+Restoration
+Halo Rockets
+Corrosive Acid
+Mind Control
+Feedback
+Optical Flare
+Maelstrom
+Subterranean Spines
+Gauss Rifle (Unused)
+Warp Blades (Normal)
+C-10 Concussion Rifle (Hero 2)
+C-10 Concussion Rifle (Hero 3)
+Dual Photon Blasters (Hero 2)
+Anti-matter Missiles (Hero 2)
+C-10 Concussion Rifle (Hero 4)
+Gauss Rifle (Unused)
+Gauss Rifle (Unused)
+Gauss Rifle (Unused)
+Gauss Rifle (Unused)
+Gauss Rifle (Unused)
+Gauss Rifle (Unused)
+Gauss Rifle (Unused)
+Gauss Rifle (Unused)
+Gauss Rifle (Unused)
+Gauss Rifle (Unused)
+Gauss Rifle (Unused)
+Gauss Rifle (Unused)
+Gauss Rifle (Unused)
+No Weapon

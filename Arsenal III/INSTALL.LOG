@@ -1,0 +1,56 @@
+***  Installation Started 10/28/17 10:47  ***
+Title: Arsenal III Installation
+Source: C:\Users\열\AppData\Local\Temp\Rar$EXa0.423\AS3install.exe
+Made Dir: G:\StarCraft\MODs\Arsenal III
+File Copy: G:\StarCraft\MODs\Arsenal III\UNWISE.EXE
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Arsenal III
+RegDB Val: Arsenal III
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Arsenal III
+RegDB Val: G:\StarCraft\MODs\Arsenal III\UNWISE.EXE G:\StarCraft\MODs\Arsenal III\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+File Copy: G:\StarCraft\MODs\Arsenal III\tileed.txt
+Made Dir: G:\StarCraft\MODs\Arsenal III\rez
+File Copy: G:\StarCraft\MODs\Arsenal III\rez\w2ugrd.tbl
+File Copy: G:\StarCraft\MODs\Arsenal III\rez\w2Icons.tbl
+File Copy: G:\StarCraft\MODs\Arsenal III\rez\upgrades.dat
+File Copy: G:\StarCraft\MODs\Arsenal III\rez\unitdato.dat
+File Copy: G:\StarCraft\MODs\Arsenal III\rez\unitdata.dat
+File Copy: G:\StarCraft\MODs\Arsenal III\rez\stat_w2.tbl
+File Copy: G:\StarCraft\MODs\Arsenal III\rez\sprites.tbl
+File Copy: G:\StarCraft\MODs\Arsenal III\rez\sfxdata.tbl
+File Copy: G:\StarCraft\MODs\Arsenal III\rez\portdata.tbl
+File Copy: G:\StarCraft\MODs\Arsenal III\rez\mapdata.tbl
+File Copy: G:\StarCraft\MODs\Arsenal III\rez\images.tbl
+File Copy: G:\StarCraft\MODs\Arsenal III\rez\flingy.tbl
+File Copy: C:\WINDOWS\system32\Excal.dll
+File Copy: G:\StarCraft\MODs\Arsenal III\Arsenal3.exe
+Made Dir: G:\StarCraft\MODs\Arsenal III\arr
+File Copy: G:\StarCraft\MODs\Arsenal III\arr\weapons.dat
+File Copy: G:\StarCraft\MODs\Arsenal III\arr\upgrades.dat
+File Copy: G:\StarCraft\MODs\Arsenal III\rez\stat_txt.tbl
+File Copy: G:\StarCraft\MODs\Arsenal III\arr\flingy.dat
+File Copy: G:\StarCraft\MODs\Arsenal III\arr\images.dat
+File Copy: G:\StarCraft\MODs\Arsenal III\arr\mapdata.dat
+File Copy: G:\StarCraft\MODs\Arsenal III\arr\orders.dat
+File Copy: G:\StarCraft\MODs\Arsenal III\arr\portdata.dat
+File Copy: G:\StarCraft\MODs\Arsenal III\arr\sfxdata.dat
+File Copy: G:\StarCraft\MODs\Arsenal III\arr\sprites.dat
+File Copy: G:\StarCraft\MODs\Arsenal III\arr\techdata.dat
+File Copy: G:\StarCraft\MODs\Arsenal III\arr\units.dat
+Made Dir: C:\Users\열\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Camelot Systems
+Made Dir: C:\Users\열\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Camelot Systems\Arsenal III
+Shell Link: C:\Users\열\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Camelot Systems\Arsenal III\Arsenal III.lnk
+Shell Link: C:\Users\열\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Camelot Systems\Arsenal III\Tileset Editor Read Me.lnk
+INI New: Created INI
+INI File: G:\StarCraft\MODs\Arsenal III\UNWISE.INI
+INI Sect: Settings
+INI Item: Text Font
+INI Val: Arial
+INI File: G:\StarCraft\MODs\Arsenal III\UNWISE.INI
+INI Sect: Settings
+INI Item: No Background
+INI Val: 0
+User Rights: Admin

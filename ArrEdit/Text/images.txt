@@ -1,0 +1,999 @@
+Scourge
+Scourge Shad
+Scourge Birth
+Scourge Death
+Scourge Explosion
+Broodling
+Broodling Shad
+Broodling Death
+Infested Terran
+Infested Terran Shad
+Infested Terran Explosion
+Guardian Cocoon
+Guardian Cocoon Shad
+Defiler
+Defiler Shad
+Defiler Birth
+Defiler Death
+Drone
+Drone Shad
+Drone Birth
+Drone Death
+Zerg Egg
+Zerg Egg Shad 
+Zerg Egg Spawn
+Zerg Egg Death
+Guardian
+Guardian Shad
+Guardian Birth
+Guardian Death
+Hydralisk
+Hydralisk Shad
+Hydralisk Birth
+Hydralisk Death
+Infested Kerrigan
+Infested Kerrigan Shad
+Needle Spines
+Larva
+Larva Death
+Mutalisk
+Mutalisk Shad
+Mutalisk Birth 
+Mutalisk Death
+Overlord
+Overlord Shad
+Overlord Birth
+Overlord Death
+Queen
+Queen Shad
+Queen Death
+Queen Birth
+Ultralisk
+Ultralisk Shad
+Ultralisk Birth
+Ultralisk Death
+Zergling 
+Zergling Shad 
+Zergling Birth
+Zergling Death
+Zerg Air Death (Large)
+Zerg Air Death (Small)
+Zerg Building Death
+Cerebrate
+Cerabrate Shad
+Infested Command Center
+Spawning Pool
+Spawning Pool Shad
+Evolution Chamber
+Evolutino Chamber Shad
+Creep Colony
+Creep Colony Shad
+Hatchery
+Hatchery Shad
+Hive
+Hive Shad
+Lair
+Lair Shad
+Sunken Colony
+Sunken Colony Shad
+Mature Chysalis
+Mature Chysalis Shad
+Greater Spire
+Greater Spire Shad
+Defiler Mound 
+Defiler Mound Shad
+Queen's Nest 
+Queen's Nest Shad
+Nydus Canal
+Nydus Canal Shad
+Overmind w/shell 
+Overmind Shad
+Overmind w/out shell
+Ultralisk Cavern
+Ultralisk Cavern Shad
+Extractor 
+Extractor Shad
+Hydralisk Den
+Hydralisk Den Shad
+Spire 
+Spire Shad
+Spore Colony 
+Spore Colony Shad
+Infested Command Center Overlay
+102
+103
+104
+105
+Zerg Building Morph Shad
+Zerg Building Spawn (Small)
+Zerg Building Spawn (Medium)
+Zerg Building Spawn (Large)
+Zerg Building Rubble (Large)
+Zerg Building Rubble (Small)
+Carrier
+Carrier Shad
+Carrier Glow
+115
+Interceptor
+Interceptor Shad
+Shuttle
+Shuttle Shad
+Shuttle Glow
+122
+Dragoon
+Dragoon Shad
+Dragoon Death
+125
+High Templar
+High Templar Shad
+128
+Dark Templar (Hero)
+Arbiter
+Arbiter Shad
+Arbiter Glow
+133
+Archon Energy
+Archon Being
+Archon Team Colors
+Probe
+Probe Shad
+139
+Scout
+Scout Shad
+Scout Glow
+143
+Reaver 
+Reaver Shad
+146
+Scarab
+Observer
+Observer Shad
+150
+Zealot
+Zealot Shad
+153
+154
+Templar Archives
+156
+157
+Assimilator
+159
+160
+Observatory 
+162
+Observatory Shad
+Citadel of Adun
+166
+Citadel of Adun Shad
+Forge
+Forge Overlay
+Forge Shad
+170
+Gateway
+172
+Gateway Shad
+Cybernetics Core
+175
+Cybernetics Core Overlay
+Cybernetics Core Shad
+Khaydarin Crystal
+Nexus
+180
+Nexus Glow
+Nexus Shad
+Photon Cannon
+Photon Cannon Shad
+185
+Arbiter Tribunal
+187
+Arbiter Tribunal Shad
+Pylon
+191
+Pylon Shad
+Robotics Facility
+193
+Robotics Facility Shad
+Shield Battery
+Shield Battery Glow
+197
+Shield Battery Shad
+Stargate
+Stargate Glow 
+202
+Stargate Shad
+Stasis Cell/Prison
+Robotics Support Bay
+206
+Robotics Support Bay Shad
+Protoss Temple
+Fleet Beacon
+209
+210
+Fleet Beacon Glow
+Fleet Beacon Shad
+Protoss Building Explosion (Small)
+Protoss Building Explosion (Medium)
+Protoss Building Explosion (Large)
+Protoss Building Rubble (Small)
+Protoss Building Rubble (Large)
+Battlecruiser
+Battlecruiser Shad
+Battlecruiser Glow
+Civilian
+Civilian Shad
+Dropship
+Dropship Shad 
+Dropship Glow
+Firebat
+Firebat Shad
+Ghost
+Ghost Shad
+Ghost Death
+231
+Nuke Beam
+Nuke Target
+Goliath Base
+Goliath Turret
+Goliath Shad
+Kerrigan (Ghost)
+Kerrigan (Ghost) Shad
+Marine
+Marine Shad
+Marine Death
+242
+Wraith
+Wraith Shad
+Wraith Glow
+246
+SCV
+SCV Shad
+SCV Glow
+Siege Tank (Tank) Base
+Siege Tank (Tank) Turret
+Siege Tank (Tank) Shad
+Siege Tank (Siege) Base
+Siege Tank (Siege) Turret
+Siege Tank (Siege) Shad
+Vulture
+Vulture Shad
+Spider Mine
+Spider Mine Shad
+Science Vessel
+Science Vessel Turret
+Science Vessel Shad
+Academy
+Academy Overlay
+Academy Shad
+Barracks
+Barracks Shad
+Armory
+Armory Overlay
+Armory Shad
+Comsat Station
+Comsat Station Attachment
+Comsat Station Overlay
+Comsat Station Shad
+Command Center
+Command Center Overlay
+Command Center Shad
+Supply Depot
+Supply Depot Overlay
+Supply Depot Shad
+Control Tower
+Control Tower Attachment
+Control Tower Overlay
+Control Tower Shad
+Factory
+Factory Overlay
+Factory Shad
+Covert Ops
+Covert Ops Attachment 
+Covert Ops Overlay
+Covert Ops Shad
+Ion Cannon
+Machine Shop
+Machine Shop Attachment
+Machine Shop Shad
+Missle Turret (Base)
+Missle Turret (Turret)
+Missle Turret Shad
+Crashed Norad II
+Crashed Norad II Shad
+Physics Lab
+Physics Lab Attachment
+Physics Lab Shad
+Bunker
+Bunker Shad
+Bunker Overlay
+Refinery
+Refinery Shad
+Science Facility
+Science Facility Overlay
+Science Facility Shad
+Nuke Silo
+313
+314
+Nuke Silo Shad
+316
+317
+318
+Starport
+Starport Overlay
+Starport Shad
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+Dark Swarm
+Ragnasaur (Ashworld)
+Ragnasaur Shad
+Rynadon (Badlands)
+Rynadon Shad
+Bengalass (Jungle)
+Bengalass Shad
+Vespene Geyser
+Unknown
+Vespene Geyser Shad
+Mineral Deposit 1
+Mineral Deposit 1 Shad
+Mineral Deposit 2
+Mineral Deposit 2 Shad
+Mineral Deposit 3
+Mineral Deposit 3 Shad
+Unused
+Zerg Beacon
+Zerg Beacon Overlay
+Terran Beacon
+Terran Beacon Overlay
+Protoss Beacon
+Protoss Beacon Overlay
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+Eradiate
+381
+382
+Ensnare
+Ensnare (Unit Overlay) Small
+Ensnare (Unit Overlay) Medium
+Ensnare (Unit Overlay) Large
+387
+388
+389
+390
+Recall
+Flag
+Chrysalis
+Psi Emmiter
+Data Disc
+Khadarin Crystal
+Mineral Chunk
+398
+ProtossGas Orb
+400
+Zerg Gas Sac
+402
+Terran Gas Tank
+404
+Mineral Chunk Shad
+Protoss Gas Orb Shad
+Zerg Gas Sac Shad
+Terran Gas Tank Shad
+Data Disk Shad (Ground)
+Data Disk Shad (Carried)
+Flag Shad (Ground)
+Flag Shad (Carried)
+Crystal Shad (Ground)
+Crystal Shad (Carried)
+Chrysalis Shad (Ground)
+Chrysalis Shad (Carried)
+Psi Emitter (Ground)
+Psi Emitter (Carried)
+419
+420
+Flame Thrower
+422
+423
+424
+425
+426
+427
+428
+429
+430
+431
+432
+433
+434
+435
+436
+437
+438
+439
+440
+441
+442
+443
+444
+445
+446
+447
+448
+449
+450
+451
+452
+453
+454
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+469
+470
+471
+472
+473
+474
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+486
+487
+488
+489
+490
+491
+492
+493
+494
+495
+496
+497
+498
+499
+500
+501
+502
+503
+504
+505
+506
+507
+508
+509
+510
+511
+512
+513
+514
+515
+Parasite
+Consume
+518
+519
+520
+521
+Photon Cannons (Interceptor)
+Phase Disruptor
+524
+Psi Storm
+Fusion Cutter
+527
+Gemini Missles
+529
+530
+531
+532
+533
+534
+535
+536
+537
+538
+539
+540
+541
+542
+543
+544
+545
+546
+547
+548
+549
+550
+551
+552
+553
+554
+555
+556
+557
+558
+559
+560
+o022
+o032
+o048
+o062
+o072
+o094
+o0110
+o0122
+o0146
+o0224
+od022
+od032
+od048
+od062
+od072
+od094
+od0110
+od0122
+od0146
+od0224
+581
+Map Revealer
+583
+Psi Field 1
+Psi Field 2
+Psi Field 3
+Psi Field 4
+Start Location
+Ash World Doodad (Rock 1)
+Ash World Doodad (Rock 1 Shad)
+Ash World Doodad (Rock 2)
+Ash World Doodad (Rock 2 Shad)
+Ash World Doodad (Rock 3)
+Ash World Doodad (Rock 3 Shad)
+Ash World Doodad (Rock 4)
+Ash World Doodad (Rock 4 Shad)
+Ash World Doodad (Rock 5)
+Ash World Doodad (Rock 5 Shad)
+Ash World Doodad 
+Ash World Doodad
+Ash World Doodad
+Ash World Doodad
+Ash World Doodad 
+Ash World Doodad 
+Ash World Doodad 
+Ash World Doodad 
+Ash World Doodad 
+Ash World Doodad 
+Ash World Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad
+Badlands Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Installation Doodad
+Twilight Doodad
+Twilight Doodad
+Twilight Doodad
+Twilight Doodad
+Twilight Doodad
+Twilight Doodad
+Twilight Doodad
+Twilight Doodad
+Twilight Doodad
+Twilight Doodad
+Twilight Doodad
+Twilight Doodad
+Twilight Doodad
+Twilight Doodad
+Twilight Doodad
+Twilight Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Ice World Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Desert Doodad
+Unused (Scout)
+Lurker Egg
+Devourer
+Devourer Shad
+Devourer Birth
+Devourer Death
+Lurker Birth
+920
+921
+Lurker Shad
+Overmind Cocoon
+Overmind Cocoon Shad
+Dark Archon Energy
+Dark Archon Being
+Dark Archon Team Colors
+Dark Archon Death
+Corsair
+Corsair Shad
+Corsair Overlay
+932
+Dark Templar (BW Unit)
+Warp Gate
+Warp Gate Shad
+Warp Gate Overlay
+Xel'Naga Temple
+Xel'Naga Temple Shad
+Valkyrie
+Valkyrie Shad
+Valkyrie Overlay
+Valkyrie Overlay
+Valkyrie Afterburners
+Medic
+Medic Shad
+Medic Death
+Psi Disruptor
+Psi Disruptor Shad
+Power Generater
+Power Generater Shad
+Disruption Web
+Scantid
+Scantid Shad
+Kakaru
+Kakaru Shad
+Ursadon
+Ursadon Shad
+Uraj Crystal
+Khalis Crystal
+960
+Subterranean Spines
+Acid Spores Projectile
+Acid Spores Hit
+Neutron Flare
+Halo Rocket
+Optic Flare Projectile
+Restoration (Small)
+Restoration (Medium)
+Restoration (Large)
+970
+971
+972
+Mind Control (Small)
+Mind Control (Medium)
+Mind Control (Large)
+Optic Flare (Small)
+Optic Flare (Medium)
+Optic Flare (Large)
+Feedback (Small)
+Feedback (Medium)
+Feedback (Large)
+Maelstrom Unit Overlay (Small)
+Maelstrom Unit Overlay (Medium)
+Maelstrom Unit Overlay (Large)
+985
+Acid Spores Overlay 1 (Small)
+Acid Spores Overlay 2 (Small)
+Acid Spores Overlay 3 (Small)
+Acid Spores Overlay 4 (Small)
+Acid Spores Overlay 1 (Medium)
+Acid Spores Overlay 2 (Medium)
+Acid Spores Overlay 3 (Medium)
+Acid Spores Overlay 4 (Medium)
+Acid Spores Overlay 1 (Large)
+Acid Spores Overlay 2 (Large)
+Acid Spores Overlay 3 (Large)
+Acid Spores Overlay 4 (Large)
+Maelstrom (Hit)

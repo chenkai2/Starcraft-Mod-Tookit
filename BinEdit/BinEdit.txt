@@ -1,0 +1,51 @@
+--------------------------------------
+StarCraft/WarCraft Dialog Editor v0.91
+--------------------------------------
+
+This program views and edits StarCraft/WarCraft dialog
+boxes(BIN files).
+
+Required Files (all may be downloaded from my page)
+---------------------------------------------------
+Visual Basic 4 runtime libraries
+Microsoft Common Dialog Control
+
+Displaying Images in Dialog Boxes
+---------------------------------
+To display the images in the dialog view, place them in the
+folder BinEdit.exe is in with the original path.  The images
+must be converted to bitmaps(.bmp) to display them.
+
+What's New
+----------
+
+0.91
+----------
+- Erasing all the text or typing characters other than
+  numbers into boxes for numbers will no longer crash the
+  program.
+- Closing smk data editor no longer causes it to lose the
+  data.
+- Changed the smk offset box to show the offsets that are
+  used.
+
+0.90
+----------
+- Initial Release
+
+Features that may be in future versions
+---------------------------------------
+- Adding and removing areas and smk data.
+- An easier to use graphical interface for creating and
+  editing the parts of the dialog box(the reason for the
+  tool window).
+
+Bug Reports
+-----------
+If you find a bug that isn't mentioned in this file, send me
+an e-mail with the error and step by step instuctions on how
+you made it happen.
+
+-ShadowFlare
+ email:    BlakFlare@hotmail.com
+ web page: http://shadowflare.ancillaediting.net/

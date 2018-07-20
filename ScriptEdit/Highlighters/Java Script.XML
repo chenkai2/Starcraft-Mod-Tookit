@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<SynUniHighlighter Version="2.0">
+	<SyntaxColoring>
+		<Info>
+			<General Name="Java script" Extensions="js" Version="1" Revision="0" Sample="// Syntax highlighting
+function printNumber()
+{
+  var number = 1234;
+  var x;
+  document.write(&quot;The number is &quot; + number);
+  for (var i = 0; i &lt;= number; i++)
+  {
+    x++;
+    x--;
+    x += 1.0;
+  }
+  i += @; // illegal character
+}
+body.onLoad = printNumber;
+
+" History=""/>
+			<Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Web="www.delphist.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Remark=""/>
+		</Info>
+		<Schemes/>
+		<Editor/>
+		<MainRules Name="Root" Style="Root">
+			<Attributes Foreground="clBlack" Background="clWhite"/>
+			<Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+			<SubRules>
+				<Range Name="Remark //" CaseSensitive="True" Style="Remark //">
+					<Attributes Foreground="$00A00000" Background="clWhite"/>
+					<Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+					<OpenToken StartLine=""/>
+					<CloseToken StartLine=""/>
+					<Properties CloseOnEol="True"/>
+					<MultiTokens>
+						<Tokens Open="//"/>
+					</MultiTokens>
+					<SubRules/>
+				</Range>
+				<Range Name="Remark /*...*/" CaseSensitive="True" Style="Remark /*...*/">
+					<Attributes Foreground="$00A00000" Background="clWhite"/>
+					<Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+					<OpenToken StartLine=""/>
+					<CloseToken StartLine=""/>
+					<Properties/>
+					<MultiTokens>
+						<Tokens Open="/*" Close="*/"/>
+					</MultiTokens>
+					<SubRules/>
+				</Range>
+				<Range Name="Strings" CaseSensitive="True" Style="Strings">
+					<Attributes Foreground="clRed" Background="clWhite"/>
+					<Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+					<OpenToken StartLine=""/>
+					<CloseToken StartLine=""/>
+					<Properties/>
+					<MultiTokens>
+						<Tokens Open="&quot;" Close="&quot;"/>
+					</MultiTokens>
+					<SubRules/>
+				</Range>
+				<KeyList Name="Functions and key words" Enabled="True" Style="" Words="E
+back
+big
+abs
+go
+Area
+PI
+All
+all
+LN10
+LN2
+call
+Embed
+ceil
+Date
+bold
+name
+find
+log
+java
+Image
+tan
+min
+hash
+atan2
+atan
+href
+cos
+click
+acos
+max
+LOG10E
+LOG2E
+checked
+clear
+eval
+src
+home
+self
+Math
+sin
+sub
+asin
+Frame
+left
+align
+Hidden
+UTC
+exp
+match
+Link
+link
+body
+Radio
+tags
+join
+embeds
+blink
+fixed
+slice
+escape
+Global
+open
+charAt
+top
+URL
+caller
+Form
+form
+hspace
+blur
+pageX
+pow
+close
+search
+images
+Float
+pageY
+reload
+Object
+watch
+alert
+sup
+domain
+index
+concat
+isNaN
+small
+height
+cookie
+closed
+parse
+Anchor
+anchor
+replace
+value
+Layer
+action
+getDate
+getDay
+border
+host
+frames
+right
+Array
+next
+Packages
+logon
+color
+Select
+select
+Boolean
+taint
+focus
+width
+screen
+filename
+links
+method
+random
+vspace
+length
+title
+type
+appName
+floor
+event
+reset
+Reset
+port
+Text
+text
+Applet
+stop
+target
+Checkbox
+encoding
+forms
+round
+sort
+bgColor
+italics
+Number
+opener
+selected
+sqrt
+SQRT2
+parent
+setDate
+menubar
+write
+RegExp
+fgColor
+split
+javaEnabled
+indexOf
+print
+anchors
+confirm
+pathname
+charCodeAt
+Plugin
+getTime
+refresh
+scroll
+layers
+input
+getYear
+style
+strike
+valueOf
+moveBy
+zIndex
+Undefined
+undefined
+netscape
+toolbar
+Submit
+submit
+unescape
+forward
+bottom
+display
+String
+Window
+window
+Location
+location
+complete
+applets
+Option
+lowsrc
+moveTo
+unwatch
+setTime
+isFinite
+Button
+reverse
+appCodeName
+setYear
+referrer
+elements
+Textarea
+hostname
+document
+background
+prompt
+plugins
+current
+untaint
+substr
+status
+FileUpload
+writeln
+platform
+getMonth
+Function
+parseInt
+SQRT1_2
+MimeType
+Infinity
+scrollBy
+getUTCDate
+getUTCDay
+taintEnabled
+Navigator
+navigator
+defaultChecked
+options
+suffixes
+linkColor
+resizeBy
+fromCharCode
+userAgent
+alinkColor
+locationbar
+handleEvent
+getSeconds
+parseFloat
+getHours
+fontsize
+History
+history
+setMonth
+protocol
+scrollTo
+Password
+toSource
+lastModified
+resizeTo
+innerHeight
+fontcolor
+Arguments
+arguments
+setUTCDate
+scrollbars
+personalbar
+statusbar
+toString
+enabledPlugin
+setSeconds
+innerWidth
+pageXOffset
+previous
+setHours
+mimeTypes
+pageYOffset
+MIN_VALUE
+lastIndexOf
+substring
+selectedIndex
+defaultValue
+MAX_VALUE
+vlinkColor
+description
+getFullYear
+getMinutes
+appVersion
+toLowerCase
+outerHeight
+visibility
+toUpperCase
+clearInterval
+defaultSelected
+clearTimeout
+outerWidth
+setFullYear
+setMinutes
+setInterval
+routeEvent
+getUTCMonth
+getElementById
+setTimeout
+releaseEvents
+getUTCSeconds
+getUTCHours
+setUTCMonth
+toGMTString
+getMilliseconds
+toUTCString
+setUTCSeconds
+defaultStatus
+captureEvents
+setUTCHours
+toLocaleString
+getUTCFullYear
+getUTCMinutes
+setMilliseconds
+setUTCFullYear
+setUTCMinutes
+getTimezoneOffset
+getUTCMilliseconds
+NEGATIVE_INFINITY
+setUTCMilliseconds
+POSITIVE_INFINITY
+above
+activeElement
+altKey
+apply
+arity
+availWidth
+availTop
+availLeft
+availHeight
+atob
+assign
+btoa
+cancelBubble
+borderWidths
+below
+charset
+className
+classes
+children
+clientInformation
+clientX
+clientY
+colorDepth
+compile
+crypto
+ctrlKey
+contextual
+contains
+constructir
+data
+defaultCharset
+disableExternalCapture
+disablePrivilege
+element
+enableExternalCapture
+exec
+expando
+FromPoint
+enablePrivilege
+getAttribute
+fromElement
+getClass
+get
+getMember
+getSlot
+getSelection
+getWindow
+id
+ids
+ignoreCase
+inner
+innerHTML
+innerText
+insertAdjacentText
+insertAdjacentHTML
+keyCode
+lang
+language
+lastIndex
+lastMatch
+lastParen
+leftContext
+layerY
+layerX
+margins
+modifiers
+multiline
+moveToAbsolute
+moveAbove
+moveBelow
+navigate
+offscreenBuffering
+offset
+offsetHeight
+offsetLeft
+offsetParent
+offsetTop
+offsetWidth
+
+offsetY
+offsetX
+outerHTML
+outerText
+paddings
+parentElement
+parentLayer
+parentWindow
+preference
+pop
+pixelDepth
+readyState
+reason
+push
+returnValue
+rightcontext
+removeMember
+removeAttribute
+screenY
+screenX
+scrollIntoView
+setAttribute
+setDay
+setMember
+setSlot
+setResizable
+setHotkeys
+setUTCMillseconds
+siblingAbove
+shiftKey
+siblingBelow
+setZOptions
+shift
+sourceIndex
+splice
+smallsort
+source
+sun
+systemLanguage
+srcFilter
+srcElement
+signText
+tagName
+toElement
+test
+userLanguage
+unshift
+which
+x
+y
+HTMLElement
+JavaArray
+JavaClass
+JavaObject
+JavaPackage
+JSObject
+PrivilegeManager
+">
+					<Attributes Foreground="clGreen" Background="clWhite"/>
+				</KeyList>
+				<KeyList Name="Reserved words" Enabled="True" Style="" Words="if
+do
+in
+case
+NaN
+char
+catch
+break
+callee
+for
+else
+var
+new
+false
+int
+package
+long
+void
+delete
+byte
+enum
+class
+float
+this
+while
+goto
+double
+Null
+null
+with
+try
+public
+boolean
+true
+default
+debugger
+const
+native
+static
+start
+finally
+super
+short
+interface
+switch
+throw
+abstract
+typeof
+import
+extends
+private
+return
+export
+continue
+function
+throws
+instanceof
+protected
+transient
+implements
+prototype
+synchronized
+constructor
+final
+">
+					<Attributes Foreground="clBlue" Background="clWhite"/>
+				</KeyList>
+				<KeyList Name="Common Events" Enabled="True" Style="" Words="onLoad
+onClick
+onChange
+onBlur
+onAbort
+onDblClick
+onFocus
+onSelect
+onUnload
+onReset
+onError
+onKeyUp
+onSubmit
+onKeyDown
+onMouseUp
+onKeyPress
+onMouseMove
+onMouseOut
+onMouseDown
+onMouseOver
+ondragdrop
+onHelp
+onmove
+onresize
+">
+					<Attributes Foreground="$00FF0080" Background="clWhite"/>
+				</KeyList>
+			</SubRules>
+		</MainRules>
+	</SyntaxColoring>
+	<CodeFolding/>
+	<CustomData/>
+</SynUniHighlighter>

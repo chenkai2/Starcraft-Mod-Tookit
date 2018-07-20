@@ -1,0 +1,126 @@
+[Info]
+Name=Orders
+
+[Formats->Orders]
+Vars=13
+0000=Label
+0001=Flag 1
+0002=Flag 2
+0003=Flag 3
+0004=Flag 4
+0005=Flag 5
+0006=Flag 6
+0007=Flag 7
+0008=Flag 8
+0009=Flag 9
+000A=Flag 10
+000B=Flag 11
+000C=Flag 12
+000D=Weapon
+000E=Technology
+000F=Type
+0010=Group
+0011=Unknown
+0012=Emulate
+
+[Formats->Orders->Label]
+Type=Word
+Size=BD
+Control=List
+ListFile=Labels
+None=Start
+
+[Formats->Orders->Flag 1]
+Type=Byte
+Size=BD
+Control=CheckBox
+
+[Formats->Orders->Flag 2]
+Type=Byte
+Size=BD
+Control=CheckBox
+
+[Formats->Orders->Flag 3]
+Type=Byte
+Size=BD
+Control=CheckBox
+
+[Formats->Orders->Flag 4]
+Type=Byte
+Size=BD
+Control=CheckBox
+
+[Formats->Orders->Flag 5]
+Type=Byte
+Size=BD
+Control=CheckBox
+
+[Formats->Orders->Flag 6]
+Type=Byte
+Size=BD
+Control=CheckBox
+
+[Formats->Orders->Flag 7]
+Type=Byte
+Size=BD
+Control=CheckBox
+
+[Formats->Orders->Flag 8]
+Type=Byte
+Size=BD
+Control=CheckBox
+
+[Formats->Orders->Flag 9]
+Type=Byte
+Size=BD
+Control=CheckBox
+
+[Formats->Orders->Flag 10]
+Type=Byte
+Size=BD
+Control=CheckBox
+
+[Formats->Orders->Flag 11]
+Type=Byte
+Size=BD
+Control=CheckBox
+
+[Formats->Orders->Flag 12]
+Type=Byte
+Size=BD
+Control=CheckBox
+
+[Formats->Orders->Weapon]
+Type=Byte
+Size=BD
+Control=List
+ListFile=Weapons
+None=End
+
+[Formats->Orders->Technology]
+Type=Byte
+Size=BD
+Control=List
+ListFile=Technology
+None=End
+
+[Formats->Orders->Type]
+Type=Byte
+Size=BD
+Control=Text
+
+[Formats->Orders->Group]
+Type=Word
+Size=BD
+Control=Text
+
+[Formats->Orders->Unknown]
+Type=Word
+Size=BD
+Control=Text
+
+[Formats->Orders->Emulate]
+Type=Byte
+Size=BD
+Control=List
+ListFile=Orders

@@ -1,0 +1,517 @@
+Ash World Doodad (Rock 1)
+Ash World Doodad (Rock 2)
+Ash World Doodad (Rock 3)
+Ash World Doodad (Rock 4)
+Ash World Doodad (Rock 5)
+Ash World Doodad 
+Ash World Doodad
+Ash World Doodad
+Ash World Doodad
+Ash World Doodad 
+Ash World Doodad 
+Ash World Doodad 
+Ash World Doodad 
+Ash World Doodad 
+Ash World Doodad 
+Ash World Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Jungle Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Space Platform Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad 
+Badlands Doodad
+Unknown 0
+Unknown 1
+Unknown 2
+Unknown 3
+Unknown 4
+Unknown 5
+Unknown 6
+Unknown 7
+Unknown 8
+Unknown 9
+Unknown 10
+Unknown 11
+Unknown 12
+Unknown 13
+Unknown 14
+Unknown 15
+Unknown 16
+Unknown 17
+Unknown 18
+Scourge
+Scourge Death
+Scourge Explosion
+Broodling
+Broodling Death
+Infested Terran
+Infested Terran Explosion
+Guardian Cocoon
+Defiler
+Defiler Death
+Drone
+Drone Death
+Zerg Egg
+Zerg Egg Death
+Guardian
+Guardian Death
+Hydralisk
+Hydralisk Death
+Infested Kerrigan
+Larva
+Larva Death
+Mutalisk
+Mutalisk Death
+Overlord
+Overlord Death
+Queen
+Queen Birth
+Ultralisk
+Ultralisk Death
+Zergling 
+Zergling Death
+Cerebrate
+Infested Command Center
+Spawning Pool
+Mature Chysalis
+Evolution Chamber
+Creep Colony
+Hatchery
+Hive
+Lair
+Sunken Colony
+Greater Spire
+Defiler Mound 
+Queen's Nest 
+Nydus Canal
+Overmind w/shell 
+Overmind w/out shell
+Ultralisk Cavern
+Extractor 
+Hydralisk Den
+Spire 
+Spore Colony 
+Zerg Building Spawn (Small)
+Zerg Building Spawn (Medium)
+Zerg Building Spawn (Large)
+Zerg Building Death
+Zerg Building Rubble (Large)
+Zerg Building Rubble (Small)
+Arbiter
+Archon Energy
+Carrier
+Dragoon
+Dragoon Death
+Interceptor
+Probe
+Scout
+Shuttle
+High Templar
+Dark Templar (Hero)
+Reaver 
+Scarab
+Zealot
+Observer
+Templar Archives
+Assimilator
+Observatory 
+Citadel of Adun
+Forge
+Gateway
+Cybernetics Core
+Khaydarin Crystal
+Nexus
+Photon Cannon
+Arbiter Tribunal
+Pylon
+Robotics Facility
+Shield Battery
+Stargate
+Stasis Cell/Prison
+Robotics Support Bay
+Protoss Temple
+Fleet Beacon
+Protoss Building Explosion (Large)
+Protoss Building Rubble (Small)
+Protoss Building Rubble (Large)
+Battlecruiser
+Civilian
+Dropship
+Firebat
+Ghost
+Ghost Death
+Nuke Target
+Goliath Base
+Goliath Turret
+Kerrigan (Ghost)
+Marine
+Marine Death
+Unknown 19
+Wraith
+SCV
+Siege Tank (Tank) Base
+Siege Tank (Tank) Turret
+Siege Tank (Siege) Base
+Siege Tank (Siege) Turret
+Vulture
+Spider Mine
+Science Vessel
+Science Vessel Turret
+Academy
+Barracks
+Armory
+Comsat Station
+Command Center
+Supply Depot
+Control Tower
+Factory
+Covert Ops
+Ion Cannon
+Machine Shop
+Missle Turret (Base)
+Crashed Norad II
+Physics Lab
+Bunker
+Refinery
+Science Facility
+Nuke Silo
+Unknown 20
+Unknown 21
+Starport
+Unknown 22
+Unknown 23
+Unknown 24
+Unknown 25
+Unknown 26
+Unknown 27
+Vespene Geyser
+Ragnasaur (Ashworld)
+Rynadon (Badlands)
+Bengalass (Jungle)
+Mineral Deposit 1
+Mineral Deposit 2
+Mineral Deposit 3
+Unused
+Zerg Beacon
+Terran Beacon
+Protoss Beacon
+Dark Swarm
+Flag
+Chrysalis
+Psi Emmiter
+Data Disc
+Khadarin Crystal
+Mineral Chunk
+Unknown 28
+ProtossGas Orb
+Unknown 29
+Zerg Gas Sac
+Unknown 30
+Terran Gas Tank
+Unknown 31
+Unknown 32
+Start Location
+Unknown 33
+Unknown 34
+Unknown 35
+Unknown 36
+Unknown 37
+Unknown 38
+Unknown 39
+Unknown 40
+Unknown 41
+Unknown 42
+Unknown 43
+Unknown 44
+Unknown 45
+Unknown 46
+Unknown 47
+Unknown 48
+Unknown 49
+Zerg Egg Spawn
+Unknown 50
+Unknown 51
+Unknown 52
+Unknown 53
+Unknown 54
+Unknown 55
+Unknown 56
+Unknown 57
+Unknown 58
+Unknown 59
+Unknown 60
+Unknown 61
+Needle Spines
+Unknown 62
+Unknown 63
+Unknown 64
+Unknown 65
+Phase Disruptor
+Unknown 66
+Psi Storm
+Fusion Cutter
+Unknown 67
+Gemini Missles
+Unknown 68
+Unknown 69
+Unknown 70
+Unknown 71
+Unknown 72
+Unknown 73
+Unknown 74
+Unknown 75
+Unknown 76
+Unknown 77
+Unknown 78
+Unknown 79
+Unknown 80
+Unknown 81
+Unknown 82
+Unknown 83
+Unknown 84
+Unknown 85
+Unknown 86
+Unknown 87
+Consume
+Ensnare
+Unknown 88
+Unknown 89
+Unknown 90
+Unknown 91
+Phase Disruptor
+Unknown 92
+Unknown 93
+Unknown 94
+Unknown 95
+Unknown 96
+Unknown 97
+Unknown 98
+Bunker Overlay
+Unknown 99
+Recall
+Unknown 100
+Unknown 101
+Unknown 102
+Unknown 103
+Unknown 104
+Unknown 105
+Unknown 106
+Unknown 107
+Unknown 108
+Unknown 109
+Unknown 110
+Unknown 111
+Unknown 112
+Unknown 113
+Unknown 114
+Unknown 115
+Unknown 116
+Unknown 117
+Unknown 118
+Unknown 119
+Unknown 120
+Unknown 121
+Unknown 122
+Unknown 123
+Unknown 124
+Unknown 125
+Unknown 126
+Unknown 127
+Unknown 128
+Unknown 129
+Unknown 130
+Unknown 131
+Unknown 132
+Unknown 133
+Unknown 134
+Unknown 135
+Unknown 136
+Unknown 137
+Unknown 138
+Unknown 139
+Unknown 140
+Unknown 141
+Unknown 142
+Unknown 143
+Unknown 144
+Unknown 145
+Unknown 146
+Unknown 147
+Unknown 148
+Unknown 149
+Unknown 150
+Unknown 151
+Unknown 152
+Unknown 153
+Unknown 154
+Unknown 155
+Unknown 156
+Unknown 157
+Unknown 158
+Unknown 159
+Unknown 160
+Unknown 161
+Unknown 162
+Unknown 163
+Unknown 164
+Unknown 165
+Unknown 166
+Unknown 167
+Unknown 168
+Unknown 169
+Unknown 170
+Unknown 171
+Unknown 172
+Unknown 173
+Unknown 174
+Unknown 175
+Unknown 176
+Unknown 177
+Unknown 178
+Unknown 179
+Unknown 180
+Unknown 181
+Unknown 182
+Unknown 183
+Unknown 184
+Unknown 185
+Unknown 186
+Unknown 187
+Unknown 188
+Unknown 189
+Unknown 190
+Unknown 191
+Unknown 192
+Unknown 193
+Unknown 194
+Unknown 195
+Unknown 196
+Unknown 197
+Unknown 198
+Unknown 199
+Unknown 200
+Unknown 201
+Unknown 202
+Unknown 203
+Unknown 204
+Unknown 205
+Unknown 206
+Unknown 207
+Unknown 208
+Unknown 209
+Unknown 210
+Unknown 211
+Unknown 212
+Unknown 213
+Unknown 214
+Unknown 215
+Unknown 216
+Unknown 217
+Unknown 218
+Unknown 219
+Unknown 220
+Unknown 221
+Unknown 222
+Unknown 223
+Unknown 224
+Unknown 225
+Unknown 226
+Unknown 227
+Unknown 228
+Unknown 229
+Unknown 230
+Unknown 231
+Unknown 232
+Unknown 233
+Unknown 234
+Unknown 235
+Unknown 236

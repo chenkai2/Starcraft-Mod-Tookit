@@ -1,0 +1,10 @@
+Flies to target
+Seeks Target
+Appears on Target
+Unknown
+Persistant Explosion
+Normal hit
+Suicide
+Bounce
+Halo (Spin)
+Sub. Spines (Burst)

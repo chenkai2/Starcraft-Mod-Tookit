@@ -1,0 +1,75 @@
+[Info]
+Name=Technology
+
+[Formats->Technology]
+Vars=0B
+0000=Minerals
+0001=Gas
+0002=Time
+0003=Energy
+0004=Unknown 1
+0005=Unknown 2
+0006=Icon
+0007=Label
+0008=Race
+0009=Researched
+000A=Brood War
+
+[Formats->Technology->Cost (Minerals)]
+Type=Word
+Size=2C
+Control=Text
+
+[Formats->Technology->Cost (Gas)]
+Type=Word
+Size=2C
+Control=Text
+
+[Formats->Technology->Cost (Time)]
+Type=Word
+Size=2C
+Control=Text
+
+[Formats->Technology->Cost (Energy)]
+Type=Word
+Size=2C
+Control=Text
+
+[Formats->Technology->Unknown 1]
+Type=Word
+Size=2C
+Control=Text
+
+[Formats->Technology->Unknown 2]
+Type=Word
+Size=2C
+Control=Text
+
+[Formats->Technology->Icon]
+Type=Word
+Size=2C
+Control=List
+ListFile=Icons
+
+[Formats->Technology->Label]
+Type=Word
+Size=2C
+Control=List
+ListFile=Labels
+None=Start
+
+[Formats->Technology->Race]
+Type=Byte
+Size=2C
+Control=List
+ListFile=Races
+
+[Formats->Technology->Researched]
+Type=Byte
+Size=2C
+Control=CheckBox
+
+[Formats->Technology->Brood War]
+Type=Byte
+Size=2C
+Control=CheckBox

@@ -1,0 +1,52 @@
+Basic Readme. I'll make it nicer later. :P<br />
+
+<pre>~Main Window
+Main Palette
+Open/Save - Supported formats: *.pal (JASC, RIFF, StarCraft, Palette), *.wpe (Tileset), *.act (PhotoShop color table), or similar (1024 and 768-byte palettes.)
+Get From Special - When checked, the palette is loaded from the Special Palette file. This has no effect when opening palettes. Note: Certain special palette, such as (specifically) the tileset\*\ ones, work best if you load the *.wpe.
+Edit - Opens the palette editor.
+
+Special Palette
+Open/Save - Loads/saves *.pcx palette files. Will not load files wider than 256 pixels.
+Preview - Opens the special palette Previewer/*.pal Export.
+Edit - Opens the special palette editor.
+Colors - Shows how many special palette indexes (rows) there are.
+
+~Palette Editor
+This should be pretty self-explanitory. Each color is an individual palette index.
+Clicking one will display the palette index and value (RGB/hex color), while double-clicking one will open a color selection dialog.
+
+~Special Palette Preview
+Probably the greatest thing in this entire program.
+Browse - Loads an image to preview the palette on. Supported formats: 8bit (256 colors) *.bmp, *.grp
+Preview Frame - GRP frame to display.
+Frame Count - Number of frames in the loaded GRP.
+Draw - Draws the GRP
+From, To, Step, Speed - Animation settings for GRP. Speed is in milliseconds.
+Animate/Stop - Start or stop the animation loop.
+Pal Options - Options for generating the preview palette.
+	Get Pal From Column - (default) For multiple-index (rows) special palettes (such as tileset\*\bexpl.pcx)
+	Get Pal From Row - For single-index special palettes (such as tileset\*\shift.pcx)
+	Get From Column/Row (default is 0) Column or row to generate the palette from.
+Export *.bmp - Saves the loaded file/frame with the preview palette. (Currently only supported when a bmp is loaded.)
+Export *.pal - Saves the preview palette. Same supported formats as the Main Palette Open/Save.
+
+~Special Palette Editor
+Info
+Main Pal - (column) Main palette index for transparency special palettes (tileset\*\)
+Special Pal - (row) Selected row. Can be typed in or selected with the file preview.
+Value - Main palette index and rgb/hex colors of selected pixel.
+Edit Selected Row - Opens the Special Palette Row editor.
+
+~Special Palette Row
+Similar to the Palette Editor, but edits a special palette row instead.
+Info is similar to the info in the Special Palette Editor window.
+Fill - Opens the row filler dialog.
+	Color - Palette color to mix with the mail palette.
+	Opacitiy - (Between 0 and 1) Level of opacity of the fill layer, 0 will result in a copy of the palette from the which you selected fill color, 1 will result in a solid layer of the chosen color.
+	Custom - Custom formula/algorithm for the output color. Variables: c = color to replace (current), f = fill color, t = palette (tileset) color ; Bitwise instructions are also included (use the symbol or word): !/not, &/and, |/or, x/xor
+	Method - Algorithm used to get the new color. Note: Bitwise Not is inverse.
+
+VERSIONS / Changes
+Beta .1 - Added bitwise and custom algorithms to Row Filler. (release)
+Beta .0 - Still need to add a bit of crap. (release)</pre>

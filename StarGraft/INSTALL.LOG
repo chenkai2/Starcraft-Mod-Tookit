@@ -1,0 +1,35 @@
+***  Installation Started 10/28/17 12:00  ***
+Title: StarGraft Installation
+Source: C:\Users\열\AppData\Local\Temp\Rar$EXa0.178\SGInstall.exe
+Made Dir: G:\StarCraft\MODs\StarGraft
+File Copy: G:\StarCraft\MODs\StarGraft\UNWISE.EXE
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\StarGraft
+RegDB Val: StarGraft
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\StarGraft
+RegDB Val: G:\StarCraft\MODs\StarGraft\UNWISE.EXE G:\StarCraft\MODs\StarGraft\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+File Copy: G:\StarCraft\MODs\StarGraft\Adding Strings.doc
+Made Dir: G:\StarCraft\MODs\StarGraft\data
+File Copy: G:\StarCraft\MODs\StarGraft\data\mpqs.dat
+File Copy: G:\StarCraft\MODs\StarGraft\data\text.dat
+File Copy: G:\StarCraft\MODs\StarGraft\data\icons.dat
+File Copy: G:\StarCraft\MODs\StarGraft\SGStub.exe
+File Copy: G:\StarCraft\MODs\StarGraft\data\Versions.dat
+File Copy: G:\StarCraft\MODs\StarGraft\data\Buttons.dat
+File Copy: G:\StarCraft\MODs\StarGraft\data\Requires.dat
+File Copy: G:\StarCraft\MODs\StarGraft\data\StatBars.dat
+File Copy: G:\StarCraft\MODs\StarGraft\data\Strings.dat
+File Copy: G:\StarCraft\MODs\StarGraft\data\units.dat
+File Copy: G:\StarCraft\MODs\StarGraft\StarGraft.exe
+Made Dir: C:\Users\열\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Camelot Systems\StarGraft
+Shell Link: C:\Users\열\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Camelot Systems\StarGraft\StarGraft.lnk
+Shell Link: C:\Users\열\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Camelot Systems\StarGraft\Adding Strings (Tutorial).lnk
+INI New: Created INI
+INI File: G:\StarCraft\MODs\StarGraft\UNWISE.INI
+INI Sect: Settings
+INI Item: Text Font
+INI Val: Arial
+User Rights: Admin

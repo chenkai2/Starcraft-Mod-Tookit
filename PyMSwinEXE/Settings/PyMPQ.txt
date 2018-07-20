@@ -1,0 +1,36 @@
+{\
+	'sort':[\
+		0,\
+		False,\
+		None,\
+	],\
+	'compress':[\
+		0,\
+		0,\
+	],\
+	'listfiles':[\
+		u'G:\\StarCraft\\MODs\\tools\\PyMSwinEXE\\Libs\\Data\\Listfile.txt',\
+	],\
+	'filters':[],\
+	'regex':0,\
+	'autocompression':{\
+		'Default':[1, 0],\
+		'.wav':[3, 1],\
+		'.mpq':[0, 0],\
+		'.smk':[0, 0],\
+	},\
+	'encrypt':False,\
+	'listspacing':[\
+		(317, 0),\
+		(74, 0),\
+		(45, 0),\
+		(67, 0),\
+		(52, 0),\
+		(64, 0),\
+	],\
+	'defaultmaxfiles':1024,\
+	'defaultblocksize':3,\
+	'window':'695x493+770+472',\
+	'defaultlocale':0,\
+	'folder':'',\
+}

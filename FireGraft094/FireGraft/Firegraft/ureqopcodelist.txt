@@ -1,0 +1,47 @@
+None
+Or
+Current unit is...
+Must have... 
+Must have add-on
+
+Is not lifted off
+Unused
+Is not training or morphing
+Is not constructing add-on
+Is not researching
+
+Is not upgrading
+Is not constructing
+Does not have add-on attached
+Unused
+Has hangar space
+
+Unused
+Does not have loaded nuke
+Is not burrowed
+Unused
+Unused
+
+Unused
+Unused
+Unused
+Unused
+Unused
+
+Unused
+Unused
+Unused
+Unused
+Unused
+
+Unused
+Unused
+Unused
+Unused
+Grey
+
+Blank
+Must be Brood War
+Is researched...
+Is burrowed
+--End of Sublist--

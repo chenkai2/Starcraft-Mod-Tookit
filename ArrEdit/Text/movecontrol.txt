@@ -1,0 +1,3 @@
+Flingy Speed, Acceleration
+Partially Mobile/Weapon
+IScript Speed, Acceleration

@@ -1,0 +1,81 @@
+[Info]
+Name=Upgrades
+
+[Formats->Upgrades]
+Vars=0C
+0000=Cost (Minerals)
+0001=Factor (Minerals)
+0002=Cost (Gas)
+0003=Factor (Gas)
+0004=Cost (Time)
+0005=Factor (Time)
+0006=Unknown 1
+0007=Icon
+0008=Label
+0009=Race
+000A=Repeat
+000B=Brood War
+
+[Formats->Upgrades->Cost (Minerals)]
+Type=Word
+Size=3D
+Control=Text
+
+[Formats->Upgrades->Factor (Minerals)]
+Type=Word
+Size=3D
+Control=Text
+
+[Formats->Upgrades->Cost (Gas)]
+Type=Word
+Size=3D
+Control=Text
+
+[Formats->Upgrades->Factor (Gas)]
+Type=Word
+Size=3D
+Control=Text
+
+[Formats->Upgrades->Cost (Time)]
+Type=Word
+Size=3D
+Control=Text
+
+[Formats->Upgrades->Factor (Time)]
+Type=Word
+Size=3D
+Control=Text
+
+[Formats->Upgrades->Unknown 1]
+Type=Word
+Size=3D
+Control=Text
+
+[Formats->Upgrades->Icon]
+Type=Word
+Size=3D
+Control=List
+ListFile=Icons
+
+[Formats->Upgrades->Label]
+Type=Word
+Size=3D
+Control=List
+ListFile=Labels
+None=Start
+
+[Formats->Upgrades->Race]
+Type=Byte
+Size=3D
+Control=List
+ListFile=Races
+
+[Formats->Upgrades->Repeat]
+Type=Byte
+Size=3D
+Control=Text
+
+[Formats->Upgrades->Brood War]
+Type=Byte
+Size=3D
+Control=CheckBox

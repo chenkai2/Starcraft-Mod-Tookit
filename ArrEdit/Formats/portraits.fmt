@@ -1,0 +1,43 @@
+[Info]
+Name=Portraits
+
+[Formats->Portraits]
+Vars=06
+0000=File 1
+0001=File 2
+0002=Unknown 1
+0003=Unknown 2
+0004=Unknown 3
+0005=Unknown 4
+
+[Formats->Portraits->File 1]
+Type=DWord
+Size=6E
+Control=List
+ListFile=Portraits
+
+[Formats->Portraits->File 2]
+Type=DWord
+Size=6E
+Control=List
+ListFile=Portraits
+
+[Formats->Portraits->Unknown 1]
+Type=Byte
+Size=6E
+Control=Text
+
+[Formats->Portraits->Unknown 2]
+Type=Byte
+Size=6E
+Control=Text
+
+[Formats->Portraits->Unknown 3]
+Type=Byte
+Size=6E
+Control=Text
+
+[Formats->Portraits->Unknown 4]
+Type=Byte
+Size=6E
+Control=Text

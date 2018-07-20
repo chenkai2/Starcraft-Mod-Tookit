@@ -1,0 +1,3 @@
+#define IDR_PATCHLOADER  0x101
+
+ 

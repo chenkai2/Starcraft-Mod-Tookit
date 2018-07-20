@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<SynUniHighlighter Version="2.0">
+	<SyntaxColoring>
+		<Info>
+			<General Name="MS DOS Batch" Extensions="bat" Version="1" Revision="0" Sample="rem MS-DOS batch file
+;remark!
+@echo off
+cls
+echo The command line is: %1 %2 %3 %4 %5
+copy %1 %2
+rem
+rem now wait for the user ...
+pause
+copy c:\*.pas d:\
+if errorlevel 1 echo Error in copy action!
+
+
+" History=""/>
+			<Author Name="Vitaly Nevzorov" Mail="nevzorov@yahoo.com" Web="www.delphist.com" Copyright="Copyright (c) Vitaly Nevzorov, 2002" Company="N/A" Remark=""/>
+		</Info>
+		<Schemes/>
+		<Editor/>
+		<MainRules Name="Root" Style="Root">
+			<Attributes Foreground="clBlack" Background="clWhite"/>
+			<Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+			<SubRules>
+				<Range Name="Output" Style="Output">
+					<Attributes Foreground="clRed" Background="clWhite"/>
+					<Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+					<OpenToken StartLine=""/>
+					<CloseToken StartLine=""/>
+					<Properties CloseOnEol="True"/>
+					<MultiTokens>
+						<Tokens Open="echo"/>
+					</MultiTokens>
+					<SubRules>
+						<Range Name="Variables" Style="Variables">
+							<Attributes Foreground="$00FF0080" Background="clWhite"/>
+							<Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+							<OpenToken StartLine=""/>
+							<CloseToken StartLine=""/>
+							<Properties CloseOnTerm="True"/>
+							<MultiTokens>
+								<Tokens Open="%"/>
+							</MultiTokens>
+							<SubRules/>
+						</Range>
+					</SubRules>
+				</Range>
+				<Range Name="Invisible" Style="Invisible">
+					<Attributes Foreground="$008080FF" Background="clWhite"/>
+					<Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+					<OpenToken StartLine=""/>
+					<CloseToken StartLine=""/>
+					<Properties CloseOnEol="True"/>
+					<MultiTokens>
+						<Tokens Open="@"/>
+					</MultiTokens>
+					<SubRules/>
+				</Range>
+				<Range Name="Remark Rem" Style="Remark Rem">
+					<Attributes Foreground="$00A00000" Background="clWhite"/>
+					<Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+					<OpenToken StartLine=""/>
+					<CloseToken StartLine=""/>
+					<Properties CloseOnEol="True"/>
+					<MultiTokens>
+						<Tokens Open="rem"/>
+					</MultiTokens>
+					<SubRules/>
+				</Range>
+				<Range Name="Remark ;" Style="Remark ;">
+					<Attributes Foreground="$00A00000" Background="clWhite"/>
+					<Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+					<OpenToken StartLine=""/>
+					<CloseToken StartLine=""/>
+					<Properties CloseOnEol="True"/>
+					<MultiTokens>
+						<Tokens Open=";"/>
+					</MultiTokens>
+					<SubRules/>
+				</Range>
+				<Range Name="Variables" Style="Variables">
+					<Attributes Foreground="$00FF0080" Background="clWhite"/>
+					<Delimiters Value="!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^`{|}~"/>
+					<OpenToken StartLine=""/>
+					<CloseToken StartLine=""/>
+					<Properties CloseOnTerm="True"/>
+					<MultiTokens>
+						<Tokens Open="%"/>
+					</MultiTokens>
+					<SubRules/>
+				</Range>
+				<KeyList Name="DOS Commands" Enabled="True" Style="" Words="ansi
+append
+assign
+attrib
+autofail
+backup
+basedev
+Beep
+boot
+break
+buffers
+cache
+cd
+chcp
+chdir
+chkdsk
+choice
+cmd
+codepage
+command
+comp
+compact
+convert
+copy
+country
+date
+ddinstal
+debug
+del
+Delete
+deltree
+detach
+device
+devicehigh
+devinfo
+dir
+diskcoache
+diskcomp
+diskcopy
+doskey
+dpath
+dumpprocess
+eautil
+edit
+edlin
+endlocal
+Erase
+Error
+exit_vdm
+expand
+extproc
+fc
+fcbs
+fdisk
+fdiskpm
+FileAttr
+FileDateTime
+files
+find
+format
+fsaccess
+fsfilter
+ftp
+graftabl
+graphics
+help
+IIf
+interlnk
+intersvr
+iopl
+join
+keyb
+keys
+label
+lastdrive
+lh
+libpath
+loadfix
+loadhigh
+makeini
+maxwait
+md
+mem
+memman
+mkdir
+mode
+more
+move
+msav
+msbackup
+msd
+net
+nslfunc
+patch
+path
+pauseonerror
+picview
+pmrexx
+print
+printmonbufsize
+priority
+priority_disk_io
+prompt
+protectonly
+protshell
+pstat
+qbasic
+rd
+recover
+reipl
+Ren
+Rename
+replace
+restore
+rmdir
+rmsize
+run
+scandisk
+setboot
+setlocal
+setver
+share
+shell
+smartdrv
+sort
+spool
+subst
+suppresspopups
+swappath
+sys
+syslevel
+syslog
+threads
+time
+timeslice
+trace
+tracebuf
+tracefmt
+trapdump
+tree
+type
+undelete
+unformat
+unpack
+use
+ver
+verify
+view
+vmdisk
+vol
+vsafe
+xcopy
+xcopy32
+xdfcopy
+">
+					<Attributes Foreground="clBlue" Background="clWhite"/>
+				</KeyList>
+				<KeyList Name="Batch Statements" Enabled="True" Style="" Words="if
+do
+in
+off
+call
+on
+cls
+for
+set
+not
+goto
+shift
+pause
+title
+exist
+start
+errorlevel
+else
+end
+exit
+return
+say select
+then
+when
+">
+					<Attributes Foreground="clGreen" Background="clWhite"/>
+				</KeyList>
+			</SubRules>
+		</MainRules>
+	</SyntaxColoring>
+	<CodeFolding/>
+	<CustomData/>
+</SynUniHighlighter>

@@ -1,0 +1,17 @@
+MPQWorkshop v0.6  内置文件说明
+
+SC_data.txt为星际原版的目录
+SCBW_data.txt为星际母巢版的目录
+SCBW1.10_data.txt为最新的1.10版本目录
+SCALL_data.txt为以上文件的总和目录（推荐）
+
+欢迎学习星际MOD
+http://scrpgmod.126.com/
+http://www.wrgame.com/
+QQ:249471997
+E-mail:zhmwwlcsdiablo@etang.com
+written by zhmwwl
+
+同样地，欢迎访问(找星际论坛，说不定能找到我:-)
+http://www.cga.com.cn/
+http://www.ega.com.cn/

@@ -1,0 +1,12 @@
+{\
+	'techdatadat':'MPQ:arr\\techdata.dat',\
+	'upgradesdat':'MPQ:arr\\upgrades.dat',\
+	'extdefs':[],\
+	'reference':0,\
+	'highlights':None,\
+	'extrainfo':1,\
+	'window':'538x134+208+208',\
+	'unitsdat':'MPQ:arr\\units.dat',\
+	'imports':[],\
+	'stat_txt':u'G:\\StarCraft\\MODs\\tools\\PyMSwinEXE\\Libs\\MPQ\\rez\\stat_txt.tbl',\
+}
